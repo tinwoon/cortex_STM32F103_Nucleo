@@ -3472,3 +3472,192 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:14:31.606
 !MESSAGE Unloading product manager
+!SESSION 2021-01-20 18:43:37.029 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\LED_Blink\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\LED_Blink\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:43:38.557
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:43:38.557
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY TrueSTUDIO 1 0 2021-01-20 18:43:39.818
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-01-20 18:43:39.819
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-01-20 18:43:43.234
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-20 18:43:43.234
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1137835,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@182248f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-01-20 18:43:52.915
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-20 18:43:53.066
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-01-20 18:43:53.165
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:48:30.063
+!MESSAGE Unloading product manager
+!SESSION 2021-01-20 18:51:08.390 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\USART_printf\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\USART_printf\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:51:09.657
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:51:09.664
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY TrueSTUDIO 1 0 2021-01-20 18:51:10.603
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-01-20 18:51:10.603
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-01-20 18:51:12.013
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-20 18:51:12.013
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ff64d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1aa7703,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-01-20 18:51:16.494
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-01-20 18:51:16.541
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-20 18:51:16.791
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-20 18:51:30.468
+!MESSAGE USART_printf needs property 'com.atollic.truestudio.general.runtimelib.862189349' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-20 18:51:30.471
+!MESSAGE USART_printf needs property 'com.atollic.truestudio.toolchain_options.mcu.1645549476' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-20 18:51:30.472
+!MESSAGE USART_printf needs property 'com.atollic.truestudio.toolchain_options.vendor.1042706188' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-20 18:51:30.513
+!MESSAGE USART_printf needs property 'com.atollic.truestudio.general.runtimelib.662058892' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-20 18:51:30.514
+!MESSAGE USART_printf needs property 'com.atollic.truestudio.toolchain_options.mcu.2082572696' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-20 18:51:30.515
+!MESSAGE USART_printf needs property 'com.atollic.truestudio.toolchain_options.vendor.336943847' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-01-20 18:51:35.916
+!MESSAGE Indexed 'USART_printf' (19 sources, 95 headers) in 5.32 sec: 7,024 declarations; 22,830 references; 6 unresolved inclusions; 278 syntax errors; 923 unresolved names (3%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:51:38.311
+!MESSAGE Unloading product manager
+!SESSION 2021-01-20 18:53:08.350 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\USART_printf\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\USART_printf\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:53:10.348
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:53:10.357
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY TrueSTUDIO 1 0 2021-01-20 18:53:11.871
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-01-20 18:53:11.871
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-01-20 18:53:13.737
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-20 18:53:13.737
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@182248f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2459,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-01-20 18:53:19.932
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-01-20 18:53:20.019
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-20 18:53:20.353
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 19:31:44.267
+!MESSAGE Unloading product manager

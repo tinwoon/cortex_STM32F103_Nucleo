@@ -1,8 +1,9 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:\uC0C8_\uAD6C\uC131,org.eclipse.launchbar.core.descriptorType.default\:gpio2 Debug,org.eclipse.launchbar.core.descriptorType.default\:gpio2.elf,org.eclipse.launchbar.core.descriptorType.default\:GPIO_test.elf,org.eclipse.launchbar.core.descriptorType.default\:LED_Blink.elf
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:\uC0C8_\uAD6C\uC131,org.eclipse.launchbar.core.descriptorType.default\:gpio2 Debug,org.eclipse.launchbar.core.descriptorType.default\:LED_Blink.elf,org.eclipse.launchbar.core.descriptorType.default\:USART_printf.elf
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:GPIO_test.elf/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:GPIO_test.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:LED_Blink.elf/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:gpio2\ Debug/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:gpio2\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
