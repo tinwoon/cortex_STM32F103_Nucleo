@@ -3469,3 +3469,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-01-20 17:23:11.806
 !MESSAGE Indexed 'LED_Blink' (19 sources, 51 headers) in 6.63 sec: 5,289 declarations; 19,117 references; 14 unresolved inclusions; 277 syntax errors; 1,912 unresolved names (7.3%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 18:14:31.606
+!MESSAGE Unloading product manager
