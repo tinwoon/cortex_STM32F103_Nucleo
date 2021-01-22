@@ -3830,3 +3830,157 @@ java.lang.RuntimeException
 
 !ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-20 21:11:02.309
 !MESSAGE Unloading product manager
+!SESSION 2021-01-22 19:22:07.707 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\TIM_TimeBase\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\TIM_TimeBase\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-22 19:22:14.217
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-22 19:22:14.267
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY TrueSTUDIO 1 0 2021-01-22 19:22:19.158
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-01-22 19:22:19.158
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-01-22 19:22:27.513
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-22 19:22:27.513
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1be8fd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b268bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-01-22 19:22:42.374
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-22 19:22:42.717
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-01-22 19:22:43.420
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 19:22:49.477
+!MESSAGE TIM_TimeBase needs property 'com.atollic.truestudio.general.runtimelib.22488478' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 19:22:49.478
+!MESSAGE TIM_TimeBase needs property 'com.atollic.truestudio.toolchain_options.mcu.866727390' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 19:22:49.479
+!MESSAGE TIM_TimeBase needs property 'com.atollic.truestudio.toolchain_options.vendor.409539823' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 19:22:49.736
+!MESSAGE TIM_TimeBase needs property 'com.atollic.truestudio.general.runtimelib.116754115' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 19:22:49.737
+!MESSAGE TIM_TimeBase needs property 'com.atollic.truestudio.toolchain_options.mcu.36926667' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 19:22:49.737
+!MESSAGE TIM_TimeBase needs property 'com.atollic.truestudio.toolchain_options.vendor.747202915' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-01-22 19:22:56.116
+!MESSAGE Indexed 'TIM_TimeBase' (19 sources, 44 headers) in 6.29 sec: 5,811 declarations; 30,447 references; 26 unresolved inclusions; 304 syntax errors; 5,327 unresolved names (13%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-22 21:40:10.531
+!MESSAGE Unloading product manager
+!SESSION 2021-01-22 22:38:35.747 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\ADC_TemperaturSensor\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\ADC_TemperaturSensor\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-22 22:38:37.655
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-22 22:38:37.661
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY TrueSTUDIO 1 0 2021-01-22 22:38:38.788
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-01-22 22:38:38.788
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-01-22 22:38:40.206
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-22 22:38:40.206
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c7856f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12f4626,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-01-22 22:38:51.618
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-01-22 22:38:52.351
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-01-22 22:38:52.528
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 22:38:57.466
+!MESSAGE ADC_TemperaturSensor needs property 'com.atollic.truestudio.general.runtimelib.394163572' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 22:38:57.467
+!MESSAGE ADC_TemperaturSensor needs property 'com.atollic.truestudio.toolchain_options.mcu.506750569' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 22:38:57.468
+!MESSAGE ADC_TemperaturSensor needs property 'com.atollic.truestudio.toolchain_options.vendor.1182471755' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 22:38:57.493
+!MESSAGE ADC_TemperaturSensor needs property 'com.atollic.truestudio.general.runtimelib.509602538' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 22:38:57.494
+!MESSAGE ADC_TemperaturSensor needs property 'com.atollic.truestudio.toolchain_options.mcu.598055833' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-01-22 22:38:57.494
+!MESSAGE ADC_TemperaturSensor needs property 'com.atollic.truestudio.toolchain_options.vendor.1400249101' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-01-22 22:39:14.626
+!MESSAGE Indexed 'ADC_TemperaturSensor' (21 sources, 97 headers) in 17 sec: 7,310 declarations; 27,381 references; 6 unresolved inclusions; 285 syntax errors; 966 unresolved names (2.7%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-01-22 23:06:53.811
+!MESSAGE Unloading product manager
