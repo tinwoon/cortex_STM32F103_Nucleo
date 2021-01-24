@@ -233,3 +233,73 @@ PUTCHAR_PROTOTYPE
   ![image](https://user-images.githubusercontent.com/18729679/105499348-b00fa600-5d04-11eb-9703-a959d19df126.png)
 
   
+
+#### 21. [printf에서 float를 출력하기 위해서는 따로 설정을 해줘야한다.][https://blog.naver.com/chandong83/221390413346]
+
+- Project -> Properties -> C/C++ Build > Settings > Tool Settings > MCU Settings를 선택한 다음 "Use float with printf fromt newlib - nano (-u_printf_float)" 항목을 체크하면 된다.
+
+
+
+#### 22. STM32 시리즈의 MCU는 시간 정밀도와 결합 복원도에서 서로 다른 특성을 갖는 두 개의 IWDG(Independent WDG)와 WWDG(Window WDG)를 내장하고 있다. => WDG란 Window Watch Dog의 약자이다.
+
+
+
+#### 23.  [와치독 시간은 아래 공식으로 구해진다.][https://m.blog.naver.com/PostView.nhn?blogId=hms4913&logNo=30150058967&proxyReferer=https:%2F%2Fwww.google.com%2F] 
+
+> t~WWDG~ = t~PCLK~ * 4096 *  2^WDGTB^ * * ( t[5:0] + 1)     (ms)
+>
+> - t~PCLK~: PCLK1 clock time(본 실습에서는 32MHz이므로 31.25ns)
+> - 2^WTGTB^ : WWDG counter clock prescaler
+> - W[6:0] : WWDG window value, 63(0x3F)보다 커야 함.
+> - T[6:0] : WWDG free - runnign downcounter value
+> - t[5:0] : T[6:0] - W[6:0]
+
+- 본 실습에서 적용 되는 값들을 넣어서 계산해 보면 아래와 같다
+
+  > t~WWDG~ = 31.25 * 10^-9^ *4096*8*(127-80+1) = 49.152 ms
+
+- 와치독 카운터를 갱신하려면 49.152~66.56ms(0x3F time) 구간(Window)에서 갱신(Refresh)를 해야한다. 너무 빠르거나 늦으면 MCU가 리셋된다.
+
+![image-20210124212737923](README.assets/image-20210124212737923.png)
+
+- ==즉, W[6:0] 과 0x3F 사이의 시간에서 와치독 타이머의 downcounter를 갱신해 주지 않으면 MCU는 리셋될 것이다. 따라서 반드시 downcounter를 갱신해주는 HAL_WWDG_Refresh함수를 49.152~66.56ms(0x3F time) 에서 갱신해야함으로 delay(50) 후 실행하는 것이 필요하다==
+
+```c
+  while (1)
+  {
+	  if(i==20)
+	  {
+		  i=0;
+		  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+	  }
+	  
+	  HAL_Delay(50);
+	  i++;
+	  /* Refresh WWDH*/
+	  //와치독 함수의 downcounter를 갱신해줌
+	  if(HAL_WWDG_Refresh(&hwwdg) != HAL_OK){
+		  Error_Handler();
+	  }
+	  
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+```
+
+#### 24. Watchdog flag
+
+- watchdog에 의해서 counter값이 초기화 되지 않아 reset되어 실행되었는지 알 수 있도록 flag함수를 제공해 준다.
+
+  ```c
+   //와치독의 flag가 true라면 => 즉 MCU가 reset되었다면
+    if(__HAL_RCC_GET_FLAG(RCC_FLAG_WWDGRST) == SET){
+  	  HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
+  	  HAL_Delay(4000);
+  	  __HAL_RCC_CLEAR_RESET_FLAGS();
+    }else{
+  	  HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
+    }
+  ```
+
+  

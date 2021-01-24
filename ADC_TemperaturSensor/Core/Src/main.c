@@ -45,6 +45,9 @@ ADC_HandleTypeDef hadc1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
+const float AVG_SLOPE = 4.3E-03;
+const float V25 = 1.43;
+const float ADC_TO_VOLT = 3.3 / 4096;
 
 /* USER CODE END PV */
 
@@ -119,12 +122,20 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   uint16_t adc1;
 
+  float vSense;
+  float temp;
+
   while (1)
   {
 	  HAL_ADC_PollForConversion(&hadc1, 100);
 	  adc1 = HAL_ADC_GetValue(&hadc1);
-	  printf("ADC1_temperature : %d \n", adc1);
+	  //printf("ADC1_temperature : %d \n", adc1);
+	  vSense = adc1 * ADC_TO_VOLT;
+	  temp = (V25 - vSense) / AVG_SLOPE + 25.0;
+	  printf("temperature: %d, %f\n", adc1, temp);
+
     /* USER CODE END WHILE */
+
 
     /* USER CODE BEGIN 3 */
 	  HAL_Delay(100);
