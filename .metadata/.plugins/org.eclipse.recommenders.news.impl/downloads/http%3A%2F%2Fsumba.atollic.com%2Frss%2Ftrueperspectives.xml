@@ -1398,7 +1398,7 @@
                                     
                                         <option value="BO">Bolivia</option>
                                     
-                                        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                        <option value="BQ">Bonaire Sint Eustatius and Saba</option>
                                     
                                         <option value="BA">Bosnia and Herzegovina</option>
                                     
@@ -2017,7 +2017,7 @@ If you still can't download the software, please reach out to us on the <a href=
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611376090898.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611649752945.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
         
         <script id="PF257464_CP535563_9_3_0">
             var gsContent = $("#PF257464_CP535563_9_3_0").parent();
@@ -2065,7 +2065,7 @@ If you still can't download the software, please reach out to us on the <a href=
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611376090898.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="7tgHD+FP+kwfMdnoByxIWg==,op1BRrPfAq3wWtrIttNTTUfx0sGuVZsvUDTSlSMeWtfuIqbtwL9aHeBP1+MnKHOpmp5HqCYOd4mPVlhZHRhbw/7Wwxu1738CEJf9sALRHrPWjX+psnPO5tBKlg3zjI3LWYFdRAsK7Q1w2SdAGW0Aotq/ngpyNIUNuCTv5ZMSqECFsgBAkffQx6hWyaRtEfVCY9l8eFhGL3ZVyTFdjv65yCq97dLMrgDk2y9m4Z37krVZ6qquXMX0BOso/5YGEIRr7ZWNUEQa3DZb0g4juM48wf1/+UNRFsPyZ1pe+T0GSP4=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611649752945.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="poKckAdZxQDCB+ZRA162yQ==,+Zgvu5PYFS9pfBG/FvkyEbvfJ6S4WSZ+ZwktsZ4pv+0H9qj5lqoq8aIJlCg0br+/tyb8sEa2fyr+2qpnwbEuKFO+di4D3Rsgcy5a7Tcjqi7vsjpDNbTJ+6hc+nSdBhmJ6RfwCUBBaW+ZaVSG79feW9lCiQiQJVtWeYAg0w578V8q0OoLyUQWc+RKKQmPXQrwHX6EoGhBx0nMz7V3l95LUUMEba4+kaMcOB1HD+n53Hg8yL/jOFFGz33wd+b6NNKih9fWTjLgyZAxTaEs586+GetHSBDpdJUJQ9l4qH2se+Q=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2472,7 +2472,7 @@ ST uses the personal data that you provide directly to it and through your activ
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611376090903.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611649752950.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
         
         <script id="PF257464_CP535564_9_3_0">
             var gsContent = $("#PF257464_CP535564_9_3_0").parent();
@@ -2520,7 +2520,7 @@ ST uses the personal data that you provide directly to it and through your activ
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611376090903.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="jkGE4n73vahYHohx9jDOsw==,L0z0974gKz2afWd4acCHaSTSOg9z616Ik5/gxPZKxsq2ZL/2wjztaaKY9gJeovcZkQ2ORZLH+H0Eift5Qy9+gnQWN+aCFZ8Xi67IpB7NOPiHLDpctlTRei/py5XvrC0Av5REUp4QJS//OIxgNzMh/u9Rz/ydvM6JjNQwJlrVWlYBw7C1bnWbwxT/gA4UPkDU5/+2mYcBsErp6M5+DKONjPu78MT2m6x+lnV/o9U1QbQGlyvOJwMRlHUXpIlzg2drjeJcH5BPt21LkRH5MEyIUA==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1611649752950.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="mnec4O7h+qH0Pmf9gNrxlQ==,++Q7MIYFmrpKQjcysuXs3clYLoKrWWAZhCKkLP8AKEEnfERiKY4oQRJnNL3tPDiTK46KuWLIL+OHdbzUkiptiiEV7BrmpMX07gN/HvMZC0ENAq4b9aa17v7dzyMNi/WEDJnv/ZB0iSOSFrYt2lSjBs4d2WLAT6c7jIzFlDtOhJJ48Yf/eEA/cQjps7tryHRIyGFjZNrVR0YTCtHOzJwgOgXF1GPkUj6iifAbE/Nvw77YYkOrfZx0bhjk5QrtfwmjdK9XtZMBQYG5UvVXZ58rAg==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -3078,14 +3078,16 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Jan 21, 2021
+        Jan 25, 2021
     
 
                                 </div>
                                 <div>
-                                    
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4321.html" class="st-card__copy js-st-dotdotdot ">
-                                        Integrated Impedance-Matching and Protection IC from STMicroelectronics Simplifies Portable GNSS Receivers
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4327.html" title="STMicroelectronics Powers Creative NFC Applications with Dynamic Message Content and Anti-Tamper in New Type-5 Tags" class="st-card__image js-st-object-fit">
+                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/01/ST25TV_NFC_N4327S_s.jpg" alt="STMicroelectronics Powers Creative NFC Applications with Dynamic Message Content and Anti-Tamper in New Type-5 Tags" title="STMicroelectronics Powers Creative NFC Applications with Dynamic Message Content and Anti-Tamper in New Type-5 Tags"/>
+                                    </a>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4327.html" class="st-card__copy js-st-dotdotdot ">
+                                        STMicroelectronics Powers Creative NFC Applications with Dynamic Message Content and Anti-Tamper in New Type-5 Tags
                                     </a>
                                 </div>
                             </div>
@@ -3096,13 +3098,13 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Jan 18, 2021
+        Jan 25, 2021
     
 
                                 </div>
                                 <div>
                                     
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2979.html" class="st-card__copy js-st-dotdotdot ">
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2980.html" class="st-card__copy js-st-dotdotdot ">
                                         STMicroelectronics Announces Status of Common Share Repurchase Program
                                     </a>
                                 </div>
@@ -3114,14 +3116,14 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Jan 11, 2021
+        Jan 21, 2021
     
 
                                 </div>
                                 <div>
                                     
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2977.html" class="st-card__copy js-st-dotdotdot ">
-                                        STMicroelectronics Appointed Rajita D’Souza as  President, Human Resources and Corporate Social Responsibility
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4321.html" class="st-card__copy js-st-dotdotdot ">
+                                        Integrated Impedance-Matching and Protection IC from STMicroelectronics Simplifies Portable GNSS Receivers
                                     </a>
                                 </div>
                             </div>
@@ -20894,6 +20896,22 @@ I understand that I can withdraw my consent at any time through opt-out links em
                             </div>
                             <div class="js-st-footer__slider st-footer__slider" data-slick="{&quot;speed&quot;: 1500, &quot;autoplay&quot;: false}">
                                 <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4327.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/01/ST25TV_NFC_N4327S_s.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Jan 25, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4327.html"><p class="st-press-teaser-footer__content">STMicroelectronics Powers Creative NFC Applications with Dynamic Message Content and Anti-Tamper in New Type-5 Tags</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2980.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Jan 25, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2980.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
                                     <a href="https://newsroom.st.com/media-center/press-item.html/n4321.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Jan 21, 2021</p>
@@ -20954,22 +20972,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Jan 11, 2021</p>
                                         <a href="https://newsroom.st.com/media-center/press-item.html/c2978.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2976.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Jan 8, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2976.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Fourth Quarter 2020 Preliminary Revenues and Timing for its Fourth Quarter and Full Year 2020 Earnings Release and Conference Call</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4320.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/01/MasterGaN2_N4320D_s-e1610615578244.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Jan 7, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4320.html"><p class="st-press-teaser-footer__content">STMicroelectronics Extends MasterGaN® Family with New Device Optimized for Asymmetrical Topologies</p></a>
                                     </div>
                                 </div>
                             

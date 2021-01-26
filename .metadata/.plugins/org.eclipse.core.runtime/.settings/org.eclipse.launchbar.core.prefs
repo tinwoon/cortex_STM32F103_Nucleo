@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:\uC0C8_\uAD6C\uC131,org.eclipse.launchbar.core.descriptorType.default\:gpio2 Debug,org.eclipse.launchbar.core.descriptorType.default\:LED_Blink.elf,org.eclipse.launchbar.core.descriptorType.default\:USART_printf.elf,org.eclipse.launchbar.core.descriptorType.default\:EXTI.elf,org.eclipse.launchbar.core.descriptorType.default\:TIM_TimeBase.elf,org.eclipse.launchbar.core.descriptorType.default\:ADC_TemperaturSensor.elf,org.eclipse.launchbar.core.descriptorType.default\:WWDG.elf
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:\uC0C8_\uAD6C\uC131,org.eclipse.launchbar.core.descriptorType.default\:gpio2 Debug,org.eclipse.launchbar.core.descriptorType.default\:LED_Blink.elf,org.eclipse.launchbar.core.descriptorType.default\:USART_printf.elf,org.eclipse.launchbar.core.descriptorType.default\:EXTI.elf,org.eclipse.launchbar.core.descriptorType.default\:TIM_TimeBase.elf,org.eclipse.launchbar.core.descriptorType.default\:ADC_TemperaturSensor.elf,org.eclipse.launchbar.core.descriptorType.default\:WWDG.elf,org.eclipse.launchbar.core.descriptorType.default\:USART_rb.elf
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:ADC_TemperaturSensor.elf/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:EXTI.elf/activeLaunchMode=debug
