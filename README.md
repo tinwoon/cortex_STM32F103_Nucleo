@@ -345,7 +345,68 @@ void USART2_IRQHandler(void)
 
 #### 29.  uart 수신 인터럽트를 발생시키기 위해서는 `__HAL_UART_ENABLE_IT(&huart2, UART_IT_RXNE);`를 통해 초기화를 해줘야한다.
 
-```
 
+
+#### 30.  PWM은 타이머를 통해 만들어짐
+
+![image](https://user-images.githubusercontent.com/18729679/105969980-33961200-60cc-11eb-9a02-b279e47e80f3.png)
+
+- 타이머 인터럽트는 위와 같이 클럭마다 클럭 카운터가 증가하다가 Auto Reload Register와 만나는 시점에서 인터럽트가 발생되어 다시 초기화된다.
+- APB1 타이머를 예로 들자. Auto Reload Register의 Period 값을 8400으로 두고, Prescaler의 값을 10000으로 둘 때, APB1의 클럭 카운터가 1증가하는 시간은 84M/10000(hz) = 1/8400초 이다.
+- 여기서 Auto Reload Register의 Period값이 8400이라는 것은 클럭 카운터가 8400이 될 때 인터럽트가 발생한다는 의미임으로, 위의 계산식에서 1/8400초 마다 클럭카운터가 1 증가하므로 8400이 되는 시점은 1/8400초 * 8400 = 1초이다.
+
+- 이를 기반으로 생각하면, Period 값을 4200으로 두고, Prescaler 값을 20000으로 만들어도 똑같이 1초마다 인터럽트가 발생된다. 하지만 PWM은 조금 의미가 다르다. 아래에서 설명하면 다음과 같다.
+
+
+
+![image](https://user-images.githubusercontent.com/18729679/105975052-df8e2c00-60d1-11eb-8819-5733c5b1aa69.png)
+
+
+
+- PWM은 위의 빨간점이 만나는 시점에 따라 주기가 달라진다.
+
+- 이때 capture compare register라는 개념이 있다.
+
+  > CC레지스터라 불리는 이 레지스터는 최대 0부터 Auto Reload Register의 값을 가질 수 있는데
+  >
+  > 이 레지스터에 위의 그림 중 Auto Reload Register의 값인 42000의 절반(21000)을 넣어보자.
+  >
+  > 이때 만나는 두 점에서(파란 점) 위상이 변경된다. 그러다가 CC레지스터를 10000정도로 낮추면,
+  >
+  > 다음과 같이 펄스의 폭이 작아진다(주황 점). 이렇게 PWM을 생성하는 원리이다.
+
+- 이때 PWM 타이머의 채널이란 개념이 있다. 이 채널이 4개가 있으면 CC레지스터를 4개까지 가지고 있다는 의미이다.
+- 이제 위에서 설명한 것처럼  PWM의 1초 예제의 위험성을 말하면 다음과 같다.
+- 위의 사진에서 Auto Reload Register의 값을 21000으로 줄이로 Prescaler의 값을 40까지 늘리면, 똑같이 PWM의 위상 자체는 변함이 없다. 하지만 CC레지스터에 들어갈 수 있는 값이 21000까지 밖에 되지 않으므로 분해능이 1/2로 감소했음을 의미한다. 지금의 예는 20000단위라 분해능이 별 의미가 없지만 100단계와 10000단계를 예시로 생각한다면 전압 값을 0.01단위와 0.00001단위까지 표현해 구별하는 것은 성능의 차이를 가져온다. 예를 들어 드론 같은 경우 0.01과 0.0001단위에 따라 운행 능력이 차이가 난다.
+
+#### 31. PWM의 공식
+
+- Prescaler를 통해서 TIM1 클럭 소스를 분주하고, Counter Period를 통해서 PWM 주기를 조정할 수 있는데, PWM 주기(Period) 및 듀티비를 설정하는 공식은 아래와 같으며, 예시로 1kHz 주기의 50% 듀티비를 계산해 보았다.
+
+  > Prescaler = (APB2 timer clock / Timer Counter Clock) - 1 = 64MHz/1MHz -1 = 63
+  >
+  > Counter Period = (Timer Counter Clock/Output Clock) -1 = 1MHz/1KHz = 1000 -1 = 999
+  >
+  > Pulse = (Counter Period + 1) * (duty ratio / 100) = 500
+
+
+
+#### 32. PWM 코드
+
+```c
+  htim1.Instance = TIM1;
+  htim1.Init.Prescaler = 63;
+  htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim1.Init.Period = 999;
+  htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim1.Init.RepetitionCounter = 0;
+  htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 500;
+
+  if(HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1) != HAL_OK){
+	  Error_Handler();
+  }
 ```
 
