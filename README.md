@@ -410,3 +410,15 @@ void USART2_IRQHandler(void)
   }
 ```
 
+
+
+#### 34. HSI(High Speed Internal clock)
+
+- 내부적으로 RC 발진기를 통해 생성되기 때문에 오차가 되게 금방 생김
+- 따라서 외부에서 공급되는 클럭을 사용하려면 HSE를 사용해야한다.
+
+ 
+
+#### 35. HSE(High Speed External Clock)
+
+- 위의 HSI가 내부적인 오류가 많으므로 외부의 클럭을 사용해서 clock을 주는 방식(Resonator, crystal을 이용)
