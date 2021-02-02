@@ -422,3 +422,12 @@ void USART2_IRQHandler(void)
 #### 35. HSE(High Speed External Clock)
 
 - 위의 HSI가 내부적인 오류가 많으므로 외부의 클럭을 사용해서 clock을 주는 방식(Resonator, crystal을 이용)
+
+
+
+#### 36. 풀업, 풀다운 저항은 통상 10K~ 100k옴을 사용
+
+​                                                                     ![image](https://user-images.githubusercontent.com/18729679/106625258-d9a8b700-65b9-11eb-9562-bb12506f36b9.png)
+
+![image-20210203005202960](README.assets/image-20210203005202960.png)
+

@@ -1,0 +1,7 @@
+00:44:04 **** Incremental Build of configuration Debug for project GPIO ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy.exe -O ihex GPIO.elf GPIO.hex 
+Info: Parallel threads used: 0
+
+00:44:04 Build Finished (took 156ms)
+
