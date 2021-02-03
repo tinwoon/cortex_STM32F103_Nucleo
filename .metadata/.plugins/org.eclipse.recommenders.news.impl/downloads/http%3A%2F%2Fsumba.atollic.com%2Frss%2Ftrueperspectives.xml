@@ -125,7 +125,7 @@
             referrer = localStorage.getItem('st-referrer') || referrer;
             localStorage.removeItem('st-referrer');
         }
-        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.16.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:03:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
+        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.16.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:01:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
 		window.digitalData.page.pageInfo.referringURL = referrer;
 		window.digitalData.page.pageInfo.originalURL  = document.location.href;
 
@@ -2017,7 +2017,7 @@ If you still can't download the software, please reach out to us on the <a href=
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612252912436.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299225.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
         
         <script id="PF257464_CP535563_9_3_0">
             var gsContent = $("#PF257464_CP535563_9_3_0").parent();
@@ -2065,7 +2065,7 @@ If you still can't download the software, please reach out to us on the <a href=
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612252912436.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="OVxtqrp/o4HKbLJhmmH9ag==,eoDwQW1ETQ6apCvVJhbd/xMfYaUaofP92Z2z29alWOXRbzCs+UE+OL0eGCUPkgl7yvGua+Y5LodTH0z3xwxsD5QFy6fgMU/aoeBYpIESyjn2qzl+SSoa2uWyn/bqg87OT+ciRwk1AdnfHpepNZS6M7BRFaNS9wXoITMXfGqWjwuY6Xacbv6k/tUHjBBwu0D4JDQxkAs0soLhEwKZCHfHYubrcqLg2JTlraWIuvr16dt+DeAjlMsA48zJezDDEkGcMv5MLxHUatk25WZeQaiAJcuj+QmA8JXp0+4qXk9IRV0=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299225.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="k2zQHj9dgcM05TDNP4/yjQ==,yvyHNsWBzXyqo9OlKW4jxT8UGsNr52+txzLq51TrNmb3ncJeSJoGgJ+8LHJr/3M9ESGa562yHs+mS4f/oIx1kvbWk519Htf2flMeOQQ3Px/tAEZF/QvV4S0n1NCAZrTQWdSlrG92qAiJ88jmwYgU3tbnaCPGWOPH85+2L5Th75F06GZXWZHvXkkMcBdm2h04WmDN3zNaf738ySfjKzmGAkhP7lpR4m1Hnz4Ft9d2C12B0gTA9MfME/iI1We80rKJCe9qClC7J+HS4S4NJYmCtAlur3WsvsMTaJozG4Ttc7I=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2472,7 +2472,7 @@ ST uses the personal data that you provide directly to it and through your activ
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612252912441.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299229.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
         
         <script id="PF257464_CP535564_9_3_0">
             var gsContent = $("#PF257464_CP535564_9_3_0").parent();
@@ -2520,7 +2520,7 @@ ST uses the personal data that you provide directly to it and through your activ
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612252912441.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="QhSiU9pY3WrcXbKIS3jhpA==,veyJ2xRuYUkedLls7u9X5ah4nQ51vavKEAGONsgCaEizM1/vf897Z3LEMz1KXKkps9ytf7Mj4DN7a2/ER3fN73WF/lBtB6lP74sYN5E0f1FiX1+vQN+uHs11usbGUTkMwLEfry4200vfclOhdsSUY9g8JyPkFOirp9yU4auZ9yF43XNlFFtuWrDa7U4bdcelRSmjXX0Cl4KAsr1YM/vsCg9EBf5X6hCylf+zMaHUwQ6oksIbC/koLAiMjogNfWTbKTtXVVLeDZ/x1pDs8xKLMQ==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299229.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="vb/eXu6wdPW9d/QAd54NRQ==,xgOwzTinqTa+as0pRHbx/IN6c4N8hiDqdvmwqK/QzLduzVvWEgcOX4rJhUeoeQmypK10bsuHyh8XoUKOF0/bpkPE5BlXLD1vr+pzNK7qNgdREUIxrPVsp3J0PWTdJU1aH/tFcty4D7ljKk6Ow0jccQte03uZWudjoTSfASF2p4dsADTfxYmbcWMCUH21KjkHpywf2fUUtNLkWK1mBWHCjTNVqSO0GJqRCxL3Y8eUzIkwQ/lOYXkmpLaLnjfYQYsI00U4rnLlZjA8G23Q+Uv6EQ==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -20886,6 +20886,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
                             </div>
                             <div class="js-st-footer__slider st-footer__slider" data-slick="{&quot;speed&quot;: 1500, &quot;autoplay&quot;: false}">
                                 <div>
+                                    <a href="https://blog.st.com/8h-triacs/" class="st-footer__slider-img"><img class="lazyload" data-src="https://blog.st.com/wp-content/uploads/ST18794_ST2886_Fotolia_60599294_Subscription_XLbanner-560x240.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 1, 2021</p>
+                                        <a href="https://blog.st.com/8h-triacs/"><p class="st-press-teaser-footer__content">8H Triacs or The Challenge of Designing Smaller, Hotter, and Safer</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
                                     <a href="https://newsroom.st.com/media-center/press-item.html/c2983.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 1, 2021</p>
@@ -21002,14 +21010,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Dec 14, 2020</p>
                                         <a href="https://blog.st.com/mesco/"><p class="st-press-teaser-footer__content">MESCO: Debunking 3 Misconceptions About Functional Safety</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://blog.st.com/azure-rtos/" class="st-footer__slider-img"><img class="lazyload" data-src="https://blog.st.com/wp-content/uploads/ST13883_GettyImages-1028297050-lprBANNER-560x240.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Dec 10, 2020</p>
-                                        <a href="https://blog.st.com/azure-rtos/"><p class="st-press-teaser-footer__content">Azure RTOS and STM32, More Details on the New Collaboration</p></a>
                                     </div>
                                 </div>
                             </div>

@@ -431,3 +431,54 @@ void USART2_IRQHandler(void)
 
 ![image-20210203005202960](README.assets/image-20210203005202960.png)
 
+#### 37. 인터럽트에서 
+
+```c
+void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
+{
+  /* EXTI line interrupt detected */
+  if (__HAL_GPIO_EXTI_GET_IT(GPIO_Pin) != 0x00u)
+  {
+    __HAL_GPIO_EXTI_CLEAR_IT(GPIO_Pin);
+    HAL_GPIO_EXTI_Callback(GPIO_Pin);
+  }
+}
+```
+
+- 다음 내용에서 `uint16_t GPIO_Pin`은 gpio 핀 번호의 개념이 아니다.
+
+- 아래 그림과 같이 설정된 스위치를 EXTI로 설정하면 다음과 같이 핀이 뜬다
+
+  ![image](https://user-images.githubusercontent.com/18729679/106764224-efca7c00-667a-11eb-882d-5c2b203af464.png)
+
+  
+
+- 이 설정핀의 이름이 다음과 같은 stm32f1xx_it에 있는 핀 이름에 해당한다.
+
+![image](https://user-images.githubusercontent.com/18729679/106764737-6b2c2d80-667b-11eb-8dc0-cda41eded94a.png)
+
+- 즉,  `void EXTI9_5_IRQHandler(void)`와 `void EXTI5_10_IRQHandler(void)`의 차이는 단순히 핀 번호에 따라 할당하는 핸들러의 값이며 이 두 개의 공통점은 인터럽트 핸들러를 한 개가 아닌 여러 개까지 할당할 수 있다는 점이다. (물론 위의 그림에서는 PIN_13 한개만 할당해 두었다.)
+- 따라서 다음과 같이 코드를 작성하면 된다.
+
+```c
+void
+HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	HAL_GPIO_WritePin(LED_3_GPIO_Port, LED_3_Pin, 1);
+	switch(GPIO_Pin){
+            //switch_1_Pin, switch_2_Pin이 아닌 PIN_6와 PIN_9인 이유는 위의 사진처럼 uint16_t GPIO_Pin의 할당 값은 gpio핀 번호가 아닌 인터럽트 핀의 번호이기 때문이다.
+		case GPIO_PIN_6:
+			if(HAL_GPIO_ReadPin(switch_1_GPIO_Port, switch_1_Pin))
+				HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin,1);
+			else HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin,0);
+			break;
+		case GPIO_PIN_9:
+			if(HAL_GPIO_ReadPin(switch_2_GPIO_Port, switch_2_Pin))
+				HAL_GPIO_WritePin(LED_2_GPIO_Port, LED_2_Pin,1);
+			else HAL_GPIO_WritePin(LED_2_GPIO_Port, LED_2_Pin,0);
+			break;
+		default:
+			;
+	}
+}
+```
+

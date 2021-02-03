@@ -106,7 +106,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  if(HAL_GPIO_ReadPin(switch_1_GPIO_Port, switch_1_Pin)){
+	  /*if(HAL_GPIO_ReadPin(switch_1_GPIO_Port, switch_1_Pin)){
 		  HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin, SET);
 	  }else  HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin, RESET);
 	  if(HAL_GPIO_ReadPin(switch_2_GPIO_Port, switch_2_Pin)){
@@ -115,6 +115,7 @@ int main(void)
 	  if(HAL_GPIO_ReadPin(switch_1_GPIO_Port, switch_1_Pin) && HAL_GPIO_ReadPin(switch_2_GPIO_Port, switch_2_Pin)){
 		  HAL_GPIO_WritePin(LED_3_GPIO_Port, LED_3_Pin, SET);
 	  }else HAL_GPIO_WritePin(LED_3_GPIO_Port, LED_3_Pin, RESET);
+	  */
   }
   /* USER CODE END 3 */
 }
@@ -226,24 +227,18 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
+  /*Configure GPIO pins : switch_2_Pin switch_1_Pin */
+  GPIO_InitStruct.Pin = switch_2_Pin|switch_1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
   /*Configure GPIO pins : LED_2_Pin LED_1_Pin */
   GPIO_InitStruct.Pin = LED_2_Pin|LED_1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : switch_2_Pin */
-  GPIO_InitStruct.Pin = switch_2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(switch_2_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : switch_1_Pin */
-  GPIO_InitStruct.Pin = switch_1_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(switch_1_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);

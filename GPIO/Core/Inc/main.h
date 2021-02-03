@@ -67,10 +67,10 @@ void Error_Handler(void);
 #define USART_RX_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_5
 #define LD2_GPIO_Port GPIOA
+#define switch_2_Pin GPIO_PIN_6
+#define switch_2_GPIO_Port GPIOA
 #define LED_2_Pin GPIO_PIN_10
 #define LED_2_GPIO_Port GPIOB
-#define switch_2_Pin GPIO_PIN_7
-#define switch_2_GPIO_Port GPIOC
 #define LED_3_Pin GPIO_PIN_8
 #define LED_3_GPIO_Port GPIOA
 #define switch_1_Pin GPIO_PIN_9
