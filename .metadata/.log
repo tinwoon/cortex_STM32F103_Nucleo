@@ -4833,3 +4833,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@bcf33): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Interrupt failed. null' resulted in an error.
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-02-03 23:42:42.099
 !MESSAGE Interrupt failed.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-04 10:41:52.331
+!MESSAGE Unloading product manager
