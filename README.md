@@ -194,6 +194,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 #### 18. printf 포팅 코드 붙여넣기
 
 ```c
+/* USER CODE BEGIN 0 */
 #ifdef __GNUC__
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #else
@@ -525,3 +526,140 @@ if(HAL_UART_Receive(&huart3, &a, 1, 10) == HAL_OK){
 }
 ```
 
+
+
+- UART에서 printf를 실행하는 방법은 다음과 같은 방법으로도 가능하다.(이게 더 간편할지도)
+
+  ```c
+  //printf를 실행하면 _write가 내부적으로 실행되는데 이 내부 함수를 우리가 변경해준 것.
+  #include <stdio.h>
+  
+  int _write(int file, char* p, int len)
+  {
+      HAL_UART_Transmit(&huart3, p, len, 10);
+      return len;
+  }
+  ```
+
+- 하지만 보통의 MCU는 부동소수점 및 float형태의 출력을 기본적으로 지원하지 않는다. 즉, 설정을 바꾸어야한다.
+
+  ```c
+  //다음코드가 MCU 컴파일러에서는 출력되지 않는다.
+  printf("%f", float_data);
+  ```
+
+  > 프로젝트 탐색기에서 현재 프로젝트 우클릭 -> c/c++ build 에서 settings -> Tool Settings -> C Linker  ->
+  >
+  > Miscellaneous에 들어가서 Other options에 다음과 같은 내용을 작성한다.
+  >
+  > ```c
+  > -u _printf_float
+  > ```
+
+- 하지만, 보통은 printf가 무겁기에 truestudio 내부에서 tiny_printf를 제공함. (이건 인터넷에서 검색하기)
+
+
+
+#### 39. 인터럽트
+
+- uart 인터럽트 설정을 위해서는 
+
+  >1.  NVIC settings 에서 global interrupt를 enable 시키고 NVIC configuration에서 USART3 global interrupt를 select해준 후 다음 사진처럼 체크해줘야한다.
+
+![image](https://user-images.githubusercontent.com/18729679/107144493-ce210b80-697e-11eb-9da3-9971b9929b32.png)
+
+
+
+- main.c 코드에 보면 MX_NVIC_Init()이란 코드가 있는데 이 코드가 인터럽트에 대한 초기화를 설정해주는 코드이다.
+
+- 마찬가지로 이 인터럽트도 callback함수를 통해 구현하면 된다. 키보드로 입력한 값을 print하는 코드로 위의 uart코드와 다른 점은 polling이 아닌 interrupt 방식을 통해 구현한다는 점이다.
+
+  ```c
+  //사용자가 직접 정의한 변수
+  uint8_t rx3_data;
+  
+  void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
+      //받은 콜백함수의 인터럽트가 USART3으로부터 나왔느냐
+      if(huart->Instance == USART3){
+          //인터럽트가 발생한 후 보낸 데이터는 어떤 일정 버퍼에 저장이 되는데 이 값을 rx3_data에 1byte만큼을 저장함
+      	HAL_UART_Receive_IT(&huart3, &rx3_data,1);
+          HAL_UART_Transmit(&huart3, &rx3_data,1,10);
+      }
+  }
+  ```
+
+  
+
+- 그 후 int main 내부에 `HAL_UART_Receive_IT(&huart3, &rx3_data,1);`를 작성하면 된다.
+
+  > 위의 callback 코드에도 해당 내용이 있는데 의미가 조금 다르다.
+  >
+  > int main 내부로 선언됐을 땐 `HAL_UART_Receive_IT(&huart3, &rx3_data,1);` 코드는 rx3_data에 1바이트가 수신되면 인터럽트를 발생시키겠다는 의미이다. 
+  >
+  > 만약 이 코드가 main에 없다면 아래 callback 함수가 호출되지 않아 작성하나 마나가 된다.
+
+- 물론 버퍼값을 배열로 선언해서 정의하는 방식으로도 가능하다 (int main 내부에도 `HAL_UART_Receive_IT(&huart3, &rx3_data,10);`로 변경해야함)
+
+  > 이렇게 작성하면 인터럽트가 1바이트가 아닌 10바이트를 받아야 한번 수행함. 하지만  IRQHandler는 항상 1바이트마다 수행되기 때문에 똑같이 10번 수행하고 인터럽트만 10번에 한번 수행되는 원리임.
+
+```c
+//사용자가 직접 정의한 변수 (위와 다르게 이번에는 배열로)
+uint8_t rx3_data[10];
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
+    //받은 콜백함수의 인터럽트가 USART3으로부터 나왔느냐
+    if(huart->Instance == USART3){
+        //인터럽트가 발생한 후 보낸 데이터는 어떤 일정 버퍼에 저장이 되는데 이 값을 rx3_data에 1byte만큼을 저장함 (위와 다르게 이번에는 1바이트가 아닌 10바이트를 넣음)
+    	HAL_UART_Receive_IT(&huart3, &rx3_data,10);
+        HAL_UART_Transmit(&huart3, &rx3_data,1,10);
+    }
+}
+```
+
+
+
+#### 40. ADC
+
+- PA0, PA1, PA4, PB0, PC1, PC0 순으로 ADC1_IN0, ADC1_IN1, ADC1_IN4, ADC1_IN8, ADC1_IN11, ADC1_IN10 순으로 pin을 세팅해주고 conversion mode를 enable하면 아날로그 값을 연속적으로 변환시킬 수 있다.
+
+![image](https://user-images.githubusercontent.com/18729679/107148044-6a094200-6994-11eb-8fbc-749bc5dbbe8c.png)
+
+- ADC 클럭 값의 최대 값은 아래와 같이 14MHZ까지만 가능하기 때문에 ADC Prescaler를 /8로 해서 8MHz로 선언하자
+
+  ![image](https://user-images.githubusercontent.com/18729679/107148090-b785af00-6994-11eb-9767-4cea0e4a0ad1.png)
+
+- 코드를 다음과 같이 작성하면 나온다는 것을 알 수 있다.
+
+```c
+ /* USER CODE BEGIN WHILE */
+  uint16_t converted_value;
+
+//예전에 설명했던 Calibration
+  if(HAL_ADCEx_Calibration_Start(&hadc1) != HAL_OK){
+	  Error_Handler();
+  }
+
+  while (1)
+  {
+    /* USER CODE END WHILE */
+	  if(HAL_ADC_Start(&hadc1) != HAL_OK){
+		  Error_Handler();
+	  }
+
+	  //AD 변환이 완료될 때까지 대기 후
+	  HAL_ADC_PollForConversion(&hadc1, 100);
+	  //regular channel의 continuous conversion 이 끝났다면
+	  if((HAL_ADC_GetState(&hadc1) & HAL_ADC_STATE_REG_EOC) == HAL_ADC_STATE_REG_EOC){
+		  //regular channel로 부터 adc 값을 받는다.
+		  converted_value = HAL_ADC_GetValue(&hadc1);
+	  }
+
+	  HAL_ADC_Stop(&hadc1);
+      //adc 출력!
+	  printf("%4d\n", converted_value);
+	  HAL_Delay(100);
+    /* USER CODE BEGIN 3 */
+  }
+```
+
+![image](https://user-images.githubusercontent.com/18729679/107149238-d71fd600-699a-11eb-8c07-3c0ca434df98.png)

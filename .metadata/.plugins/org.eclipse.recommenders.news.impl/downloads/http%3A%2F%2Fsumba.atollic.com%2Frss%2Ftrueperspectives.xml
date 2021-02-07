@@ -81,6 +81,28 @@
 </script>
 <script type="text/javascript" src="/etc/clientlibs/st-site/js/oneTrust.js"></script>
 <!-- OneTrust Cookies Consent Notice end -->
+<script defer src="https://unpkg.com/web-vitals@0.2.2/dist/web-vitals.es5.umd.min.js"></script>
+
+<script>
+    // Function to set indicator value based on the token.
+    function setIndicator({
+    name: t,
+    delta: e
+    }) {
+        var a = "CLS" == t ? "cls" : "FID" == t ? "fid" : "LCP" == t ? "lcp" : null;
+        null != a && RProfiler &&
+        RProfiler.addInfo("indicator", a, parseFloat(parseFloat(e).toFixed(2)))
+    }
+
+    // Set Web Vital metrics on DOMContentLoaded event.
+    addEventListener("DOMContentLoaded", (function () {
+        webVitals.getCLS(setIndicator);
+        webVitals.getFID(setIndicator);
+        webVitals.getLCP(setIndicator)
+
+    }))
+</script>
+
 
 <link rel="icon" type="image/png" sizes="32x32" href="/etc/clientlibs/st-site/media/app/images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/etc/clientlibs/st-site/media/app/images/favicon-16.png">
@@ -125,7 +147,7 @@
             referrer = localStorage.getItem('st-referrer') || referrer;
             localStorage.removeItem('st-referrer');
         }
-        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.16.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:01:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
+        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.16.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:03:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
 		window.digitalData.page.pageInfo.referringURL = referrer;
 		window.digitalData.page.pageInfo.originalURL  = document.location.href;
 
@@ -163,7 +185,8 @@
 
 
     
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx.min.e5e38c6cce314e3554dca027d6054856.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx.min.2dc5831c412d946e2d03a38ccbd245e2.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/info-modal.min.441b452ecb59bd2632a52fbbe419432f.css" type="text/css">
 
 
 
@@ -2017,7 +2040,7 @@ If you still can't download the software, please reach out to us on the <a href=
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299225.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612591370024.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
         
         <script id="PF257464_CP535563_9_3_0">
             var gsContent = $("#PF257464_CP535563_9_3_0").parent();
@@ -2065,7 +2088,7 @@ If you still can't download the software, please reach out to us on the <a href=
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299225.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="k2zQHj9dgcM05TDNP4/yjQ==,yvyHNsWBzXyqo9OlKW4jxT8UGsNr52+txzLq51TrNmb3ncJeSJoGgJ+8LHJr/3M9ESGa562yHs+mS4f/oIx1kvbWk519Htf2flMeOQQ3Px/tAEZF/QvV4S0n1NCAZrTQWdSlrG92qAiJ88jmwYgU3tbnaCPGWOPH85+2L5Th75F06GZXWZHvXkkMcBdm2h04WmDN3zNaf738ySfjKzmGAkhP7lpR4m1Hnz4Ft9d2C12B0gTA9MfME/iI1We80rKJCe9qClC7J+HS4S4NJYmCtAlur3WsvsMTaJozG4Ttc7I=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612591370024.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="YlVHRGDlU1EgUGIY21JHZQ==,VEejgppNJX+pa+sTX9rRHh8/S3qSiNNj55iUHX8+995iClD9RccIzYNIuc2gT1Hc/+rnueHBZGO9KwHggL9tSWnNA2UoD7sVVZFrYgTqAgCoyv4zdNh74aKBh47dZZzBp7pW/F7fDCRO1AQslRTjDwORCf/iqoOwk3uzscC/4XK0X/H79XCMrXxIhFPSt4VBisAX52E8gliUm5E/vSV+5xRQiY0lrSoyGO2hjCiRErkYEouLLcHXyZ9cVDbrb1guM4K+kqNOjTftkvCXxiPhCwSjcjKf5kH8h9kxNohL5z8=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2472,7 +2495,7 @@ ST uses the personal data that you provide directly to it and through your activ
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299229.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612591370028.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
         
         <script id="PF257464_CP535564_9_3_0">
             var gsContent = $("#PF257464_CP535564_9_3_0").parent();
@@ -2520,7 +2543,7 @@ ST uses the personal data that you provide directly to it and through your activ
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612327299229.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="vb/eXu6wdPW9d/QAd54NRQ==,xgOwzTinqTa+as0pRHbx/IN6c4N8hiDqdvmwqK/QzLduzVvWEgcOX4rJhUeoeQmypK10bsuHyh8XoUKOF0/bpkPE5BlXLD1vr+pzNK7qNgdREUIxrPVsp3J0PWTdJU1aH/tFcty4D7ljKk6Ow0jccQte03uZWudjoTSfASF2p4dsADTfxYmbcWMCUH21KjkHpywf2fUUtNLkWK1mBWHCjTNVqSO0GJqRCxL3Y8eUzIkwQ/lOYXkmpLaLnjfYQYsI00U4rnLlZjA8G23Q+Uv6EQ==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1612591370028.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="5Rx0oUNhFMX9xFwrd1JUvQ==,2+hRTZKTjyAVxIcAqju24coFzvPpyBPSxg2OTBcrZwNRJJfs7i3BzHw0kSMLgy3vPn9fX46fhXaqgMIj+fm9NLjPt5Wynnm4KDAh0yvwtPYFnwTiWTzx5gdmjbBnS3WSHjRSZZ221oJcCSkTbM4IZyX8Nxg/KdEZpWoUm8F2sRi8MnM59gVGoH/0PxvdzaL1uOYaYdK/80/lmITBTSPM6k7N9nqQ99o+khCnuiAQ4PhI1l5cnPmfFrp/3BuVJwLYlaAS+ehmnLwxXgOZUsJvQw==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -4375,6 +4398,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
                     </div>
                 </div>
             
+        
+    
         
     
         
@@ -21562,10 +21587,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 </script>
 
 
+
+
+
     
 <script type="text/javascript" src="/etc/clientlibs/st-site-cx.min.4873a8dd2c9586fe5922873a444bcb44.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/save-to-my-st.min.ff70d7ae5ea9d4756bb8f5dfb8726ca2.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-site/components/cookiePanel.min.bfd3823d2311ca703c45a55c7e8d24c3.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/info-modal.min.4e91c94000260a2938c6f9ba9138d68c.js"></script>
 
 
 
