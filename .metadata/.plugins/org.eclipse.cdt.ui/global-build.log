@@ -1107,3 +1107,290 @@ Generate listing file done
 Generate build reports done
 arm-atollic-eabi-objcopy.exe -O ihex ADC_Polling_Sequencer.elf ADC_Polling_Sequencer.hex 
 Info: Parallel threads used: 1
+23:04:46 **** Rebuild of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -g -Wa,--no-warn -x assembler-with-cpp -specs=nano.specs -o startup\startup_stm32f103xb.o ..\startup\startup_stm32f103xb.s 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c 
+..\Core\Src\main.c: In function 'main':
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c 
+..\Core\Src\main.c:114:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d", converted_value);
+    ^~~~~~
+..\Core\Src\main.c:114:4: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:114:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\Core\Src\main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+..\Core\Src\main.c:284:4: error: 'converted_value' undeclared (first use in this function)
+    converted_value = HAL_ADC_GetValue(hadc);
+    ^~~~~~~~~~~~~~~
+..\Core\Src\main.c:284:4: note: each undeclared identifier is reported only once for each function it appears in
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\syscalls.o ..\Core\Src\syscalls.c 
+Info: Parallel threads used: 4
+23:06:51 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\stm32f1xx_it.o ..\Core\Src\stm32f1xx_it.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\syscalls.o ..\Core\Src\syscalls.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\system_stm32f1xx.o ..\Core\Src\system_stm32f1xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:114:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d", converted_value);
+    ^~~~~~
+..\Core\Src\main.c:114:4: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:114:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\Core\Src\main.c: In function 'HAL_ADC_ConvCpltCallback':
+..\Core\Src\main.c:284:4: error: 'converted_value' undeclared (first use in this function)
+    converted_value = HAL_ADC_GetValue(hadc);
+    ^~~~~~~~~~~~~~~
+..\Core\Src\main.c:284:4: note: each undeclared identifier is reported only once for each function it appears in
+Info: Parallel threads used: 4
+23:07:52 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\stm32f1xx_hal_msp.o ..\Core\Src\stm32f1xx_hal_msp.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:114:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d", converted_value);
+    ^~~~~~
+..\Core\Src\main.c:114:4: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:114:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\system_stm32f1xx.o ..\Core\Src\system_stm32f1xx.c 
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13100	    120	   1700	  14920	   3a48	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 4
+23:19:03 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\system_stm32f1xx.o ..\Core\Src\system_stm32f1xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:114:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%4d", converted_value);
+    ^~~~~~
+..\Core\Src\main.c:114:4: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:114:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\stm32f1xx_it.o ..\Core\Src\stm32f1xx_it.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\stm32f1xx_hal_msp.o ..\Core\Src\stm32f1xx_hal_msp.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c 
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13100	    120	   1700	  14920	   3a48	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 4
+23:19:51 **** Incremental Build of configuration Debug for project ADC_Polling_Sequencer ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy.exe -O ihex ADC_Polling_Sequencer.elf ADC_Polling_Sequencer.hex 
+Info: Parallel threads used: 0
+23:20:28 **** Incremental Build of configuration Debug for project ADC_Polling_Sequencer ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy.exe -O ihex ADC_Polling_Sequencer.elf ADC_Polling_Sequencer.hex 
+Info: Parallel threads used: 0
+23:20:57 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 0
+23:22:45 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:107:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("calibration _ok\n");
+   ^~~~~~
+..\Core\Src\main.c:107:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:107:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13348	    120	   1700	  15168	   3b40	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 1
+23:24:26 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:120:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("calibration _ok\n");
+   ^~~~~~
+..\Core\Src\main.c:120:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:120:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13848	    120	   1700	  15668	   3d34	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 1
+23:27:31 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:120:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("calibration _ok\n");
+   ^~~~~~
+..\Core\Src\main.c:120:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:120:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13852	    120	   1700	  15672	   3d38	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 1
+23:29:15 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:120:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("calibration _ok\n");
+   ^~~~~~
+..\Core\Src\main.c:120:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:120:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13848	    120	   1700	  15668	   3d34	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 1
+23:32:05 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:120:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("calibration _ok\n");
+   ^~~~~~
+..\Core\Src\main.c:120:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:120:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\stm32f1xx_it.o ..\Core\Src\stm32f1xx_it.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\system_stm32f1xx.o ..\Core\Src\system_stm32f1xx.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\stm32f1xx_hal_msp.o ..\Core\Src\stm32f1xx_hal_msp.c 
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13848	    120	   1700	  15668	   3d34	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 4
+23:37:40 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o Core\Src\main.o ..\Core\Src\main.c 
+..\Core\Src\main.c: In function 'main':
+..\Core\Src\main.c:127:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%d\n", converted_value);
+    ^~~~~~
+..\Core\Src\main.c:127:4: warning: incompatible implicit declaration of built-in function 'printf'
+..\Core\Src\main.c:127:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-atollic-eabi-gcc -o ADC_interrupt.elf Core\Src\main.o Core\Src\stm32f1xx_hal_msp.o Core\Src\stm32f1xx_it.o Core\Src\syscalls.o Core\Src\system_stm32f1xx.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o startup\startup_stm32f103xb.o -mthumb -mcpu=cortex-m3 -T../STM32F103RB_FLASH.ld -specs=nosys.specs -static -Wl,-Map=ADC_interrupt.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -lc -lm -Wl,--end-group -specs=nano.specs 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\Tools\arm-atollic-reports.jar sizeinfo list ADC_interrupt.elf 
+Generate build reports...
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+  13600	    120	   1700	  15420	   3c3c	ADC_interrupt.elf
+Print size information done
+Generate listing file
+Output sent to: ADC_interrupt.list
+Generate listing file done
+Generate build reports done
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 1
+23:38:00 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 0

@@ -1,0 +1,7 @@
+23:38:00 **** Incremental Build of configuration Debug for project ADC_interrupt ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy.exe -O ihex ADC_interrupt.elf ADC_interrupt.hex 
+Info: Parallel threads used: 0
+
+23:38:00 Build Finished (took 133ms)
+

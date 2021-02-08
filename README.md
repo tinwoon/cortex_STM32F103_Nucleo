@@ -663,3 +663,38 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 ```
 
 ![image](https://user-images.githubusercontent.com/18729679/107149238-d71fd600-699a-11eb-8c07-3c0ca434df98.png)
+
+#### 41. CLCD의 대부분 인터페이스 방식이 동일하다.
+
+- 대부분 character LCD 라이브러리파일을 쉽게 찾을 수 있으니 검색해보기.
+
+
+
+#### 42. 인터럽트를 통한 ADC방식은 다음과 같다. (마찬가지로 핀을 analog로 한 다음에 adc도 같이 설정해준 다음 NVIC settings에서 global interrupts 체크해주면 된다.)
+
+```c
+volatile uint16_t converted_value;
+
+
+if(HAL_ADCEx_Calibration_Start(&hadc1) != HAL_OK){
+	  Error_Handler();
+}
+  
+if(HAL_ADC_Start_IT(&hadc1)!=HAL_OK){
+    Error_Handler();
+}
+
+while (1)
+{
+	printf("%d\n", converted_value);
+	HAL_Delay(100);
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+}
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
+	  converted_value = HAL_ADC_GetValue(hadc);
+}
+```
+
