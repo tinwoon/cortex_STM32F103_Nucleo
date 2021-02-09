@@ -564,7 +564,7 @@ if(HAL_UART_Receive(&huart3, &a, 1, 10) == HAL_OK){
 
 - uart 인터럽트 설정을 위해서는 
 
-  >1.  NVIC settings 에서 global interrupt를 enable 시키고 NVIC configuration에서 USART3 global interrupt를 select해준 후 다음 사진처럼 체크해줘야한다.
+  >1.  NVIC settings 에서 global interrupt를 enable 시키고 NVIC configuration에서 USART3 global interrupt를 select해준 후 다음 사진처럼 체크해줘야한다. 타이머 인터럽트도 마찬가지이다.
 
 ![image](https://user-images.githubusercontent.com/18729679/107144493-ce210b80-697e-11eb-9da3-9971b9929b32.png)
 
@@ -616,7 +616,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 }
 ```
 
-
+- 인터럽트에 보면 Rank가 있는데, 해당 Rank는 동시에 인터럽트가 발생했을 때 무엇을 먼저 처리하는지를 의미한다.
 
 #### 40. ADC
 
@@ -697,4 +697,58 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 	  converted_value = HAL_ADC_GetValue(hadc);
 }
 ```
+
+#### 43. TIM interrupt
+
+- 16비트 타이머의 경우 2의 16승인 65535까지의 카운트를 셀 수 있고, 32비트 카운터의 경우는 4294967295만큼이나 셀 수 있다.
+
+-  TIM를 사용한 인터럽트는 크게 두 가지로 구분할 수 있다.
+
+  > 1. 오버플로우 인터럽트
+  > 2. AutoReload Register를 통한 방법(Period)
+
+- 오버플로우를 사용한 인터럽트의 경우 16비트 타이머 카운트의 경우 0~65535까지 값이 올라가게 되는데, 이 값을 초과해 오버플로우가 발생하면 시작하는 인터럽트이다.
+
+- 반대로 AutoReload Register를 통한 방법은 Period를 100으로 설정한다면 마찬가지로 타이머 카운트가 100이 됐을 때, 다시 0으로 초기화하면서 update 인터럽트를 발생시키는 원리이다.
+
+- 이때 이 타이머 카운트가 몇초마다 올라가는지를 알아야하는데 이 값이 클럭과 연관이 있다.
+
+- stm32f407의 경우는 HCLK가 168MHz까지 올라가는데 이때 APB이라는 버스의 개념이 등장한다.
+
+  > ==이 APB의 종류에 따라 타이머의 클락 값이 변경된다==
+  >
+  > - APB1의 경우는 TIM CLK이 HCLK/2인 84MHz를 출력하고
+  > - APB1의 경우는 TIM CLK이 HCLK인 168MHz를 그대로 출력한다.
+
+- 즉, APB1을 사용했을때의 주기는 1/84000000 초 정도로 11ns정도이다.
+
+- 이 시간은 AutoReload Register를 통한 update 인터럽트로 가정한다면 너무 빨라서 인터럽트가 굉장히 많이 발생하게 되는데, 이 점은 좋지 않다.  ==따라서, 이 빠른 것을 Prescaler를 통해 느리게 설정할 수 있다==
+
+- Prescaler는 최대 값이 2의 16승 (=65535) 까지 설정할 수 있다.
+
+- 만약 Prescaler를 10000으로 한다면 
+
+  > TIM CLK = 84M/10000 = 1/8400 초가 된다.
+
+- 아래 그림과 같이 타이머에 대한 설명이 자세히 나와있다.
+
+![image](https://user-images.githubusercontent.com/18729679/107371108-37438300-6b27-11eb-8268-e7cc58623039.png)
+
+
+
+- 타이머 업데이트 인터럽트는 다음과 같이 작성한다. (마찬가지로 callback함수를 통해 구현한다.)
+
+  ```c
+  int main(){
+      //타이머를 시작하는 코드 (htim7은 타이머 7번에 대한 구조체로 그동안의 hadc1, huart2와 마찬가지)
+      HAL_TIM_BASE_Start_IT(&htim7);
+  }
+  
+  
+  void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+      if(htim -> Instance == TIM7){
+          //write how to do
+      }
+  }
+  ```
 
