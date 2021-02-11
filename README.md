@@ -752,3 +752,27 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
   }
   ```
 
+#### 44. EXTI(외부 인터럽트)
+
+- gpio에 전기적 신호가 들어오면 발생되는 인터럽트
+- 다음과 같이 해당하는 핀들은 EXTI N번을 발생시키는 원리
+
+![image](https://user-images.githubusercontent.com/18729679/107642930-dcda2c00-6cb8-11eb-8704-9db7720f97af.png)
+
+- 다음 표를 보면 0부터 4까지의 인터럽트는 독립적으로 발생하지만 5~9, 10~15까지는 함께 발생한다는 점을 알 수 있음.
+
+![image](https://user-images.githubusercontent.com/18729679/107643353-5d992800-6cb9-11eb-89b8-5792ac0a488f.png)
+
+
+
+- 스위치 바운싱으로 인해 상승엣지 또는 하강엣지가 여러번 발생해 인터럽트도 여러번 발생할 소지가 있다.
+
+  > 캐패시터를 이때는 보통 사용한다.
+
+- 기존의 코드처럼 스위치를 눌렀을 때 polling 방식으로 동작하고자 할 때는 => GPIO_INPUT이고, 인터럽트가 발생하고자 할 때는 GPIO_EXTI로 설정하면 된다
+- 마찬가지로, NVIC에 가서 EXTI line ~ interrupt를 할당해주고, GPIO에서 falling edge, rising edge 등을 설정하면 된다.
+
+```c
+
+```
+
