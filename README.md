@@ -772,7 +772,66 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 - 기존의 코드처럼 스위치를 눌렀을 때 polling 방식으로 동작하고자 할 때는 => GPIO_INPUT이고, 인터럽트가 발생하고자 할 때는 GPIO_EXTI로 설정하면 된다
 - 마찬가지로, NVIC에 가서 EXTI line ~ interrupt를 할당해주고, GPIO에서 falling edge, rising edge 등을 설정하면 된다.
 
-```c
+#### 45. PWM
 
-```
+- pin은 TIM(N)_CH(N)이라는 핀으로 설정해주면 된다.
+
+- 그 다음 TIM 설정에 들어가서 Clock Source를 Internal Clock으로 변경해주고,  Channel 1,2,3을 PWM Generation CH 1,2,3으로 변경해주자(자기가 사용하고 싶은 만큼의 채널을 설정하면 된다. 여기서는 1,2,3을 설정함)
+
+- TIM에 Parameter Settings에 가면 Prescaler와 Counter Period, PWM Generation Channel의 Pulse를 조절할 수 있다.
+
+- 이전에 배운대로 50%의 PWM을 생성하고 싶으면, Counter Period에서 설정한 값의 절반을 넣어주면 된다.
+
+  > 예를 들어, Counter Period를 42000 -1로 설정했다면, PWM Generation Channel의 Pulse를 21000-1로 설정하면 50%가 된다.
+
+- generate code를 한 이후에 다음과 같이 코드를 작성한다. 다음 코드는 pwm의 pulse 폭을 주기적으로 변경해주는 코드이다. (펄스 폭이 0%부터 100%가 됐다가, 100%를 넘어가면 0으로 변경해주는 코드이다)
+
+  ```c
+  //TIME3의 채널 1을 실행시킨다는 의미이다. 이걸을 설정한 채널 개수만큼 실행하면 된다.
+  HAL_TIM_PWM_Start(&htim3, TIME_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim3, TIME_CHANNEL_2);
+  HAL_TIM_PWM_Start(&htim3, TIME_CHANNEL_3);
+  HAL_TIM_PWM_Start(&htim4, TIME_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim4, TIME_CHANNEL_2);
+  HAL_TIM_PWM_Start(&htim4, TIME_CHANNEL_3);
+  uint16_t ccr=0;
+  
+  while(1){
+      //TIM4의 채널1의 CAPTURE COMPARE REGISTER(Pulse) 값을 ccr로 변경해준다
+      __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, ccr);
+      //__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, ccr);는 TIM4 -> CCR1 = ccr;과 같은 코드이기에 똑같이 변경해도 결과는 같다.
+      ccr += 1000;
+      //만약 ccr이 AutoPeriod Register 값보다 커진다면 ccr을 0으로 초기화한다.
+      if(ccr > TIM4->ARR) ccr = 0;
+      HAL_Delay(50);
+  }
+  ```
+
+- 다음 내용은 각각 TIM마다 PWM 채널로 사용할 수 있는 정보를 나타낸 표이다.
+
+![image](https://user-images.githubusercontent.com/18729679/107765324-f2ad2700-6d74-11eb-8894-0e4382cc39f6.png)
+
+- PWM을 통한 서브모터를 작동시키는 방법은 다음과 같다.
+
+  > 구동전원: 3.0 ~ 7.2V
+  >
+  > 펄스주기: 50Hz
+  >
+  > 펄스폭: 최소 0.2ms -> CW 끝, 최대 3ms -> CCW 끝 (모델마다 다르기때문에 직접 펄스 폭을 건드리는 방식으로 구하는게 좋다.)
+
+- 최대 3ms의 펄스를 가지려면 20ms의 주기를 가지는 PWM을 생성한 뒤, 3/20만큼의 값을 주면 될 것이다.
+
+- 20ms 주기를 가지는 PWM을 제작하려면 다음과 같이 설정하면 된다.
+
+  > TIM의 주기가 168MHz라면, 내가 만들고자하는 PWM의 주기, 즉 20ms는 시간이기때문에 Hz로 나타내면, 1/20ms = 50이 된다.
+  >
+  > 따라서, 168MHz / 50을 한 값인, 3360000이 Prescaler와 Counter Period 값의 곱으로 나타내면 된다.
+  >
+  > 예를 들어, Prescaler를 336으로 설정하면, Period 값은 10000이 된다.
+  >
+  > 따라서 20ms가 지나면 인터럽트가 발생하는 것이며, Period가 10000까지 올라가므로 카운터 값이 1 증가하는데 걸리는 시간은 20ms / 10000인 0.002ms마다 타이머 카운트가 1씩 증가한다.
+  >
+  > 우리가 원하는 값은 0.2ms와 3ms 이므로 0.2를 만들기 위해서는 pulse를 100을 곱하면 되고, 3을 만들기 위해서는 1500을 곱하면 된다.
+
+![image](https://user-images.githubusercontent.com/18729679/107846771-a8d24880-6e29-11eb-9f65-0592610591b4.png)
 
