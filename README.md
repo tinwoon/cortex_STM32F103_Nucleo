@@ -778,6 +778,8 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 
 - 그 다음 TIM 설정에 들어가서 Clock Source를 Internal Clock으로 변경해주고,  Channel 1,2,3을 PWM Generation CH 1,2,3으로 변경해주자(자기가 사용하고 싶은 만큼의 채널을 설정하면 된다. 여기서는 1,2,3을 설정함)
 
+  ![image](https://user-images.githubusercontent.com/18729679/107875776-2cad3300-6f05-11eb-8f23-adcc0878d86d.png)
+
 - TIM에 Parameter Settings에 가면 Prescaler와 Counter Period, PWM Generation Channel의 Pulse를 조절할 수 있다.
 
 - 이전에 배운대로 50%의 PWM을 생성하고 싶으면, Counter Period에서 설정한 값의 절반을 넣어주면 된다.
@@ -788,18 +790,19 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 
   ```c
   //TIME3의 채널 1을 실행시킨다는 의미이다. 이걸을 설정한 채널 개수만큼 실행하면 된다.
-  HAL_TIM_PWM_Start(&htim3, TIME_CHANNEL_1);
-  HAL_TIM_PWM_Start(&htim3, TIME_CHANNEL_2);
-  HAL_TIM_PWM_Start(&htim3, TIME_CHANNEL_3);
-  HAL_TIM_PWM_Start(&htim4, TIME_CHANNEL_1);
-  HAL_TIM_PWM_Start(&htim4, TIME_CHANNEL_2);
-  HAL_TIM_PWM_Start(&htim4, TIME_CHANNEL_3);
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_2);
+  HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_3);
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
   uint16_t ccr=0;
   
   while(1){
       //TIM4의 채널1의 CAPTURE COMPARE REGISTER(Pulse) 값을 ccr로 변경해준다
       __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, ccr);
       //__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, ccr);는 TIM4 -> CCR1 = ccr;과 같은 코드이기에 똑같이 변경해도 결과는 같다.
+      //TIM4 -> CCR1은 TIM4에서 1번 채널의 CCR이란 의미이다.
       ccr += 1000;
       //만약 ccr이 AutoPeriod Register 값보다 커진다면 ccr을 0으로 초기화한다.
       if(ccr > TIM4->ARR) ccr = 0;
@@ -834,4 +837,42 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
   > 우리가 원하는 값은 0.2ms와 3ms 이므로 0.2를 만들기 위해서는 pulse를 100을 곱하면 되고, 3을 만들기 위해서는 1500을 곱하면 된다.
 
 ![image](https://user-images.githubusercontent.com/18729679/107846771-a8d24880-6e29-11eb-9f65-0592610591b4.png)
+
+- 만약 PWM의 주기를 바꾸고 싶다면, ==ARR이 아닌 Prescaler를 변경하는 방식으로 해야한다.(ARR로 주기를 변경시키면 PWM의 출력이 어느 순간 사라진다.)==
+
+  ```c
+  //이렇게 코드를 바꿔선 안된다. prescaler 168, ARR이 10000일 때
+  uint16_t arr = 1000;
+  uint8_t ud_flag = 0;
+  while(1){
+      if(ud_flag == 0){
+          arr++;
+          if(arr >= 2500) ud_flag = 1;
+      }
+      else{
+          arr--;
+          if(arr <= 1000) ud_flag =0;
+      }
+      TIM2->ARR =arr;
+      TIM2->CCR1 = TIM2->ARR/2;
+      HAL_Delay(1);
+  }
+  //아래와 같이 바꾸는 편이 좋다. prescaler 10000, ARR이 168일 때(물론 분해능이 168밖에 되지 않지만 여기서는 예시를 위해서)
+  uint16_t psc = 1000;
+  uint8_t ud_flag = 0;
+  while(1){
+      if(ud_flag == 0){
+          psc++;
+          if(psc >= 2500) ud_flag = 1;
+      }
+      else{
+          psc--;
+          if(psc <= 1000) ud_flag =0;
+      }
+      TIM2->PSC =psc;
+      HAL_Delay(1);
+  }
+  ```
+
+  
 
