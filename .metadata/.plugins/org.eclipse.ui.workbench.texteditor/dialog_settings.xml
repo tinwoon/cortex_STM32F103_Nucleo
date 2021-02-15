@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Calibration" key="selection"/>
+		<item value=" if(HAL_ADC_Start_DMA(&amp;hadc1, (uint32_t*)&amp;ADC_val, 2)!=HAL_OK){" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value=" if(HAL_ADC_Start_DMA(&amp;hadc1, (uint32_t*)&amp;ADC_val, 2)!=HAL_OK){"/>
 			<item value="calibration"/>
 			<item value="call"/>
 			<item value="jtag"/>

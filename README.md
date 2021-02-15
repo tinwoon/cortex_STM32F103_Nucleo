@@ -621,6 +621,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 #### 40. ADC
 
 - PA0, PA1, PA4, PB0, PC1, PC0 순으로 ADC1_IN0, ADC1_IN1, ADC1_IN4, ADC1_IN8, ADC1_IN11, ADC1_IN10 순으로 pin을 세팅해주고 conversion mode를 enable하면 아날로그 값을 연속적으로 변환시킬 수 있다.
+- ADC1은 16개의 채널, ADC2는 16개의 채널. ADC3은 8개의 채널로 40개의 ADC 채널이 있지만, ADC1, 2, 3 당 채널은 모두 같은 물리적 핀을 사용하기 때문에 16개만 가능하다.(예를 들면 ADC1의 0번 채널의 핀번호와 ADC2의 0번 채널의 핀번호와 ADC3의 0번 채널의 핀 번호는 PA0로 모두 같다.)
+- 아래 그림을 보면 ADC1번의 0번 채널(IN0)를 사용한 결과이다.
 
 ![image](https://user-images.githubusercontent.com/18729679/107148044-6a094200-6994-11eb-8fbc-749bc5dbbe8c.png)
 
@@ -663,6 +665,40 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 ```
 
 ![image](https://user-images.githubusercontent.com/18729679/107149238-d71fd600-699a-11eb-8c07-3c0ca434df98.png)
+
+- ADC에서는 몇 v의 전압을 몇 단계로 쪼개는지가 중요한데, 이때 이 전압을 '레퍼런스 전압'이라 하며, 쪼갤 수 있는 단계를 'ADC resolution'이라 정의한다. 보통은 3.3V를 레퍼런스 전압으로 사용
+
+![image](https://user-images.githubusercontent.com/18729679/107920146-ce895a00-6faf-11eb-8e6f-54366f88c295.png)
+
+
+
+- ADC 설정 값의 대략적인 내용은 다음과 같다
+
+![image](https://user-images.githubusercontent.com/18729679/107926112-a5b99280-6fb8-11eb-9d7a-a6eef393aed5.png)
+
+![image](https://user-images.githubusercontent.com/18729679/107927014-c7ffe000-6fb9-11eb-8be3-4b54092e06e7.png)
+
+> 1.  Clock Prescaler: adc변환을 할 때 cpu의 클럭이 몇 cycle정도 필요한지가 데이터 시트에 나와있다. 이 cpu 클럭을 몇으로 나누어 사용할지를 결정하는 것.
+>
+> 2. Resolution: 위에서 설명한 것처럼 쪼갤 수 있는 단위를 의미한다. 마찬가지로 12bits를 사용하면 4096단위까지 사용할 수 있고, (15 ADC Clock Cycles)의 의미는 ADC 클럭이 15개가 필요하단 의미이다.
+>
+> 3. Data Alignment: ADC 변환 결과가 12비트일텐데, 이 값을 16비트 데이터에 우측정렬로 저장할지 좌측 정렬로 저장할지 
+>
+> 4. Scan Conversion Mode: ADC1에서 채널이 16개있다 했는데, 한번 ADC하면 자동으로 설정한 ADC가 scan되도록 하는 원리.
+>
+> 5. Continuous Conversion Mode: ADC scan이 한번 끝난 후에도 다시 scan을 할건지. 즉, 계속 연속적으로 ADC를 실행할 건지
+>
+> 6. DMA Continuous Requests: DMA 사용하려면 Enable해야함.
+>
+> 7. ADC_Regular_ConversionMode의 Number Of Conversion: 변환하고 싶은 채널의 갯수로 만약 가변저항 4개를 ADC1에 사용하고 싶으면 4로 하면 된다.
+>
+> 8. ADC_Regular_ConversionMode의 Rank :  위에서 설명한 Scan Conversion Mode는 ADC를 scan하는 순서가 있는데 이 값을 Rank 순서대로 scan함.
+>
+> 9. ADC_Regular_ConversionMode의 Rank - Channel : ADC1의 몇번 채널을 사용할건지 결정.
+>
+> 10. ADC_Regular_ConversionMode의 Rank - Sampling Time: cpu의 클락을 얼마나 사용할건지( 보통 Resolution의 ADC Clock Cycles 값보다 크게 설정하는걸 권장하기에 15보다 넉넉하게 큰 84정도를 사진에서 사용했지만 만약 480으로 설정해서 클럭을 너무 크게 사용한다면 cpu의 부담이 커지겠지요?)
+>
+>     
 
 #### 41. CLCD의 대부분 인터페이스 방식이 동일하다.
 
@@ -875,4 +911,30 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
   ```
 
   
+
+#### 46. DMA
+
+- AD 변환이 완료되면 ADC 결과를 DMA 컨트롤러가 자동으로 원하는 변수에 저장 (Peripheral to Memory)
+- 우리가 선언한 변수에 ADC 변환이 완료되면 DMA 컨트롤러가 차곡차곡 변수에 저장해주는 원리
+
+![image](https://user-images.githubusercontent.com/18729679/107920374-35a70e80-6fb0-11eb-81a6-64ac333806d0.png)
+
+- Peripheral to memory의 경우 ADC 등 칩의 내부(Peripheral)에서 우리가 선언한 변수(Memory)로 옮긴다는 의미이다. 따라서 Memory to Peripheral도 있고, Memory to Memory도 있다.
+
+> ==DMA의 중요성은 CPU의 클럭소모 없이 데이터를 전송할 수 있다는 점이다.==
+>
+> 예를 들어 1KB의 변수 값을 우리가 직접 코드로 옮긴다면, for문을 통해서 값을 옮길텐데 그 과정이 CPU 클럭 값을 소모하기에 해당 시간동안은 CPU가 작업을 할 수 없다.
+>
+> 하지만 DMA가 해당 작업을 맡는 동안 CPU는 또 다른 동작을 실행할 수 있기 떄문에 유용하다.
+
+- DMA 세팅은 다음과 같이 설정하면 된다.(이전에 Parameter Settings에서 DMA Continuous Requests는 Enable해야하는 점을 잊지 말아야 한다.)
+
+![image](https://user-images.githubusercontent.com/18729679/107931930-4c556180-6fc0-11eb-9607-a214dcad8320.png)
+
+>1.  Add를 눌러서 ADC1을 고른뒤 Direction을 지정해줘야한다.
+>2. Mode에 Normal과 Circular 모드가 있는데, `uint8_t ADC_value[4]`를 선언했다면, Circular를 해야 0~3번 인덱스 방문 후 다시 0번부터 반복해서 방문한다.
+>3. Increment Address가 있는데, 체크하면 DMA가 끝나면 Memory의 주소가 증가되는 원리이다. DMA의 첫번째 사진처럼 peripheral 과 ADCval[4] 중 peripheral의 주소 값은 증가해서는 안되며, ADC_value는 DMA 전송한 후 ADCVal의 값은 ADCVal[0] -> ADCVal[1]이 되듯이 1씩 증가해야하므로 체크를 해준다.
+>4. Data Width는 Byte, Half Word, Word가 있는데 각각 값이 8비트, 16비트, 32비트이다. ADC 결과는 12비트이기 때문에 Half Word로 골랐다.
+
+- ==나는 가변저항과 CDS 빛 저항센서 두개 뿐이라서 ADCVal의 배열크기를 2로했는데 이상하게 printf가 실행이 안됐다. 그 후 3으로 그냥 수정하고 했는데 작동해서 이유를 모르겠다. 그냥 3이상만 되는걸로 추측==
 

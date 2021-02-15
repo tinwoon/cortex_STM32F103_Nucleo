@@ -5095,3 +5095,479 @@ Reason: (2) ST-Link DLL error.
 
 !ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-14 21:36:09.656
 !MESSAGE Unloading product manager
+!SESSION 2021-02-15 19:52:01.918 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 19:52:04.107
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 19:52:04.114
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY TrueSTUDIO 1 0 2021-02-15 19:52:06.789
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-02-15 19:52:06.790
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-02-15 19:52:14.624
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-15 19:52:14.624
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1777da7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@195c2a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-02-15 19:52:36.944
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-15 19:52:37.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-02-15 19:52:38.317
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 19:52:47.815
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1214931915' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 19:52:47.815
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.96635233' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 19:52:47.815
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1383313089' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 19:52:47.862
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.394881685' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 19:52:47.862
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.231087710' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 19:52:47.862
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1932322462' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-02-15 19:53:05.333
+!MESSAGE Indexed 'ADC_DMA' (21 sources, 46 headers) in 17.4 sec: 5,449 declarations; 20,592 references; 26 unresolved inclusions; 284 syntax errors; 4,814 unresolved names (16%)
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 20:05:29.771
+!MESSAGE ST-LINK GDB server failed to start (exit code = 4)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 20:05:29.987
+!MESSAGE Error in initializing ST-Link device.
+Reason: (4) No device found on target.
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 20:07:41.172
+!MESSAGE ST-LINK GDB server failed to start (exit code = 4)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 20:07:41.250
+!MESSAGE Error in initializing ST-Link device.
+Reason: (4) No device found on target.
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 22:11:10.403
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 22:11:10.486
+!MESSAGE Error in initializing ST-Link device.
+Reason: (2) ST-Link DLL error.
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 22:12:55.096
+!MESSAGE ST-LINK GDB server failed to start (exit code = 4)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 22:12:55.158
+!MESSAGE Error in initializing ST-Link device.
+Reason: (4) No device found on target.
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 22:13:10.219
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 22:13:10.294
+!MESSAGE Error in initializing ST-Link device.
+Reason: (2) ST-Link DLL error.
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 22:13:28.092
+!MESSAGE ST-LINK GDB server failed to start (exit code = 255)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 22:13:28.156
+!MESSAGE Error in initializing ST-Link device.
+Reason: (255) Unknown. Please check power and cabling to target.
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 22:13:54.704
+!MESSAGE ST-LINK GDB server failed to start (exit code = 4)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 22:13:54.746
+!MESSAGE Error in initializing ST-Link device.
+Reason: (4) No device found on target.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 22:16:05.383
+!MESSAGE Unloading product manager
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2021-02-15 22:16:05.452
+!MESSAGE Invocation exception when calling a service event handler method
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.gdb.service.GDBBackend.getUpdateThreadListOnSuspend(GDBBackend.java:265)
+	at org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_0.eventDispatched(GDBProcesses_7_0.java:1827)
+	... 13 more
+Root exception:
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.gdb.service.GDBBackend.getUpdateThreadListOnSuspend(GDBBackend.java:265)
+	at org.eclipse.cdt.dsf.gdb.service.GDBProcesses_7_0.eventDispatched(GDBProcesses_7_0.java:1827)
+	at sun.reflect.GeneratedMethodAccessor130.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:531)
+	at org.eclipse.cdt.dsf.service.DsfSession.access$2(DsfSession.java:475)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:398)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-02-15 22:16:06.462
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-02-15 22:21:33.129 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 22:21:34.580
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 22:21:34.586
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-02-15 22:21:34.803
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 4 2021-02-15 22:21:35.391
+!MESSAGE /ADC_DMA/.settings/org.eclipse.cdt.managedbuilder.core.prefs에서 환경 설정을 로드하는 중에 예외가 발생했습니다.
+!STACK 1
+org.eclipse.core.runtime.CoreException: C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.settings\org.eclipse.cdt.managedbuilder.core.prefs 파일을 찾을 수 없습니다.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:375)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:853)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:507)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:492)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:370)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:491)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:621)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.resources.ProjectPreferences.deleted(ProjectPreferences.java:83)
+	at org.eclipse.core.internal.resources.ProjectPreferences.deleted(ProjectPreferences.java:134)
+	at org.eclipse.core.internal.resources.Resource.deleteResource(Resource.java:849)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.deleteResource(RefreshLocalVisitor.java:89)
+	at org.eclipse.core.internal.localstore.RefreshLocalAliasVisitor.deleteResource(RefreshLocalAliasVisitor.java:45)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.synchronizeExistence(RefreshLocalVisitor.java:177)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.visit(RefreshLocalVisitor.java:284)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:111)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:974)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:960)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshRoot(FileSystemResourceManager.java:999)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:953)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1594)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.settings\org.eclipse.cdt.managedbuilder.core.prefs (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:370)
+	... 24 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 269 2021-02-15 22:21:35.402
+!MESSAGE C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.settings\org.eclipse.cdt.managedbuilder.core.prefs 파일을 찾을 수 없습니다.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.settings\org.eclipse.cdt.managedbuilder.core.prefs (지정된 파일을 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:370)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:853)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:507)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:492)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:370)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:491)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:621)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.resources.ProjectPreferences.deleted(ProjectPreferences.java:83)
+	at org.eclipse.core.internal.resources.ProjectPreferences.deleted(ProjectPreferences.java:134)
+	at org.eclipse.core.internal.resources.Resource.deleteResource(Resource.java:849)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.deleteResource(RefreshLocalVisitor.java:89)
+	at org.eclipse.core.internal.localstore.RefreshLocalAliasVisitor.deleteResource(RefreshLocalAliasVisitor.java:45)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.synchronizeExistence(RefreshLocalVisitor.java:177)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.visit(RefreshLocalVisitor.java:284)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:111)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:974)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:960)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshRoot(FileSystemResourceManager.java:999)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:953)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1594)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2021-02-15 22:21:35.403
+!MESSAGE Exception loading preferences from: C:/Users/pc1/Desktop/cortex_workplace/ADC_DMA/.settings/org.eclipse.cdt.managedbuilder.core.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: /ADC_DMA/.settings/org.eclipse.cdt.managedbuilder.core.prefs에서 환경 설정을 로드하는 중에 예외가 발생했습니다.
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:515)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:492)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:370)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:491)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:621)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.internal.resources.ProjectPreferences.deleted(ProjectPreferences.java:83)
+	at org.eclipse.core.internal.resources.ProjectPreferences.deleted(ProjectPreferences.java:134)
+	at org.eclipse.core.internal.resources.Resource.deleteResource(Resource.java:849)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.deleteResource(RefreshLocalVisitor.java:89)
+	at org.eclipse.core.internal.localstore.RefreshLocalAliasVisitor.deleteResource(RefreshLocalAliasVisitor.java:45)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.synchronizeExistence(RefreshLocalVisitor.java:177)
+	at org.eclipse.core.internal.localstore.RefreshLocalVisitor.visit(RefreshLocalVisitor.java:284)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:111)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshResource(FileSystemResourceManager.java:974)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:960)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refreshRoot(FileSystemResourceManager.java:999)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.refresh(FileSystemResourceManager.java:953)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1594)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY TrueSTUDIO 1 0 2021-02-15 22:21:35.813
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-02-15 22:21:35.813
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-02-15 22:21:37.376
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-15 22:21:37.376
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13fab1e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d87b2d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:21:42.300
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1578447674' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:21:42.308
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.540490674' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:21:42.308
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1410070116' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:21:42.687
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1015030856' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:21:42.688
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.26287425' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:21:42.689
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1773915627' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-02-15 22:21:48.487
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-15 22:21:48.881
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-02-15 22:21:49.057
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 22:22:34.143
+!MESSAGE Unloading product manager
+!SESSION 2021-02-15 22:22:56.698 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\pc1\Desktop\cortex_workplace\ADC_DMA\.cproject
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 22:22:58.186
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 22:22:58.186
+!MESSAGE OS info: Windows 8.1, 6.3, x86
+
+!ENTRY TrueSTUDIO 1 0 2021-02-15 22:22:59.430
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2021-02-15 22:22:59.430
+!MESSAGE Workspace: C:\Users\pc1\Desktop\cortex_workplace
+
+!ENTRY org.eclipse.jface 2 0 2021-02-15 22:23:00.830
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-15 22:23:00.830
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a2d66e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@dffff9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2021-02-15 22:23:05.046
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-02-15 22:23:05.077
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:05.484
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.2011819087' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:05.484
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.1610147109' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:05.484
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.469477847' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:05.624
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1372025345' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:05.624
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.2036260712' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:05.624
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1827198471' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-15 22:23:05.962
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pc1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:17.162
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1453973275' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:17.162
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.2078104460' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:17.162
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.701244821' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:17.208
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1920236302' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:17.208
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.1772425794' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:23:17.208
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.802030341' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY TrueSTUDIO 4 0 2021-02-15 22:23:46.167
+!MESSAGE ST-LINK GDB server failed to start (exit code = 2)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2021-02-15 22:23:46.278
+!MESSAGE Error in initializing ST-Link device.
+Reason: (2) ST-Link DLL error.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:45:40.729
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1737908818' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:45:40.734
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.1046034009' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:45:40.734
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1194236241' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:45:40.786
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.382492943' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:45:40.786
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.99796914' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:45:40.787
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1642697288' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:50:55.613
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.1826129426' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:50:55.613
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.1544655343' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:50:55.613
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1079971203' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:50:55.628
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.general.runtimelib.978874995' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:50:55.628
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.mcu.1655694589' fixed. Fixing to 'STM32F103RB'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2021-02-15 22:50:55.628
+!MESSAGE ADC_DMA needs property 'com.atollic.truestudio.toolchain_options.vendor.1351169290' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-15 22:54:29.425
+!MESSAGE Unloading product manager
