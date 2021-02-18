@@ -98,6 +98,16 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  uint8_t eeprom[10] = {0x00,0x11,0x22,0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99};
+
+  HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x00, I2C_MEMADD_SIZE_8BIT, &eeprom[0], 10, 10);
+
+  for(int i=0; i<10; i++){
+	  eeprom[i] = 0x00;
+  }
+  HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0x00, I2C_MEMADD_SIZE_8BIT, &eeprom[0], 10, 10);
+
+
   while (1)
   {
     /* USER CODE END WHILE */

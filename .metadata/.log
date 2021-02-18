@@ -5737,3 +5737,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2021-02-18 16:52:10.481
 !MESSAGE Code Review is up.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2021-02-19 00:27:18.144
+!MESSAGE Unloading product manager
