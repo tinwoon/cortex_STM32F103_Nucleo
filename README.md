@@ -998,7 +998,16 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 >
 >- Primary Address Length Selection:  Slave 주소의 비트 
 
+- EEPROM
 
+  ![image](https://user-images.githubusercontent.com/18729679/108322044-510c5680-7208-11eb-9f70-ed4a0d0f0c59.png)
 
-- 
+  ![image](https://user-images.githubusercontent.com/18729679/108322135-726d4280-7208-11eb-97b0-9152d3538b45.png)
+
+  
+
+  > 대부분의 슬레이브는 장치의 주소를 변경할 수 있는 방법을 제공한다.(해당 같은 슬레이브 장치를 여러 개 추가해야할 경우가 있기 때문)
+  >
+  > 1. 위의 EEPROM을 여러개 사용한다 가정하면, 10100000(0xA0)의 장치 주소를 가진다하면 A2 A1 A0는 0이란 장치 주소값을 갖는다.
+  > 2. 따라서, 10100010을 만들고 싶다면, 점퍼선의 WP,A2,A1,A0 중 A0에 High신호를 주면 된다.
 

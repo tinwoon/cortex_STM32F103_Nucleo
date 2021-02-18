@@ -42,11 +42,11 @@
 
     
     
-<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.c10e795ba18a81427aad8ff618f854d6.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.6b75252bced43028851ab39658e6e619.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/granite/utils.min.ff9a9bab4c0b4a937644bef945322537.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.min.67087856594f309152bcc6962cb47972.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/foundation/jquery.min.d7c42e4a257b8b9fe38d1c53dd20d01a.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site/libs/dataTables.min.db48e62c2330ed94cad9f420205b15f1.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/libs/dataTables.min.5a532668d3ea3d1252bb88da7171bbba.js"></script>
 
 
 
@@ -147,7 +147,7 @@
             referrer = localStorage.getItem('st-referrer') || referrer;
             localStorage.removeItem('st-referrer');
         }
-        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.16.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:01:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
+        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.17.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:03:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
 		window.digitalData.page.pageInfo.referringURL = referrer;
 		window.digitalData.page.pageInfo.originalURL  = document.location.href;
 
@@ -177,7 +177,7 @@
 
     
     
-<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.00ce256b76d3cfb01e27cef257363376.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.d763ff1872a469e1f8d115eb7008b931.js"></script>
 
 
 
@@ -185,20 +185,20 @@
 
 
     
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx.min.2dc5831c412d946e2d03a38ccbd245e2.css" type="text/css">
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/info-modal.min.441b452ecb59bd2632a52fbbe419432f.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx.min.5ffc875a64ec8a9854258948928c0341.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/info-modal.min.6b9fe77f67b71b93895e6019115682ea.css" type="text/css">
 
 
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/modernizr.min.a7e9283f7e63352491a42689da56197a.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/modernizr.min.af71e73c084534b45bdd06224977b260.js"></script>
 
 
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/st-app-head.min.9deb4b6c9627761a272dc098288c36a1.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/st-app-head.min.8690b7018aa35ffeb0c47c63b7e48b56.js"></script>
 
 
 
@@ -643,7 +643,7 @@
     <div class="inner-wrap">
         <main class="st-main js-st-main">
     
-    <div class="js-st-micro stmicro cxv1">
+    <div class="js-st-micro stmicro cxv1 productFolder-page-marker">
         
     
     
@@ -651,7 +651,7 @@
 <script type="text/javascript" src="/etc/clientlibs/st-search-cx/stangularjs.min.1c760d00aa31c61df578d75ece76936c.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-search-cx/bookmarks.min.61c653fb2ca65a06da72af8dbc6a06cd.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-search-cx/searchHistory.min.e7dcee4e55fe983a81e52aea13c9f44f.js"></script>
-<script type="text/javascript" src="/etc/designs/st-search-cx/search.min.9dad3b93354fd3b94cb0c219fe5f6446.js"></script>
+<script type="text/javascript" src="/etc/designs/st-search-cx/search.min.70f387e516518d1c31f07cfdbc5fe610.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-search-cx/stcrossreference.min.dc182f2255b58f1595567a2c581da3f9.js"></script>
 
 
@@ -989,9 +989,9 @@
                     <span class="st-font-size--xs st-font--bold">Quick links</span>
                     <div class="links"></div>
                 </div>
-                <div class="st-nav-search-bar" data-custom-search="true">
+                <div class="st-nav-search-bar render-in-level" data-level0 data-custom-search="true">
                     <div class="st-nav-search-bar-item">
-                        <input class="st-search__input st-nav-search-bar-input js-nav-search-bar-input" type="text" data-type-search="resources" placeholder="Search documentation..." data-default-placeholder="Search documentation...">
+                        <input class="st-search__input st-nav-search-bar-input js-nav-search-bar-input" type="text" data-type-search="resources" placeholder="Search documents by title" data-default-placeholder="Search documents by title">
                         <div class="st-nav-search-bar-icon-search"></div>
                     </div>
                     <div class="st-nav-search-bar-item st-nav-search-bar-item--filter">
@@ -1010,11 +1010,52 @@
                             </select>
                         </div>
                     </div>
-                    <button class="st-nav-search-bar-reset-button st-button st-button__icon--reset st-button--transparent">
-                        <svg class="st-svg st-svg--reset" viewBox="0 0 20 20">
-                            <use xlink:href="#icon-rotating-arrow"></use>
-                        </svg>
-                    </button>
+                    <button class="st-nav-search-bar-reset-button st-button st-button--outline render-in-level" data-level0 data-level1="true" data-level2="true" data-level3="true">Reset</button>
+                    <div class="st-nav-search-bar-item full-width buttons show-for-small-only">
+                        <button class="st-nav-search-bar-filters-button st-button st-button--outline st-button--clear">
+                            <svg class="st-button__icon st-button__icon--burger" viewBox="0 0 22 17">
+                                <use xlink:href="#icon-burger"></use>
+                            </svg>
+                            Browse all
+                        </button>
+                    </div>
+                    <div class="st-nav-search-bar-mobile hidden render-in-level-container">
+                        <div class="wrapper">
+                            <div class="header">
+                                <span>Filters</span>
+                                <svg class="st-svg--block st-svg--close js-close">
+                                    <use xlink:href="#icon-close"></use>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <div class="item">
+                                    <div class="filter-title">Quick filters</div>
+                                </div>
+                                <div class="item">
+                                    <div class="field-title">File type</div>
+                                    <div class="field">
+                                        <div class="st-select js-nav-search-bar-select-file-type">
+                                            <select name="select">
+                                                <option selected>All file types</option>
+                                                <option value="pdf">PDF</option>
+                                                <option value="zip">ZIP</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="field-title">Latest update</div>
+                                    <div class="field">
+                                        <div class="st-select js-nav-search-bar-select-latest-update">
+                                            <select name="select">
+                                                <option selected>All dates</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1029,9 +1070,9 @@
                     <span class="st-font-size--xs st-font--bold">Quick links</span>
                     <div class="links"></div>
                 </div>
-                <div class="st-nav-search-bar" data-custom-search="true">
+                <div class="st-nav-search-bar render-in-level" data-level0 data-custom-search="true">
                     <div class="st-nav-search-bar-item">
-                        <input class="st-search__input st-nav-search-bar-input js-nav-search-bar-input" type="text" placeholder="Search tools &amp; software...">
+                        <input class="st-search__input st-nav-search-bar-input js-nav-search-bar-input" type="text" placeholder="Search Tools &amp; Software by name or description">
                         <div class="st-nav-search-bar-icon-search"></div>
                     </div>
                     <div class="st-nav-search-bar-item st-nav-search-bar-item--toggler render-in-level hide-for-small" data-level0="true">
@@ -1039,13 +1080,74 @@
                             <span class="true-label">on</span>
                             <span class="false-label">off</span>
                         </button>
-                        <span class="filter-label">Supplied by ST</span>
+                        <span class="filter-label">Only from ST</span>
                     </div>
-                    <button class="st-nav-search-bar-reset-button st-button st-button__icon--reset st-button--transparent">
-                        <svg class="st-svg st-svg--reset" viewBox="0 0 20 20">
-                            <use xlink:href="#icon-rotating-arrow"></use>
-                        </svg>
-                    </button>
+                    <button class="st-nav-search-bar-reset-button st-button st-button--outline render-in-level" data-level0 data-level1="true" data-level2="true" data-level3="true">Reset</button>
+                    <div class="st-nav-search-bar-item full-width buttons show-for-small-only">
+                        <button class="st-nav-search-bar-filters-button st-button st-button--outline st-button--clear">
+                            <svg class="st-button__icon st-button__icon--filter" viewBox="0 0 22 17">
+                                <use xlink:href="#icon-filter"></use>
+                            </svg>
+                            Show filters
+                        </button>
+                    </div>
+                    <div class="st-nav-search-bar-mobile hidden render-in-level-container">
+                        <div class="wrapper">
+                            <div class="header">
+                                <span>Filters</span>
+                                <svg class="st-svg--block st-svg--close js-close">
+                                    <use xlink:href="#icon-close"></use>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <div class="item">
+                            <div class="filter-title">Quick filters</div>
+                                </div>
+                                <div class="item">
+                            <div class="field-title">Only from ST</div>
+                                    <div class="field">
+                                        <button class="st-button-toggler" data-custom-search="true" data-variable="showSuppliedByST" data-state="false" data-is-mobile="true">
+                                    <span class="true-label">on</span>
+                                    <span class="false-label">off</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item render-in-level" data-level0="true">
+                            <div class="field-title">Free license</div>
+                            <div class="field">
+                                <button class="st-button-toggler" data-variable="showFreeLicense" data-state="false" data-is-mobile="true">
+                                    <span class="true-label">on</span>
+                                    <span class="false-label">off</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="st-nav-search-bar-mobile hidden">
+                        <div class="wrapper">
+                            <div class="header">
+                                <span>Filters</span>
+                                <svg class="st-svg--block st-svg--close js-close">
+                                    <use xlink:href="#icon-close"></use>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <div class="item">
+                                    <div class="filter-title">Quick filters</div>
+                                </div>
+                                <div class="item">
+                                    <div class="field-title">Supplied by ST</div>
+                                    <div class="field">
+                                        <button class="st-button-toggler" data-custom-search="true" data-variable="showSuppliedByST" data-state="false" data-is-mobile="true">
+                                            <span class="true-label">on</span>
+                                            <span class="false-label">off</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1060,9 +1162,9 @@
                     <span class="st-font-size--xs st-font--bold">Quick links</span>
                     <div class="links"></div>
                 </div>
-                <div class="st-nav-search-bar" data-custom-search="true">
+                <div class="st-nav-search-bar render-in-level" data-level0 data-custom-search="true">
                     <div class="st-nav-search-bar-item">
-                        <input class="st-search__input st-nav-search-bar-input js-nav-search-bar-input" type="text" data-type-search="resources" placeholder="Search documentation..." data-default-placeholder="Search documentation...">
+                        <input class="st-search__input st-nav-search-bar-input js-nav-search-bar-input" type="text" data-type-search="resources" placeholder="Search documents by title" data-default-placeholder="Search documents by title">
                         <div class="st-nav-search-bar-icon-search"></div>
                     </div>
                     <div class="st-nav-search-bar-item st-nav-search-bar-item--filter">
@@ -1081,11 +1183,52 @@
                             </select>
                         </div>
                     </div>
-                    <button class="st-nav-search-bar-reset-button st-button st-button__icon--reset st-button--transparent">
-                        <svg class="st-svg st-svg--reset" viewBox="0 0 20 20">
-                            <use xlink:href="#icon-rotating-arrow"></use>
-                        </svg>
-                    </button>
+                    <button class="st-nav-search-bar-reset-button st-button st-button--outline render-in-level" data-level0 data-level1="true" data-level2="true" data-level3="true">Reset</button>
+                    <div class="st-nav-search-bar-item full-width buttons show-for-small-only">
+                        <button class="st-nav-search-bar-filters-button st-button st-button--outline st-button--clear">
+                            <svg class="st-button__icon st-button__icon--burger" viewBox="0 0 22 17">
+                                <use xlink:href="#icon-burger"></use>
+                            </svg>
+                            Browse all
+                        </button>
+                    </div>
+                    <div class="st-nav-search-bar-mobile hidden render-in-level-container">
+                        <div class="wrapper">
+                            <div class="header">
+                                <span>Filters</span>
+                                <svg class="st-svg--block st-svg--close js-close">
+                                    <use xlink:href="#icon-close"></use>
+                                </svg>
+                            </div>
+                            <div class="content">
+                                <div class="item">
+                                    <div class="filter-title">Quick filters</div>
+                                </div>
+                                <div class="item">
+                                    <div class="field-title">File type</div>
+                                    <div class="field">
+                                        <div class="st-select js-nav-search-bar-select-file-type">
+                                            <select name="select">
+                                                <option selected>All file types</option>
+                                                <option value="pdf">PDF</option>
+                                                <option value="zip">ZIP</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="field-title">Latest update</div>
+                                    <div class="field">
+                                        <div class="st-select js-nav-search-bar-select-latest-update">
+                                            <select name="select">
+                                                <option selected>All dates</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1093,37 +1236,25 @@
 
 
         <div class="st-page-content js-st-page-content">
-            <div data-page-content="overview" data-nav-tab-content-id="#overview" data-page-first="true" data-print-headline="Overview">
-                <div class="st-container-wrapper">
-    <div class="st-container st-padding--all-b st-no-margin">
-        <div class="row st-row">
-            <div class="small-12 columns">
-                <div class="st-secondary-nav-tabs"></div>
-            </div>
-        </div>
-    </div>
-</div>
-                
-    <div class="st-container-wrapper">
-        <div class="st-container--no-padding">
-            <div class="row st-row st-row--small">
-                <div class="small-12 columns">
-                    <div class="st-container">
-                        <div class="row st-row">
-                            <div class="small-12 columns">
-                                <div class="st-accordion st-accordion--read-more">
-                                    
-                                    <ul class="st-accordion__list">
-                                        <li class="st-accordion__item js-st-accordion-item">
-                                            <div class="st-accordion__content js-st-accordion-content st-first-p-bold">
-                                                
+            <div data-page-content="overview" data-nav-tab-content-id="#1" data-page-first="true" data-print-headline="Overview">
+                <div class="st-container st-container--no-padding-bottom">
+                    <div class="row st-row">
+                        <div class="small-12 columns">
+                            <h2 class="st-h2 st-font--highlight">Product overview</h2>
+                            <div class="st-secondary-nav-tabs margin-bottom-25"></div>
+                            
+
+                            
     
-        <p class="st-copy">
-            Atollic TrueSTUDIO is a commercially enhanced C/C++ IDE built on Eclipse<sup>®</sup>, CDT<sup>™</sup>, GCC and GDB. The tool provides developers with powerful professional extensions, features and utilities for an easy and efficient development process. Updates to Atollic TrueSTUDIO are discontinued since 2017, but all its main features are included for free in the all-in-one multi-OS development tool STM32CubeIDE, which includes FreeRTOS debug. Atollic TrueSTUDIO is still offered as-is, for maintenance of Atollic-based projects. Adding to the extensive selection of features and supported products, STM32CubeIDE includes the most advanced TrueSTUDIO features and bug fixes that contribute to a simplified process with project features and import guide documentation. By integrating the TrueSTUDIO features into STM32CubeIDE, users get a more complete and effective solution that eases development and speeds up time-to-market. With STM32CubeIDE users get an innovative, free-of-charge tool, support for the whole STM32 MCU and MPU portfolio, advanced TrueSTUDIO features, device and project configuration features from STM32CubeMX and support for advanced structure projects, such as multi-core and security.
-        </p>
-        
-            <div class="st-container st-container--no-padding-top st-container--no-margin st-image-container-wrapper">
+    
+        <div class="st-container">
+            <div class="st-text-and-title">
+                <h3 id="st_description_sec-nav-tab" class="st-h3 st-text--left">Description</h3>
                 
+                    Atollic TrueSTUDIO is a commercially enhanced C/C++ IDE built on Eclipse<sup>®</sup>, CDT<sup>™</sup>, GCC and GDB. The tool provides developers with powerful professional extensions, features and utilities for an easy and efficient development process. Updates to Atollic TrueSTUDIO are discontinued since 2017, but all its main features are included for free in the all-in-one multi-OS development tool STM32CubeIDE, which includes FreeRTOS debug. Atollic TrueSTUDIO is still offered as-is, for maintenance of Atollic-based projects. Adding to the extensive selection of features and supported products, STM32CubeIDE includes the most advanced TrueSTUDIO features and bug fixes that contribute to a simplified process with project features and import guide documentation. By integrating the TrueSTUDIO features into STM32CubeIDE, users get a more complete and effective solution that eases development and speeds up time-to-market. With STM32CubeIDE users get an innovative, free-of-charge tool, support for the whole STM32 MCU and MPU portfolio, advanced TrueSTUDIO features, device and project configuration features from STM32CubeMX and support for advanced structure projects, such as multi-core and security.
+                
+                
+                    
     <div class="st-image-container">
         <a href="#" title="Title" data-reveal-id="img-folder">
             <svg class="st-svg st-svg--zoom">
@@ -1141,71 +1272,82 @@
         </div>
     </div>
 
-                <p class="st-copy">
                     
-                </p>
+                        
+                    
+                
             </div>
-        
-    
-    
-        <p class="st-h5 st-text--center">Key Features</p>
-        <div class="row st-row st-features-description">
-            <div class="small-12  columns" data-automation-col="left-features">
-				<ul class="st-list" data-automation-description="features-description">
-					<li data-automation-text="feature-text">CPU fault analyzer
-						
-					</li>
-				
-					<li data-automation-text="feature-text">Live watch of global expressions
-						
-					</li>
-				
-					<li data-automation-text="feature-text">Advanced real-time tracing capabilities
-						
-					</li>
-				
-					<li data-automation-text="feature-text">RTOS kernel-aware debugging
-						
-					</li>
-				
-					<li data-automation-text="feature-text">Multi-core and multi-board debugging
-						
-					</li>
-				</ul>
-            </div>
-            
         </div>
     
-
-                                                <div class="st-accordion__overlay"></div>
+    
+        <div id="section-1" class="st-container">
+            <div class="st-container st-container--default st-container--no-padding">
+                <div class="row st-row">
+                    <div class="small-12 columns">
+                        <div class="st-accordion st-accordion--read-more">
+                            <ul class="st-accordion__list">
+                                <li class="st-accordion__item js-st-accordion-item">
+                                    <div class="st-accordion__content js-st-accordion-content st-first-p-bold">
+                                        <div>
+                                            <h3 id="st_all-features_sec-nav-tab" class="st-h3 st-text--left">All features</h3>
+                                            <div class="row st-row st-features-description">
+                                                <div class="small-12  columns" data-automation-col="left-features">
+                                                    <ul class="st-list" data-automation-description="features-description">
+                                                        <li data-automation-text="feature-text">CPU fault analyzer
+                                                            
+                                                        </li>
+                                                    
+                                                        <li data-automation-text="feature-text">Live watch of global expressions
+                                                            
+                                                        </li>
+                                                    
+                                                        <li data-automation-text="feature-text">Advanced real-time tracing capabilities
+                                                            
+                                                        </li>
+                                                    
+                                                        <li data-automation-text="feature-text">RTOS kernel-aware debugging
+                                                            
+                                                        </li>
+                                                    
+                                                        <li data-automation-text="feature-text">Multi-core and multi-board debugging
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                
                                             </div>
-                                            <div class="st-accordion__toggle">
-                                                <a href="#" title="" class="st-accordion__link js-st-accordion-link">
-                                                    <span>
-                                                        Read more
-                                                        <svg class="st-svg st-svg--arrow-right">
-                                                            <use xlink:href="#icon-arrow-right"></use>
-                                                        </svg>
-                                                    </span>
-                                                    <span>
-                                                        Read less
-                                                        <svg class="st-svg st-svg--arrow-right">
-                                                            <use xlink:href="#icon-arrow-right"></use>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                        </div>
+                                        <div class="st-accordion__overlay"></div>
+                                    </div>
+                                    <div class="st-accordion__toggle">
+                                        <a href="#" title="Read more" class="st-accordion__link js-st-accordion-link st-accordion__item--active" data-max-lines="6">
+                                            <span>
+                                                Read more
+                                                <svg class="st-svg st-svg--arrow-right">
+                                                    <use xlink:href="#icon-arrow-right"></use>
+                                                </svg>
+                                            </span>
+                                            <span>
+                                                Read less
+                                                <svg class="st-svg st-svg--arrow-right">
+                                                    <use xlink:href="#icon-arrow-right"></use>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    
 
+
+                        </div>
+                    </div>
+                </div>
                 
                 
     
@@ -1218,13 +1360,13 @@
                         
                             
     
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/get-software.min.64d30ba5433d47c8b5799d3c286c06c2.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/get-software.min.b0a7ae62690c6aeca8405c0835513918.css" type="text/css">
 
 
 
                             
     
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/get-software.min.9b19ad58ab4e413e432a7355317179ed.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/get-software.min.8e2a5f2dcea8600b5e9e527965b719d2.js"></script>
 
 
 
@@ -1242,6 +1384,8 @@
                 <h5 class="error">Something went wrong with the server request. Please try again in a few moments.</h5>
             </div>
             <form data-abide="ajax" class="light-registration-form">
+                <input class="invisibleField" id="stFirstName" name="stFirstName" size="30" type="text" value="">
+                <input class="invisibleField" id="stLastName" name="stLastName" size="50" type="text" value="">
                 <div class="row">
                     <div class="small-12 columns end">
                         <div class="row">
@@ -2040,7 +2184,7 @@ If you still can't download the software, please reach out to us on the <a href=
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613432831983.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107482.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
         
         <script id="PF257464_CP535563_9_3_0">
             var gsContent = $("#PF257464_CP535563_9_3_0").parent();
@@ -2088,7 +2232,7 @@ If you still can't download the software, please reach out to us on the <a href=
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613432831983.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="vgUBGtT1OIZB7rD+IBNasg==,LU0WfT6OIVyHlqPRnZR8qt9c6jWRmvbYx79ug5SSwhsr+/CVHFx6wZNdIVNz7+JH5Bx1meaQ06ULNu9IL4fQpzX+YjT2pvlxHmU+kcWUK4OObC2MMULdxHcEBooro4apbMouQ0nj6MhPNiCyz4vkO/csTAAoXUf1Tz3UqPrKuRqhdgW0GTS1hPn8d5+/GmpnPImczhirk8uf31GThFcv8O+ueGFyNQX6oblpU9qyCsY7NjY73JR40T87CFBwsf2fir5gKYy3xZ8o9SYEeh2/XF2vAuldRGkwoDtOcXU+RMY=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107482.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="H5UAeCQMZgaAChm9gCv6+A==,OygSEF150J2gxBjvsefYXaPIeZE881NSZGkyXtB6nC1ogDHuMfvL4S9iuFtx8W7x9Hz90wP8+FTEkZ7kXMYaqVQXAkkaTP78k0ZkWVKJNa/g3b6hHOP1RWSq7R8yb4oGxCb4ZRq2d04fUqyQ8FTvge1MgeyXewNxPBjA6ts/MsN54+hLXx1MRzNzGWexFtAnFK/gv7cqd/4HFUw9QRDjJXK8pny2Gz/P8p7sr5J2MQkxh9LhaaHjnE/N3/lrsCqUn0kZMXWtyrC5wxLvABJqzoe2I/Arm3+2bwY2aHYt6Vg=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2166,6 +2310,8 @@ If you still can't download the software, please reach out to us on the <a href=
                     </br>
                 </div>
                 <form data-abide class="light-registration-form">
+                    <input class="invisibleField" id="stFirstName" name="stFirstName" size="30" type="text" value="">
+                    <input class="invisibleField" id="stLastName" name="stLastName" size="50" type="text" value="">
                     <div class="row">
                         <div class="small-12 columns">
                             <div class="row">
@@ -2372,12 +2518,13 @@ ST uses the personal data that you provide directly to it and through your activ
                             <div class="related-assets">
                                 <div class="file-icon-parent-container">
                                     <div class="file-icon-container">
-                                        <a href="/resource/en/license/SLA0047_TrueSTUDIO.pdf" x-cq-linkchecker="skip" target="_blank" class="file-icon">
+                                        <a href="/resource/en/license/SLA0047_TrueSTUDIO.pdf" x-cq-linkchecker="skip" target="_blank" class="file-icon" download>
                                             <img src="/etc/clientlibs/st-site/media/app/images/viper17/icon_pdf.png" title="Save as PDF" alt="pdf" height="22" width="19">&nbsp;Save as PDF
                                         </a>
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="clearfix">
                                 <a href="#" class="generic-button orangev2 left decline-license">DECLINE</a>
                                 
@@ -2495,7 +2642,7 @@ ST uses the personal data that you provide directly to it and through your activ
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613432831987.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107486.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
         
         <script id="PF257464_CP535564_9_3_0">
             var gsContent = $("#PF257464_CP535564_9_3_0").parent();
@@ -2543,7 +2690,7 @@ ST uses the personal data that you provide directly to it and through your activ
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613432831987.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="ZKKAMKD1AhFnFdurzoimFw==,bodQER/LvyqMN1egz9oYhFDptSl6XkdaWn97MK4nNJSUTeZBjhltM/xeBNUVd0rNvxKdEcGtXhNiOo/v9rH7ktKF5FVfRb+qEF6KwRD5uogjDSrOqnukE5uaq9r/VNcWIL/4OySarxjD/ma0rJBs1c7nk30Kr1WNT5679q8UIEkf1aUC3bLGUJREg8v+KLEpHrPGgWyNVq8n5+rLyXOB8/9tX0moMDZ2dWd/oPRmo3M4uO48U5TItOSIoFnIWa1T4Xnk12kqMRUtHWzpUmbUuQ==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107486.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="8AcXstZq7Md2bUgdiE9gFA==,qKi7Vt/W3c8gtqkWpWIQ5l+jCZtLjVt6DoKoKYIQp4VVoqFPE9moSYhw0r09RlmyhpcFAnc7nUfZFvO86KSUxwboiQuovIo6XY9Qubuv0OehQqmzo0HflLRHPprFDlEHQVGkmjG2Eht+y0pI2p983vf6Ph0O+P4RISgnPEEklbI3zZsh9pVDWFHCtD+8vQM1G+0o4a7Qj0MIpFPNT6+p9yTm1cD46y7wWX3fSqM2QahuXRoUC+Ev4ZmefXN5Lfw6F3LqDbdJh2oU/Vk4xBlJyw==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2621,6 +2768,8 @@ ST uses the personal data that you provide directly to it and through your activ
                     </br>
                 </div>
                 <form data-abide class="light-registration-form">
+                    <input class="invisibleField" id="stFirstName" name="stFirstName" size="30" type="text" value="">
+                    <input class="invisibleField" id="stLastName" name="stLastName" size="50" type="text" value="">
                     <div class="row">
                         <div class="small-12 columns">
                             <div class="row">
@@ -2827,12 +2976,13 @@ ST uses the personal data that you provide directly to it and through your activ
                             <div class="related-assets">
                                 <div class="file-icon-parent-container">
                                     <div class="file-icon-container">
-                                        <a href="/resource/en/license/SLA0047_TrueSTUDIO.pdf" x-cq-linkchecker="skip" target="_blank" class="file-icon">
+                                        <a href="/resource/en/license/SLA0047_TrueSTUDIO.pdf" x-cq-linkchecker="skip" target="_blank" class="file-icon" download>
                                             <img src="/etc/clientlibs/st-site/media/app/images/viper17/icon_pdf.png" title="Save as PDF" alt="pdf" height="22" width="19">&nbsp;Save as PDF
                                         </a>
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="clearfix">
                                 <a href="#" class="generic-button orangev2 left decline-license">DECLINE</a>
                                 
@@ -2918,109 +3068,6 @@ ST uses the personal data that you provide directly to it and through your activ
     
 
                 
-    <div class="st-container">
-        <div class="row st-row st-row--small">
-            <div class="small-12 columns">
-                
-                
-                    
-        <div class="st-featured-video js-video-list-column">
-			
-				<div class="row st-row">
-					
-    <div class="small-12 columns">
-        <div class="st-featured-video__headline">
-            <h2 id="st-featured-videos" class="st-h3 st-text--center">
-                Featured Videos
-            </h2>
-        </div>
-        <div class="st-featured-video__headlink">
-            <a href="/content/st_com/en/support/learning/video-page.html?products=PF257464&featuredVideosReferer=true" class="st-link">
-                <span>
-                    See All
-                </span>
-                <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small">
-                    <use xlink:href="#icon-arrow-right"></use>
-                </svg>
-            </a>
-        </div>
-    </div>
-
-				</div>
-				<div class="row st-row">
-					
-	
-		
-
-		
-			<div class="small-12 columns medium-6">
-				
-	<div class="st-featured-video__item st-featured-video__item--vertical st-featured-video__item--video videos-item ">
-		
-		
-		<div class="st-featured-video__item-image">
-			<a href="#" title="" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_How_to_build_a_Blink%20LED_project_from_STm32CubeMX.mp4" data-video-type="video/mp4" data-modal-title="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ " data-modal-cta="Direct Link (Full Window)" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg">
-                <img src="" alt="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ " title="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ "/>
-			</a>
-		</div>
-		
-			<div class="st-featured-video__item-headline">
-				<a href="#" title="" class="st-font-size--l st-text-color--dark-blue st-font--bold" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_How_to_build_a_Blink%20LED_project_from_STm32CubeMX.mp4" data-video-type="video/mp4" data-modal-title="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ " data-modal-cta="Direct Link (Full Window)" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg">
-                    How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ 
-				</a>
-			</div>
-			<div class="st-featured-video__item-content">
-				<p class="st-copy">
-					This is a video to show how easy it is to generate a simple project from STM32CubeMX to ST/Atollic TrueStudio.
-				</p>
-			</div>
-		
-	</div>
-
-			</div>
-		
-	
-		
-
-		
-			<div class="small-12 columns medium-6">
-				
-	<div class="st-featured-video__item st-featured-video__item--vertical st-featured-video__item--video videos-item ">
-		
-		
-		<div class="st-featured-video__item-image">
-			<a href="#" title="" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_Embedded_World_Truestudio.mp4" data-video-type="video/mp4" data-modal-title="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018" data-modal-cta="Direct Link (Full Window)" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.thumbnail.png" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.mobile.png" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png">
-                <img src="" alt="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018" title="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018"/>
-			</a>
-		</div>
-		
-			<div class="st-featured-video__item-headline">
-				<a href="#" title="" class="st-font-size--l st-text-color--dark-blue st-font--bold" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_Embedded_World_Truestudio.mp4" data-video-type="video/mp4" data-modal-title="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018" data-modal-cta="Direct Link (Full Window)" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.thumbnail.png" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.mobile.png" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png">
-                    TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018
-				</a>
-			</div>
-			<div class="st-featured-video__item-content">
-				<p class="st-copy">
-					Mattias (from recently acquired Atollic) tells us about TrueSTUDIO® for STM32: now FREE of charge within ST’s flexible and extensible development and debugging IDE for STM32 MCU developers who want extremely powerful tools to aid in development of high-quality embedded software. TrueSTUDIO® is based on open standards (ECLIPSE and GNU) and extended with professional features for code management and advanced system analysis.
-				</p>
-			</div>
-		
-	</div>
-
-			</div>
-		
-	
-
-				</div>
-			
-			
-        </div>
-
-                
-                
-            </div>
-        </div>
-    </div>
 
 
                 <div class="st-container st-container--light-grey st-widget">
@@ -3045,7 +3092,175 @@ ST uses the personal data that you provide directly to it and through your activ
 	</div>
 
 </div>
+                <div class="st-container-wrapper">
+
+</div>
                 
+    <div class="st-container st-container--default st-padding--sm-b st-no-margin st-container--light-grey">
+        <div class="row st-row">
+            <div class="small-12 columns">
+                
+                    
+    
+        
+  <h3 id="st-also-like" class="st-h3 st-text--left">
+    You might also like...
+  </h3>
+
+        <div class="row st-row">
+            <div class="small-12 columns">
+                <div class="st-flex st-widget__slider custom-widget js-combo-sliders" data-slick="{&quot;autoplaySpeed&quot;: 5000, &quot;speed&quot;: 800, &quot;autoplay&quot;: false, &quot;slidesToShow&quot;: 1, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1026, &quot;settings&quot;:{&quot;slidesToShow&quot;: 1, &quot;dots&quot;: true, &quot;arrows&quot;: false}}, {&quot;breakpoint&quot;: 641,&quot;settings&quot;:{&quot;arrows&quot;: false,&quot;slidesToShow&quot;: 1,&quot;dots&quot;: true, &quot;infinite&quot;: true}}], &quot;dotsClass&quot;: &quot;st-card__dots&quot;}">
+                    
+        <div class="small-4">
+                <div class="st-featured-widget ">
+                        
+                        <a href="/en/development-tools/stm32cubeide.html" class="st-link">
+                                <span class="st-font--bold">
+                                        STM32CubeIDE
+                                </span>
+                        </a>
+                        <p class="st-copy">
+                                Integrated Development Environment for STM32
+                        </p>
+                </div>
+        </div>
+
+                </div>
+            </div>
+        </div>
+    
+
+                
+                
+                
+            </div>
+        </div>
+    </div>
+
+
+                
+    <div class="st-container">
+        <div class="row st-row">
+            <div class="small-12 columns">
+                <div class="st-featured-video st-featured-video--nb js-featured-videos">
+                    <div class="row st-row">
+                        
+    <div class="small-12  st-flex">
+        <div class="small-12 medium-6 columns">
+            <h3 id="featured_resources-0" class="st-h3 st-text--left">
+                Featured Videos
+            </h3>
+        </div>
+        <div class="st-featured-video__headlink small-12 medium-6 columns st-flex st-flex-justify--md-flex-end st-flex-justify--sm-left st-margin--sm-b-6 st-flex-items--all-center">
+            <a href="/content/st_com/en/support/learning/video-page.html?products=PF257464&featuredVideosReferer=true" class="st-link st-font--bold">
+                <span class="arrow">See All</span>
+            </a>
+        </div>
+    </div>
+
+                    </div>
+                    <div class="row st-row">
+                        
+    
+    <div class="multiple-video js-combo-sliders" data-slick="{&quot;slidesToShow&quot;: 2, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1026,&quot;settings&quot;:{&quot;slidesToShow&quot;: 1.2, &quot;dots&quot;: true, &quot;arrows&quot;: false, &quot;variableWidth&quot;: false}},{&quot;breakpoint&quot;: 641,&quot;settings&quot;:{&quot;arrows&quot;: false, &quot;slidesToShow&quot;: 1.2, &quot;dots&quot;: true, &quot;variableWidth&quot;: false}}], &quot;dotsClass&quot;: &quot;st-card__dots&quot;}">
+        
+            <div class="small-12 columns">
+                
+                <div class="st-featured-video__item st-featured-video__item--video
+                st-featured-video__item--vertical
+                ">
+                    
+
+                    
+                        
+    
+    
+    <div class="small-12">
+        <div class="st-featured-video__item-image-new">
+            <a href="#" title="" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_How_to_build_a_Blink%20LED_project_from_STm32CubeMX.mp4" data-video-type="video/mp4" data-modal-title="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ " data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg">
+                <img src="" alt="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ " title="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ "/>
+            </a>
+        </div>
+    </div>
+    <div class="small-12">
+        <div class="st-featured-video__item-headline">
+            <a href="#" title="" class="st-font-size--l st-text-color--dark-blue st-font--bold" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_How_to_build_a_Blink%20LED_project_from_STm32CubeMX.mp4" data-video-type="video/mp4" data-modal-title="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ " data-modal-cta="Direct Link (Full Window)" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg">
+                How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ 
+            </a>
+        </div>
+        <div class="st-featured-video__item-content">
+            <p class="st-copy">
+                This is a video to show how easy it is to generate a simple project from STM32CubeMX to ST/Atollic TrueStudio.
+            </p>
+        </div>
+        <div href="#" class="st-featured-video__item-link">
+            <a href="#" title="" class="st-link" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_How_to_build_a_Blink%20LED_project_from_STm32CubeMX.mp4" data-video-type="video/mp4" data-modal-title="How to build a “Blink LED” project from STM32CubeMX for ST/Atollic TrueSTUDIO® for STM32™ " data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/0d/46/1e/92/ab/9d/48/8d/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140/files/VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg/jcr:content/translations/en.VideoThumbnails_final_Atollic_Truestudio_blink_LED_play_260_140.jpg">
+                <svg class="st-link__icon st-link__icon--left">
+                    <use xlink:href="#icon-playbutton-blue"></use>
+                </svg>
+                <span class="st-font--bold">
+					Watch the video (9:42)
+            	</span>
+            </a>
+        </div>
+    </div>
+
+                    
+                </div>
+            </div>
+        
+            <div class="small-12 columns">
+                
+                <div class="st-featured-video__item st-featured-video__item--video
+                st-featured-video__item--vertical
+                ">
+                    
+
+                    
+                        
+    
+    
+    <div class="small-12">
+        <div class="st-featured-video__item-image-new">
+            <a href="#" title="" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_Embedded_World_Truestudio.mp4" data-video-type="video/mp4" data-modal-title="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.thumbnail.png" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.mobile.png" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png">
+                <img src="" alt="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018" title="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018"/>
+            </a>
+        </div>
+    </div>
+    <div class="small-12">
+        <div class="st-featured-video__item-headline">
+            <a href="#" title="" class="st-font-size--l st-text-color--dark-blue st-font--bold" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_Embedded_World_Truestudio.mp4" data-video-type="video/mp4" data-modal-title="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018" data-modal-cta="Direct Link (Full Window)" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.thumbnail.png" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.mobile.png" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png">
+                TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018
+            </a>
+        </div>
+        <div class="st-featured-video__item-content">
+            <p class="st-copy">
+                Mattias (from recently acquired Atollic) tells us about TrueSTUDIO® for STM32: now FREE of charge within ST’s flexible and extensible development and debugging IDE for STM32 MCU developers who want extremely powerful tools to aid in development of high-quality embedded software. TrueSTUDIO® is based on open standards (ECLIPSE and GNU) and extended with professional features for code management and advanced system analysis.
+            </p>
+        </div>
+        <div href="#" class="st-featured-video__item-link">
+            <a href="#" title="" class="st-link" data-reveal-id="videoModal" data-video-source="https://st-videos.s3.amazonaws.com/vd_2018_Embedded_World_Truestudio.mp4" data-video-type="video/mp4" data-modal-title="TrueStudio full features IDE solution for STM32 products (now free of charge!), Embedded World 2018" data-poster-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.thumbnail.png" data-poster-mobile="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.mobile.png" data-poster-modal-desktop="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png" data-poster-modal="/content/ccc/fragment/multimedia/video/product_video_thumbnail/group0/67/98/35/f6/dd/72/4e/df/TrueSTUDIO-EW_thumbnail/files/True-STUDIO.png/jcr:content/translations/en.True-STUDIO.modal.png">
+                <svg class="st-link__icon st-link__icon--left">
+                    <use xlink:href="#icon-playbutton-blue"></use>
+                </svg>
+                <span class="st-font--bold">
+					Watch the video (2:32)
+            	</span>
+            </a>
+        </div>
+    </div>
+
+                    
+                </div>
+            </div>
+        
+    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
                 
@@ -3101,6 +3316,26 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
+        Feb 16, 2021
+    
+
+                                </div>
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html" title="STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem" class="st-card__image js-st-object-fit">
+                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/ST8500_ecosystem_N4315D_s.jpg" alt="STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem" title="STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem"/>
+                                    </a>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html" class="st-card__copy js-st-dotdotdot ">
+                                        STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem
+                                    </a>
+                                </div>
+                            </div>
+                        
+							
+                            
+                                <div class="st-card st-card--widget st-card--category-dark-blue st-flex st-flex--sm-column" data-category="News">
+                                <div class="st-card__date">
+                                    
+    
         Feb 15, 2021
     
 
@@ -3133,26 +3368,6 @@ ST uses the personal data that you provide directly to it and through your activ
                                 </div>
                             </div>
                         
-							
-                            
-                                <div class="st-card st-card--widget st-card--category-dark-blue st-flex st-flex--sm-column" data-category="News">
-                                <div class="st-card__date">
-                                    
-    
-        Feb 10, 2021
-    
-
-                                </div>
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4333.html" title="Complete Energy-Meter Evaluation Board from STMicroelectronics Combines Low-Cost Sensors and Robust Galvanic Isolation" class="st-card__image js-st-object-fit">
-                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/Energy-meter_eval_board_N4333I_s.jpg" alt="Complete Energy-Meter Evaluation Board from STMicroelectronics Combines Low-Cost Sensors and Robust Galvanic Isolation" title="Complete Energy-Meter Evaluation Board from STMicroelectronics Combines Low-Cost Sensors and Robust Galvanic Isolation"/>
-                                    </a>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4333.html" class="st-card__copy js-st-dotdotdot ">
-                                        Complete Energy-Meter Evaluation Board from STMicroelectronics Combines Low-Cost Sensors and Robust Galvanic Isolation
-                                    </a>
-                                </div>
-                            </div>
-                        
                     </div>
                     <div id="newsletter-subscription-validation-popup" class="generic-modal modal fade in gc-modal-main">
     <div class="modal-dialog">
@@ -3167,6 +3382,8 @@ ST uses the personal data that you provide directly to it and through your activ
 
             <div class="small-12">
                 <form action="#" class="validation-form">
+                    <input class="invisibleField" id="stFirstName" name="stFirstName" size="30" type="text" value="">
+                    <input class="invisibleField" id="stLastName" name="stLastName" size="50" type="text" value="">
                     <div class="row">
                         <div class="small-12 medium-4 large-3 columns">
                             <label for="validationEmail" class="left inline">
@@ -3266,11 +3483,23 @@ I understand that I can withdraw my consent at any time through opt-out links em
         <div class="st-container">
             <div class="row st-row">
                 <div class="small-12 columns">
-                    <h3 id="recommended-tools-software" class="st-h3">Recommended Tools &amp; Software</h3>
-                    <div class="st-card-wrapper st-flex st-flex--sm-row st-flex--sm-wrap st-flex-items--sm-stretch st-flex-justify--sm-center st-flex-justify--lg-flex-start js-st-featured_technology" data-slick="{&quot;autoplay&quot;: false, &quot;autoplaySpeed,&quot;: 2000}">
-                        <div class="st-card st-card--category-webinar st-flex st-flex--sm-column st-card--tools-and-software" data-category="Development Tools">
+                    <div class="st-flex st-flex--md-row st-flex--sm-column st-flex-justify--all-space-between st-flex-items--all-center st-margin--all-b-6">
+                        <div class="st-featured-video__headline">
+                            <h3 class="st-h3">Recommended Tools &amp; Software</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12 columns st-padding--md-r st-padding--sm st-recommended-resources">
+                    <div class="st-card-wrapper js-combo-sliders" data-slick="{&quot;slidesToShow&quot;: 4,
+                            &quot;variableWidth&quot;: false,
+                            &quot;responsive&quot;: [
+                                            {&quot;breakpoint&quot;: 1026, &quot;settings&quot;:{&quot;slidesToShow&quot;: 2.5, &quot;dots&quot;: true, &quot;arrows&quot;: false}},
+                                            {&quot;breakpoint&quot;: 641,&quot;settings&quot;:{&quot;centerMode&quot;: true,&quot;centerPadding&quot;: &quot;60px&quot;,&quot;arrows&quot;: false,&quot;slidesToShow&quot;: 1,&quot;dots&quot;: true,&quot;variableWidth&quot;: true, &quot;infinite&quot;: true}}
+                                            ],
+                            &quot;dotsClass&quot;: &quot;st-card__dots&quot;}">
+                        <div class="st-card st-card--category-webinar st-card--default-margin st-flex st-flex--sm-column st-card--tools-and-software" data-category="Development Tools" id="Recommended Tools & Software">
                             <a href="/en/development-tools/stm32cubeide.html" title="" class="st-card__image js-st-object-fit">
-                                <img class="lazyload" data-src="/content/ccc/fragment/product_related/rpn_information/board_photo/group1/c5/2e/64/ae/1f/12/4b/7a/STM32CubeIde/files/STM32CubeIDE.jpg/jcr:content/translations/en.STM32CubeIDE.jpg" alt="" title=""/>
+                                <img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/no-picture-found.jpg" alt="" title=""/>
                             </a>
                             <div class="st-flex-grow--sm-1">
                                 <a href="/en/development-tools/stm32cubeide.html" title="" class="st-card__headline">
@@ -3281,7 +3510,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                 </div>
                             </div>
                             <a href="/en/development-tools/stm32cubeide.html" title="" class="st-card__link">
-                            <span class="st-link st-font--bold"><span>Browse more</span><svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small"><use xlink:href="#icon-arrow-right"></use></svg></span>
+                              <span class="st-link st-margin--all-r-3">Browse more</span>
+                              <svg class="st-link__icon"><use xlink:href="#icon-arrow-thin"></use></svg>
                             </a>
                         </div>
                     </div>
@@ -3298,7 +3528,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
             <div class="st-accordion-table-wrapper st-accordion-table-wrapper--flat">
                 <h2 id="all-tools-software" class="st-h3">All tools &amp; software</h2>
                 <ul class="cd-accordion-menu js-st-accordion-menu">
-                    
                         <li class="has-children js-st-accordion-expanded">
                             <input type="checkbox" name="accordion-table-software-development-tools" id="accordion-table-software-development-tools-software-development-tools-0" autocomplete="off" checked>
                             
@@ -3372,7 +3601,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                                         <td class="cell-supplier visible-on-desktop-only">ST</td>
                                                         
                                                         <td class="visible-on-medium-down">
-                                                            <div class="st-table--small">
+                                                            <div>
                                                                 <div class="st-table__item">
                                                                     <a href="/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/stm32cubeide.html" class="st-table__cell-title">STM32CubeIDE</a>
                                                                     <p class="st-table__cell-label">Description:</p>
@@ -3390,7 +3619,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                 </li>
                             </ul>
                         </li>
-                    
                 </ul>
             </div>
         </div>
@@ -3402,7 +3630,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
                 
 
                 
-	<div class="st-container st-resources-popular js-resources-popular">
+	<div class="st-container st-resources-popular js-resources-popular js-auto-scroll">
 		<div class="row st-row">
 			<div class="small-12 columns">
 				<div class="small-12 columns">
@@ -3412,47 +3640,71 @@ I understand that I can withdraw my consent at any time through opt-out links em
 							All resources
 						</h3>
 					</div>
+					<a class="st-link js-expand-all-resources" data-action="expand">Expand all categories</a>
 				</div>
 				<div class="small-12 columns">
 					<div data-download-selected-endpoint="/bin/st/ccc/resource/download/multiple" class="st-table st-table--resources st-table--resources-popular js-tables-multiple-download">
 						
-    
+    <div class="st-inline-block st-multiple-download-button js-tables-multiple-download-button">
+        <button class="st-button st-button--small st-button--primary st-text--center st-margin--all-r-2 st-button--clear" disabled>Download (0)</button>
+    </div>
+    <table class="js-st-table-sort-first same-order-overall first-table has-header-button" data-searching="true" data-html-data="true" data-load-all="true" data-auto-init="true">
+        <thead>
+        <tr>
+            <th class="hidden"></th>
+            <th class="visible-on-desktop-only">
+                Resource title
+                <div class="st-table__sort-icon js-st-table-sort">
+                    <div class="st-table__sort-icon--arrow-up"></div>
+                    <div class="st-table__sort-icon--arrow-down"></div>
+                </div>
+            </th>
+            <th class="visible-on-desktop-only"></th>
+            <th class="col-update visible-on-desktop-only">
+                Latest update
+                <div class="st-table__sort-icon js-st-table-sort">
+                    <div class="st-table__sort-icon--arrow-up"></div>
+                    <div class="st-table__sort-icon--arrow-down"></div>
+                </div>
+            </th>
+            <th class="visible-on-medium-down"></th>
+        </tr>
+        </thead>
+
+        <tbody class="hidden">
+        </tbody>
+    </table>
+
     
         
-            
-                
-                <h3 id="product_specifications" data-quicklinks-title="true" class="st-table__subtitle-h3">Product Specifications (1) </h3>
-                <div class="st-inline-block st-multiple-download-button js-tables-multiple-download-button js-show-did-you-know-modal">
-                    <button class="st-button st-button--small st-button--primary st-text--center st-margin--all-r-2 st-button--clear" disabled>Download (0)</button>
-                </div>
-                <table class="js-st-table-sort-first same-order has-header-button first-table" data-searching="true" data-html-data="true" data-max-visible-items="5">
-                    <thead>
-                    <tr>
-                        <th class="hidden"></th>
-                        <th class="visible-on-desktop-only">
-                            Resource title
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-desktop-only"></th>
-                        <th class="col-update visible-on-desktop-only">
-                            Latest update
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-medium-down"></th>
-                    </tr>
-                    
-                    </thead>
+        <h3 id="product_specifications" data-quicklinks-title="true" class="st-table__subtitle-h3">Product Specifications (1) </h3>
+        <table class="js-st-table-sort-first same-order" data-searching="true" data-html-data="true" data-max-visible-items="5" data-load-all="true" data-auto-init="true">
+            <thead class="hidden-head">
+            <tr>
+                <th class="hidden"></th>
+                <th class="visible-on-desktop-only">
+                    Resource title
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
+                    </div>
+                </th>
+                <th class="visible-on-desktop-only"></th>
+                <th class="col-update visible-on-desktop-only">
+                    Latest update
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
+                    </div>
+                </th>
+                <th class="visible-on-medium-down"></th>
+            </tr>
+            </thead>
 
-                    <tbody>
-                        
-                        
-                            
+            <tbody>
+                
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3461,8 +3713,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-0-0" value="/resource/en/data_brief/truestudio.pdf" data-link="/resource/en/data_brief/truestudio.pdf">
-					<label for="download-checkbox--0-0-0"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--0-0" id="download-checkbox--0-0" value="/resource/en/data_brief/truestudio.pdf" data-link="/resource/en/data_brief/truestudio.pdf">
+					<label for="download-checkbox--0-0"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3474,7 +3726,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/data_brief/truestudio.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1">DB3480</span>
 							<span class="st-margin--all-r-1">Integrated development environment (IDE) for STM32 products</span>
-							<span class="st-text-color--grey">3.0</span>
+							3.0
 						</a>
 					</div>
 				</div>
@@ -3499,56 +3751,54 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/data_brief/truestudio.pdf" target="_blank">
 					<span class="value st-font--bold">DB3480</span>
 					<span class="value">Integrated development environment (IDE) for STM32 products</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">3.0</span>
+					<span class="value st-font-size--xs-smallest">3.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                    </tbody>
-                </table>
-                <div class="st-table-load-more hidden">
-                    <div class="st-table__expand">
-                        <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
-                            <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
-                                <use xlink:href="#icon-arrow-right"></use>
-                            </svg>
-                        </a>
+                
+            </tbody>
+        </table>
+        <div class="st-table-load-more hidden">
+            <div class="st-table__expand">
+                <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
+                    <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
+                        <use xlink:href="#icon-arrow-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    
+        
+        <h3 id="application_notes" data-quicklinks-title="true" class="st-table__subtitle-h3">Application Notes (5 of 6) </h3>
+        <table class="js-st-table-sort-first same-order" data-searching="true" data-html-data="true" data-max-visible-items="5" data-load-all="true" data-auto-init="true">
+            <thead class="hidden-head">
+            <tr>
+                <th class="hidden"></th>
+                <th class="visible-on-desktop-only">
+                    Resource title
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
                     </div>
-                </div>
-            
-                
-                <h3 id="application_notes" data-quicklinks-title="true" class="st-table__subtitle-h3">Application Notes (5 of 6) </h3>
-                
-                <table class="js-st-table-sort-first same-order has-header-button " data-searching="true" data-html-data="true" data-max-visible-items="5">
-                    <thead class="hidden-head">
-                    <tr>
-                        <th class="hidden"></th>
-                        <th class="visible-on-desktop-only">
-                            Resource title
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-desktop-only"></th>
-                        <th class="col-update visible-on-desktop-only">
-                            Latest update
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-medium-down"></th>
-                    </tr>
-                    
-                    </thead>
+                </th>
+                <th class="visible-on-desktop-only"></th>
+                <th class="col-update visible-on-desktop-only">
+                    Latest update
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
+                    </div>
+                </th>
+                <th class="visible-on-medium-down"></th>
+            </tr>
+            </thead>
 
-                    <tbody>
-                        
-                        
-                            
+            <tbody>
+                
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3557,8 +3807,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-1-0" value="/resource/en/application_note/atollic_editing_keyboard_shortcuts-atollic-editing-keyboard-shortcuts-stmicroelectronics.pdf" data-link="/resource/en/application_note/atollic_editing_keyboard_shortcuts-atollic-editing-keyboard-shortcuts-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-1-0"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--1-0" id="download-checkbox--1-0" value="/resource/en/application_note/atollic_editing_keyboard_shortcuts-atollic-editing-keyboard-shortcuts-stmicroelectronics.pdf" data-link="/resource/en/application_note/atollic_editing_keyboard_shortcuts-atollic-editing-keyboard-shortcuts-stmicroelectronics.pdf">
+					<label for="download-checkbox--1-0"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3570,7 +3820,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/application_note/atollic_editing_keyboard_shortcuts-atollic-editing-keyboard-shortcuts-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">Atollic Editing Keyboard Shortcuts</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -3595,14 +3845,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/application_note/atollic_editing_keyboard_shortcuts-atollic-editing-keyboard-shortcuts-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">Atollic Editing Keyboard Shortcuts</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3611,8 +3861,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-1-1" value="/resource/en/application_note/an1202_freertos_guide-freertos-guide-stmicroelectronics.pdf" data-link="/resource/en/application_note/an1202_freertos_guide-freertos-guide-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-1-1"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--1-1" id="download-checkbox--1-1" value="/resource/en/application_note/an1202_freertos_guide-freertos-guide-stmicroelectronics.pdf" data-link="/resource/en/application_note/an1202_freertos_guide-freertos-guide-stmicroelectronics.pdf">
+					<label for="download-checkbox--1-1"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3624,7 +3874,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/application_note/an1202_freertos_guide-freertos-guide-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">FreeRTOS Guide</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -3649,14 +3899,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/application_note/an1202_freertos_guide-freertos-guide-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">FreeRTOS Guide</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3665,8 +3915,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-1-2" value="/resource/en/application_note/an1602_semihosting_in_truestudio-how-to-do-semihosting-in-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/an1602_semihosting_in_truestudio-how-to-do-semihosting-in-truestudio-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-1-2"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--1-2" id="download-checkbox--1-2" value="/resource/en/application_note/an1602_semihosting_in_truestudio-how-to-do-semihosting-in-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/an1602_semihosting_in_truestudio-how-to-do-semihosting-in-truestudio-stmicroelectronics.pdf">
+					<label for="download-checkbox--1-2"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3678,7 +3928,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/application_note/an1602_semihosting_in_truestudio-how-to-do-semihosting-in-truestudio-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">How to do semihosting in TrueSTUDIO</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -3703,14 +3953,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/application_note/an1602_semihosting_in_truestudio-how-to-do-semihosting-in-truestudio-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">How to do semihosting in TrueSTUDIO</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3719,8 +3969,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-1-3" value="/resource/en/application_note/an1801_stm32cubeprogrammer_in_truestudio-installing-stm32cubeprogrammer-in-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/an1801_stm32cubeprogrammer_in_truestudio-installing-stm32cubeprogrammer-in-truestudio-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-1-3"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--1-3" id="download-checkbox--1-3" value="/resource/en/application_note/an1801_stm32cubeprogrammer_in_truestudio-installing-stm32cubeprogrammer-in-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/an1801_stm32cubeprogrammer_in_truestudio-installing-stm32cubeprogrammer-in-truestudio-stmicroelectronics.pdf">
+					<label for="download-checkbox--1-3"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3732,7 +3982,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/application_note/an1801_stm32cubeprogrammer_in_truestudio-installing-stm32cubeprogrammer-in-truestudio-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">Installing STM32Cubeprogrammer in TrueSTUDIO</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -3757,14 +4007,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/application_note/an1801_stm32cubeprogrammer_in_truestudio-installing-stm32cubeprogrammer-in-truestudio-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">Installing STM32Cubeprogrammer in TrueSTUDIO</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3773,8 +4023,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-1-4" value="/resource/en/application_note/stm32cubemx_installation_in_truestudio-stm32cubemx-installation-in-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/stm32cubemx_installation_in_truestudio-stm32cubemx-installation-in-truestudio-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-1-4"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--1-4" id="download-checkbox--1-4" value="/resource/en/application_note/stm32cubemx_installation_in_truestudio-stm32cubemx-installation-in-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/stm32cubemx_installation_in_truestudio-stm32cubemx-installation-in-truestudio-stmicroelectronics.pdf">
+					<label for="download-checkbox--1-4"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3786,7 +4036,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/application_note/stm32cubemx_installation_in_truestudio-stm32cubemx-installation-in-truestudio-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">STM32CubeMX Installation in TrueSTUDIO</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -3811,14 +4061,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/application_note/stm32cubemx_installation_in_truestudio-stm32cubemx-installation-in-truestudio-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">STM32CubeMX Installation in TrueSTUDIO</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3827,8 +4077,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-1-5" value="/resource/en/application_note/iar_to_atollic_truestudio_migration_guide-truestudio-for-arm-migration-guide-iar-embedded-workbench-to-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/iar_to_atollic_truestudio_migration_guide-truestudio-for-arm-migration-guide-iar-embedded-workbench-to-truestudio-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-1-5"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--1-5" id="download-checkbox--1-5" value="/resource/en/application_note/iar_to_atollic_truestudio_migration_guide-truestudio-for-arm-migration-guide-iar-embedded-workbench-to-truestudio-stmicroelectronics.pdf" data-link="/resource/en/application_note/iar_to_atollic_truestudio_migration_guide-truestudio-for-arm-migration-guide-iar-embedded-workbench-to-truestudio-stmicroelectronics.pdf">
+					<label for="download-checkbox--1-5"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3840,7 +4090,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/application_note/iar_to_atollic_truestudio_migration_guide-truestudio-for-arm-migration-guide-iar-embedded-workbench-to-truestudio-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">TrueSTUDIO for ARM® Migration Guide: IAR Embedded Workbench to TrueSTUDIO</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -3865,56 +4115,54 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/application_note/iar_to_atollic_truestudio_migration_guide-truestudio-for-arm-migration-guide-iar-embedded-workbench-to-truestudio-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">TrueSTUDIO for ARM® Migration Guide: IAR Embedded Workbench to TrueSTUDIO</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                    </tbody>
-                </table>
-                <div class="st-table-load-more ">
-                    <div class="st-table__expand">
-                        <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
-                            <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
-                                <use xlink:href="#icon-arrow-right"></use>
-                            </svg>
-                        </a>
+                
+            </tbody>
+        </table>
+        <div class="st-table-load-more ">
+            <div class="st-table__expand">
+                <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
+                    <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
+                        <use xlink:href="#icon-arrow-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    
+        
+        <h3 id="user_manuals" data-quicklinks-title="true" class="st-table__subtitle-h3">User Manuals (3) </h3>
+        <table class="js-st-table-sort-first same-order" data-searching="true" data-html-data="true" data-max-visible-items="5" data-load-all="true" data-auto-init="true">
+            <thead class="hidden-head">
+            <tr>
+                <th class="hidden"></th>
+                <th class="visible-on-desktop-only">
+                    Resource title
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
                     </div>
-                </div>
-            
-                
-                <h3 id="user_manuals" data-quicklinks-title="true" class="st-table__subtitle-h3">User Manuals (3) </h3>
-                
-                <table class="js-st-table-sort-first same-order has-header-button " data-searching="true" data-html-data="true" data-max-visible-items="5">
-                    <thead class="hidden-head">
-                    <tr>
-                        <th class="hidden"></th>
-                        <th class="visible-on-desktop-only">
-                            Resource title
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-desktop-only"></th>
-                        <th class="col-update visible-on-desktop-only">
-                            Latest update
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-medium-down"></th>
-                    </tr>
-                    
-                    </thead>
+                </th>
+                <th class="visible-on-desktop-only"></th>
+                <th class="col-update visible-on-desktop-only">
+                    Latest update
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
+                    </div>
+                </th>
+                <th class="visible-on-medium-down"></th>
+            </tr>
+            </thead>
 
-                    <tbody>
-                        
-                        
-                            
+            <tbody>
+                
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3923,8 +4171,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-2-0" value="/resource/en/user_manual/truestudio_installation_guide-truestudio-installation-guide-stmicroelectronics.pdf" data-link="/resource/en/user_manual/truestudio_installation_guide-truestudio-installation-guide-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-2-0"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--2-0" id="download-checkbox--2-0" value="/resource/en/user_manual/truestudio_installation_guide-truestudio-installation-guide-stmicroelectronics.pdf" data-link="/resource/en/user_manual/truestudio_installation_guide-truestudio-installation-guide-stmicroelectronics.pdf">
+					<label for="download-checkbox--2-0"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3936,7 +4184,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/user_manual/truestudio_installation_guide-truestudio-installation-guide-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">TrueSTUDIO Installation Guide</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -3961,14 +4209,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/user_manual/truestudio_installation_guide-truestudio-installation-guide-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">TrueSTUDIO Installation Guide</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -3977,8 +4225,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-2-1" value="/resource/en/user_manual/truestudio_upgradeguide-truestudio-upgrade-guide-stmicroelectronics.pdf" data-link="/resource/en/user_manual/truestudio_upgradeguide-truestudio-upgrade-guide-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-2-1"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--2-1" id="download-checkbox--2-1" value="/resource/en/user_manual/truestudio_upgradeguide-truestudio-upgrade-guide-stmicroelectronics.pdf" data-link="/resource/en/user_manual/truestudio_upgradeguide-truestudio-upgrade-guide-stmicroelectronics.pdf">
+					<label for="download-checkbox--2-1"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -3990,7 +4238,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/user_manual/truestudio_upgradeguide-truestudio-upgrade-guide-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">TrueSTUDIO Upgrade Guide</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -4015,14 +4263,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/user_manual/truestudio_upgradeguide-truestudio-upgrade-guide-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">TrueSTUDIO Upgrade Guide</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -4031,8 +4279,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--0-2-2" value="/resource/en/user_manual/usermanual_truestudio-user-manual-for-truestudio-930-stmicroelectronics.pdf" data-link="/resource/en/user_manual/usermanual_truestudio-user-manual-for-truestudio-930-stmicroelectronics.pdf">
-					<label for="download-checkbox--0-2-2"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--2-2" id="download-checkbox--2-2" value="/resource/en/user_manual/usermanual_truestudio-user-manual-for-truestudio-930-stmicroelectronics.pdf" data-link="/resource/en/user_manual/usermanual_truestudio-user-manual-for-truestudio-930-stmicroelectronics.pdf">
+					<label for="download-checkbox--2-2"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -4044,7 +4292,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/user_manual/usermanual_truestudio-user-manual-for-truestudio-930-stmicroelectronics.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">User Manual for TrueSTUDIO 9.3.0</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -4069,60 +4317,54 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/user_manual/usermanual_truestudio-user-manual-for-truestudio-930-stmicroelectronics.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">User Manual for TrueSTUDIO 9.3.0</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                    </tbody>
-                </table>
-                <div class="st-table-load-more hidden">
-                    <div class="st-table__expand">
-                        <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
-                            <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
-                                <use xlink:href="#icon-arrow-right"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            
-        
+                
+            </tbody>
+        </table>
+        <div class="st-table-load-more hidden">
+            <div class="st-table__expand">
+                <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
+                    <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
+                        <use xlink:href="#icon-arrow-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
     
         
-            
-                
-                <h3 id="presentations" data-quicklinks-title="true" class="st-table__subtitle-h3">Presentations (2) </h3>
-                
-                <table class="js-st-table-sort-first same-order has-header-button " data-searching="true" data-html-data="true" data-max-visible-items="5">
-                    <thead class="hidden-head">
-                    <tr>
-                        <th class="hidden"></th>
-                        <th class="visible-on-desktop-only">
-                            Resource title
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-desktop-only"></th>
-                        <th class="col-update visible-on-desktop-only">
-                            Latest update
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-medium-down"></th>
-                    </tr>
-                    
-                    </thead>
+        <h3 id="presentations" data-quicklinks-title="true" class="st-table__subtitle-h3">Presentations (2) </h3>
+        <table class="js-st-table-sort-first same-order" data-searching="true" data-html-data="true" data-max-visible-items="5" data-load-all="true" data-auto-init="true">
+            <thead class="hidden-head">
+            <tr>
+                <th class="hidden"></th>
+                <th class="visible-on-desktop-only">
+                    Resource title
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
+                    </div>
+                </th>
+                <th class="visible-on-desktop-only"></th>
+                <th class="col-update visible-on-desktop-only">
+                    Latest update
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
+                    </div>
+                </th>
+                <th class="visible-on-medium-down"></th>
+            </tr>
+            </thead>
 
-                    <tbody>
-                        
-                        
-                            
+            <tbody>
+                
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -4131,8 +4373,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--1-0-0" value="/resource/en/product_presentation/stm32-stm8_software_development_tools.pdf" data-link="/resource/en/product_presentation/stm32-stm8_software_development_tools.pdf">
-					<label for="download-checkbox--1-0-0"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--3-0" id="download-checkbox--3-0" value="/resource/en/product_presentation/stm32-stm8_software_development_tools.pdf" data-link="/resource/en/product_presentation/stm32-stm8_software_development_tools.pdf">
+					<label for="download-checkbox--3-0"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -4144,7 +4386,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/product_presentation/stm32-stm8_software_development_tools.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">STM32 and STM8 software development tools</span>
-							<span class="st-text-color--grey">01.21</span>
+							01.21
 						</a>
 					</div>
 				</div>
@@ -4169,14 +4411,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/product_presentation/stm32-stm8_software_development_tools.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">STM32 and STM8 software development tools</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">01.21</span>
+					<span class="value st-font-size--xs-smallest">01.21</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -4185,8 +4427,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--1-0-1" value="/resource/en/product_presentation/stm32cube_ecosystem_overview.pdf" data-link="/resource/en/product_presentation/stm32cube_ecosystem_overview.pdf">
-					<label for="download-checkbox--1-0-1"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--3-1" id="download-checkbox--3-1" value="/resource/en/product_presentation/stm32cube_ecosystem_overview.pdf" data-link="/resource/en/product_presentation/stm32cube_ecosystem_overview.pdf">
+					<label for="download-checkbox--3-1"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -4198,7 +4440,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/product_presentation/stm32cube_ecosystem_overview.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">STM32Cube ecosystem overview - Making STM32 development easier</span>
-							<span class="st-text-color--grey">1.2</span>
+							1.2
 						</a>
 					</div>
 				</div>
@@ -4223,66 +4465,54 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/product_presentation/stm32cube_ecosystem_overview.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">STM32Cube ecosystem overview - Making STM32 development easier</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.2</span>
+					<span class="value st-font-size--xs-smallest">1.2</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                    </tbody>
-                </table>
-                <div class="st-table-load-more hidden">
-                    <div class="st-table__expand">
-                        <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
-                            <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
-                                <use xlink:href="#icon-arrow-right"></use>
-                            </svg>
-                        </a>
+                
+            </tbody>
+        </table>
+        <div class="st-table-load-more hidden">
+            <div class="st-table__expand">
+                <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
+                    <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
+                        <use xlink:href="#icon-arrow-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    
+        
+        <h3 id="license_agreement" data-quicklinks-title="true" class="st-table__subtitle-h3">License Agreement (2) </h3>
+        <table class="js-st-table-sort-first same-order" data-searching="true" data-html-data="true" data-max-visible-items="5" data-load-all="true" data-auto-init="true">
+            <thead class="hidden-head">
+            <tr>
+                <th class="hidden"></th>
+                <th class="visible-on-desktop-only">
+                    Resource title
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
                     </div>
-                </div>
-            
-        
-    
-        
-    
-        
-    
-        
-    
-        
-            
-                
-                <h3 id="license_agreement" data-quicklinks-title="true" class="st-table__subtitle-h3">License Agreement (2) </h3>
-                
-                <table class="js-st-table-sort-first same-order has-header-button " data-searching="true" data-html-data="true" data-max-visible-items="5">
-                    <thead class="hidden-head">
-                    <tr>
-                        <th class="hidden"></th>
-                        <th class="visible-on-desktop-only">
-                            Resource title
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-desktop-only"></th>
-                        <th class="col-update visible-on-desktop-only">
-                            Latest update
-                            <div class="st-table__sort-icon js-st-table-sort">
-                                <div class="st-table__sort-icon--arrow-up"></div>
-                                <div class="st-table__sort-icon--arrow-down"></div>
-                            </div>
-                        </th>
-                        <th class="visible-on-medium-down"></th>
-                    </tr>
-                    
-                    </thead>
+                </th>
+                <th class="visible-on-desktop-only"></th>
+                <th class="col-update visible-on-desktop-only">
+                    Latest update
+                    <div class="st-table__sort-icon js-st-table-sort">
+                        <div class="st-table__sort-icon--arrow-up"></div>
+                        <div class="st-table__sort-icon--arrow-down"></div>
+                    </div>
+                </th>
+                <th class="visible-on-medium-down"></th>
+            </tr>
+            </thead>
 
-                    <tbody>
-                        
-                        
-                            
+            <tbody>
+                
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -4291,8 +4521,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--5-0-0" value="/resource/en/license_agreement/dm00217720.pdf" data-link="/resource/en/license_agreement/dm00217720.pdf">
-					<label for="download-checkbox--5-0-0"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--4-0" id="download-checkbox--4-0" value="/resource/en/license_agreement/dm00217720.pdf" data-link="/resource/en/license_agreement/dm00217720.pdf">
+					<label for="download-checkbox--4-0"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -4304,7 +4534,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/license_agreement/dm00217720.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1">SLA0047</span>
 							<span class="st-margin--all-r-1">Image V2 - SOFTWARE LICENSE AGREEMENT</span>
-							<span class="st-text-color--grey">2.2</span>
+							2.2
 						</a>
 					</div>
 				</div>
@@ -4329,14 +4559,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/license_agreement/dm00217720.pdf" target="_blank">
 					<span class="value st-font--bold">SLA0047</span>
 					<span class="value">Image V2 - SOFTWARE LICENSE AGREEMENT</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">2.2</span>
+					<span class="value st-font-size--xs-smallest">2.2</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                            
+                
+                    
 	
 	<tr>
 		<td class="hidden">
@@ -4345,8 +4575,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<td class="st-table__cell--align-top visible-on-desktop-only">
 			<div class="item">
 				<div class="st-checkbox">
-					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="assetPath" id="download-checkbox--5-0-1" value="/resource/en/license_agreement/atollic_open-source_license_agreements.pdf" data-link="/resource/en/license_agreement/atollic_open-source_license_agreements.pdf">
-					<label for="download-checkbox--5-0-1"></label>
+					<input type="checkbox" class="js-tables-multiple-download-checkbox" name="download-checkbox--4-1" id="download-checkbox--4-1" value="/resource/en/license_agreement/atollic_open-source_license_agreements.pdf" data-link="/resource/en/license_agreement/atollic_open-source_license_agreements.pdf">
+					<label for="download-checkbox--4-1"></label>
 				</div>
 				<div class="file-type">
 					<svg class="st-svg st-svg--file-type">
@@ -4358,7 +4588,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 						<a class="st-link st-link--grey js-show-did-you-know-modal" href="/resource/en/license_agreement/atollic_open-source_license_agreements.pdf" target="_blank">
 							<span class="st-font--bold st-margin--all-r-1"></span>
 							<span class="st-margin--all-r-1">TrueSTUDIO Open-source license agreements</span>
-							<span class="st-text-color--grey">1.0</span>
+							1.0
 						</a>
 					</div>
 				</div>
@@ -4383,34 +4613,24 @@ I understand that I can withdraw my consent at any time through opt-out links em
 				<a class="st-link st-link--grey" href="/resource/en/license_agreement/atollic_open-source_license_agreements.pdf" target="_blank">
 					<span class="value st-font--bold"></span>
 					<span class="value">TrueSTUDIO Open-source license agreements</span>
-					<span class="value st-text-color--grey st-font-size--xs-smallest">1.0</span>
+					<span class="value st-font-size--xs-smallest">1.0</span>
 				</a>
 			</div>
 		</td>
 	</tr>
 
-                        
-                    </tbody>
-                </table>
-                <div class="st-table-load-more hidden">
-                    <div class="st-table__expand">
-                        <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
-                            <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
-                                <use xlink:href="#icon-arrow-right"></use>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            
-        
-    
-        
-    
-        
-    
-        
-    
-        
+                
+            </tbody>
+        </table>
+        <div class="st-table-load-more hidden">
+            <div class="st-table__expand">
+                <a href="#" class="st-link st-font--bold js-table-resources-load-more"><span>Load more</span>
+                    <svg class="st-link__icon st-link__icon--right st-link__icon--arrow-small st-link__icon--arrow-down">
+                        <use xlink:href="#icon-arrow-right"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
     
 
 					</div>
@@ -12160,7 +12380,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/analytics/rpn-level.min.8219790f9045319818c5421f25458ade.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/analytics/rpn-level.min.5f21788e3b465bf2a22c6dd26ceda751.js"></script>
 
 
 
@@ -20658,6 +20878,7 @@ if (typeof searchBasePath == 'undefined') {
 
     </header>
 
+        
         <footer class="st-footer hide-for-print" id="footer-scroll">
     <div class="st-container st-container--light-grey">
         <div class="row st-row st-row--footer">
@@ -20794,6 +21015,8 @@ if (typeof searchBasePath == 'undefined') {
 
             <div class="small-12">
                 <form action="#" class="validation-form">
+                    <input class="invisibleField" id="stFirstName" name="stFirstName" size="30" type="text" value="">
+                    <input class="invisibleField" id="stLastName" name="stLastName" size="50" type="text" value="">
                     <div class="row">
                         <div class="small-12 medium-4 large-3 columns">
                             <label for="validationEmail" class="left inline">
@@ -20919,6 +21142,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
                             </div>
                             <div class="js-st-footer__slider st-footer__slider" data-slick="{&quot;speed&quot;: 1500, &quot;autoplay&quot;: false}">
                                 <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/ST8500_ecosystem_N4315D_s.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 16, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html"><p class="st-press-teaser-footer__content">STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
                                     <a href="https://newsroom.st.com/media-center/press-item.html/n4318.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/USB_PD_design_N4318I_s.jpg"/></a>
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 15, 2021</p>
@@ -20979,14 +21210,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 1, 2021</p>
                                         <a href="https://newsroom.st.com/media-center/press-item.html/c2983.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2982.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Jan 28, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2982.html"><p class="st-press-teaser-footer__content">Statement from the Supervisory Board of STMicroelectronics</p></a>
                                     </div>
                                 </div>
                             
@@ -21385,7 +21608,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 
 	
     
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.12dfb8b2c8577fc7d034e47ea20d0445.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.02670763130aadb337951d48ceaf42b8.css" type="text/css">
 
 
 
@@ -21437,6 +21660,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<p class="short-description">You can start following this product to receive updates when new Resources, Tools and SW become available. It's easy and takes only 1 minute.</p>
 	
 					<form action="/bin/st/validation/code" id="did-you-know-step2" data-abide class="fv-form did-you-know-step2" novalidate>
+						<input class="invisibleField" id="stFirstName" name="stFirstName" size="30" type="text" value="">
+						<input class="invisibleField" id="stLastName" name="stLastName" size="50" type="text" value="">
 						<div class="row did-you-know--submit-email-row">
 							<button type="submit">Submit</button>
 							<label>
@@ -21461,6 +21686,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 					<form action="/bin/st/user/preferences" id="did-you-know-validate-code" class="fv-form did-you-know-validate-code" novalidate>
 						<input type="hidden" name="didyouknow.email" id="did-you-know-email-hidden">
 						<input type="hidden" name="didyouknow.nocode" value="false">
+						<input class="invisibleField" id="stFirstNameStep1" name="stFirstName" size="30" type="text" value="">
+						<input class="invisibleField" id="stLastNameStep1" name="stLastName" size="50" type="text" value="">
 						
 		<input type="hidden" name="didyouknow.productId" value="PF257464">
 	
@@ -21501,6 +21728,8 @@ I understand that I can withdraw my consent at any time through opt-out links em
 		<p class="short-description">You can start following this product to receive updates when new Resources, Tools and SW become available. It's easy and takes only 1 minute.</p>
 	
 				<form action="/bin/st/user/preferences" data-abide id="did-you-know--didnt-receive-code-form" class="fv-form did-you-know--didnt-receive-code-form" novalidate>
+					<input class="invisibleField" id="stFirstNameStep2" name="stFirstName" size="30" type="text" value="">
+					<input class="invisibleField" id="stLastNameStep2" name="stLastName" size="50" type="text" value="">
 					<div class="row did-you-know--submit-email-row did-you-know--submit-email-row-simple-subscribe">
 						<button type="submit">Subscribe</button>
 						<label>
@@ -21572,7 +21801,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 	</div>
 	
     
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.9319f186d63365e46896f34cd7d2dd00.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.a40c5bc9967157686ed0cc0726443397.js"></script>
 
 
 
@@ -21594,39 +21823,24 @@ I understand that I can withdraw my consent at any time through opt-out links em
 	};
 </script>
 
-<div>
-    
 
-    <div class="info-modal modal-dialog" data-cookie="dontShowPrivacyUpdates">
-        <div class="inner">
-            <div class="header">
-                <h3 class="st-h3">Privacy changes</h3>
-                <a class="btn-close-panel right" href="#" data-dismiss="modal" aria-label="Close">x</a>
-            </div>
-            <div class="content">
-                <p class="short-description">
-Since January 28th, 2021, in order to adhere to legal requirements of new data privacy laws and regulations, in particular the CCPA, we have replaced our Privacy Policy with a new document called “STMicroelectronics’ Corporate Privacy Statement” available <a class="st-link st-link--underlined" href="https://www.st.com/content/st_com/en/common/privacy-portal/corporate-privacy-statement.html">here</a>
-.</p>
-                
-            </div>
-        </div>
-    </div>
-</div>
+
+
 
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx.min.4873a8dd2c9586fe5922873a444bcb44.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/save-to-my-st.min.ff70d7ae5ea9d4756bb8f5dfb8726ca2.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookiePanel.min.bfd3823d2311ca703c45a55c7e8d24c3.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/info-modal.min.4e91c94000260a2938c6f9ba9138d68c.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx.min.871a642e436ccc7d21d565ebda2bef51.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/save-to-my-st.min.b6ddfa8ff926af975e801ec5634ca5be.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookiePanel.min.f76b032f4484bddaf45b59c0f0e234bf.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/info-modal.min.74c5d9b86825e90a58abd1a4ca66c5ce.js"></script>
 
 
 
 
     
     
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookie-functions.min.2a4f005913054ff445007a4eb6d3ed7b.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookie-functions.min.c49fbf046e7301df16805ea8ca5f16b9.js"></script>
 
 
 
