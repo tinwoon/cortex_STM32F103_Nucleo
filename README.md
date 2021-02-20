@@ -1000,14 +1000,90 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 
 - EEPROM
 
+  > PROM이란 Programmable Rom의 줄임말로 프로그래밍이 가능한 ROM을 의미한다.
+>
+  > 이 중 EEPROM은 Electrically Erased Programmable Rom의 줄임말로 전기적으로 DATA를 썼다 지웠다를 할 ㅜㅅ 있는 비휘발성 메모리이다.
+>
+  > Write하는 속도가 매우 빠르고 손쉽게 다룰 수 있다는 점이 장점이다.
+
   ![image](https://user-images.githubusercontent.com/18729679/108322044-510c5680-7208-11eb-9f70-ed4a0d0f0c59.png)
-
-  ![image](https://user-images.githubusercontent.com/18729679/108322135-726d4280-7208-11eb-97b0-9152d3538b45.png)
-
   
-
+  ![image](https://user-images.githubusercontent.com/18729679/108322135-726d4280-7208-11eb-97b0-9152d3538b45.png)
+  
+  
+  
   > 대부분의 슬레이브는 장치의 주소를 변경할 수 있는 방법을 제공한다.(해당 같은 슬레이브 장치를 여러 개 추가해야할 경우가 있기 때문)
   >
   > 1. 위의 EEPROM을 여러개 사용한다 가정하면, 10100000(0xA0)의 장치 주소를 가진다하면 A2 A1 A0는 0이란 장치 주소값을 갖는다.
   > 2. 따라서, 10100010을 만들고 싶다면, 점퍼선의 WP,A2,A1,A0 중 A0에 High신호를 주면 된다.
+  
+  
+
+```c
+int main(void)
+{
+ 
+  /* USER CODE BEGIN WHILE */
+  uint8_t eeprom[10] = {0x00,0x11,0x22,0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99};
+
+  // eeprom이 8비트의 내부 저장소를 가지고 있기에 I2C_MEMADD_SIZE_8BIT로 설정 
+  // 0xA0이라는 eeprom에 내부 0x00번지부터 eeprom[0]부터 10바이트를 쓴다는 의미이며, 마지막 10은 timeout을 의미한다.
+  HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x00, I2C_MEMADD_SIZE_8BIT, &eeprom[0], 10, 10);
+
+  HAL_Delay(3);
+
+  for(int i=0; i<10; i++){
+	  eeprom[i] = 0x00;
+  }
+  HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0x00, I2C_MEMADD_SIZE_8BIT, &eeprom[0], 10, 10);
+
+  printf("%02x %02x %02x %02x %02x %02x %02x %02x %02x %02x\n", eeprom[0], eeprom[1], eeprom[2], eeprom[3], eeprom[4], eeprom[5], eeprom[6], eeprom[7], eeprom[8], eeprom[9]);
+
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+```
+
+#### 49. SPI
+
+- 동기직 직렬통신의 기본을 가짐.
+- i2c 보다 통신속도가 빠르고 규격이 간단함.
+
+>SCLK - 클럭 전송 라인
+>
+>MOSI - Master Out Slave In
+>
+>MISO - Master In Slave Out
+>
+>/CS - Chip Select(Active Low) => 통신할 대상을 선택할 때 사용(Active Low는 low일 때 동작한다는 의미)
+
+![image](https://user-images.githubusercontent.com/18729679/108593032-97061d80-73b4-11eb-8c1b-b441302c814a.png)
+
+- 만약 Slave1과 통신하고 싶다면 CS1만 low로 통신하고, 나머지 CS핀은 High로 유지해주면 됨.
+- 만약 CS1 과 CS2 모두를 Low로 떨어트리면 충돌이 나기때문에 두 가지는 안됨.
+- 송신과 수신이 동시에 이루어지는 전이중통신이며 CS를 Low로 떨어트릴지는 마스터에 달려있다.
+- 하지만, STM은 전이중통신으로 할지, 반이중통신으로 할지 결정할 수 있다.
+
+- 위상, 극성, 전송순서, 클럭속도를 SPI 통신할 때 설정해야한다.
+
+![image](https://user-images.githubusercontent.com/18729679/108593350-6fb05000-73b6-11eb-95f5-c92894e9df14.png)
+
+>통신을 하고 있지 않는 상태(idle)일 때 High상태를 유지하고 싶다면 CPOL = High 아니면 CPOL = Low
+>
+>클럭 중 엣지가 첫번째 일때 전송을 하고싶다면 CPHA = 1Edge
+
+- SPI는 i2c처럼 클락의 통신속도를 숫자로 써 넣는게 아닌 클럭을 몇으로 나눌지로 결정해야함.
+- SPI에서는 통신의 기본 단위를 8bit로 하는데 STM에서는 8bit 또는 16bit로 결정할 수 있다.
+
+![image](https://user-images.githubusercontent.com/18729679/108593574-d5510c00-73b7-11eb-9486-333b9eb91483.png)
+
+> STM의 타이밍도를 보면 다음과 같이 나타나는데 
+>
+> - CPOL = Low로 하고, CPHA = 2Edge로 한다면
+> - CS에 Low신호가 들어올 때 통신이 시작하고, 2번째 엣지일때 MISO, MOSI에 통신이 이루어지는 모습을 알 수 있다.
 

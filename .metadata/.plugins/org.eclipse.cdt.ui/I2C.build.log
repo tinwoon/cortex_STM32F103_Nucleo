@@ -1,0 +1,7 @@
+19:13:45 **** Incremental Build of configuration Debug for project I2C ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-objcopy.exe -O ihex I2C.elf I2C.hex 
+Info: Parallel threads used: 0
+
+19:13:46 Build Finished (took 130ms)
+

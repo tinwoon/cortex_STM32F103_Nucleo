@@ -59,7 +59,20 @@ static void MX_USART2_UART_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+#ifdef __GNUC__
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif
 
+PUTCHAR_PROTOTYPE
+{
+	if(ch == '\n')
+		HAL_UART_Transmit(&huart2, (uint8_t*) "\r", 1, 0xFFFF);
+	HAL_UART_Transmit(&huart2, (uint8_t*) &ch, 1, 0xFFFF);
+
+	return ch;
+}
 /* USER CODE END 0 */
 
 /**
@@ -102,11 +115,14 @@ int main(void)
 
   HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0x00, I2C_MEMADD_SIZE_8BIT, &eeprom[0], 10, 10);
 
+  HAL_Delay(3);
+
   for(int i=0; i<10; i++){
 	  eeprom[i] = 0x00;
   }
   HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0x00, I2C_MEMADD_SIZE_8BIT, &eeprom[0], 10, 10);
 
+  printf("%02x %02x %02x %02x %02x %02x %02x %02x %02x %02x\n", eeprom[0], eeprom[1], eeprom[2], eeprom[3], eeprom[4], eeprom[5], eeprom[6], eeprom[7], eeprom[8], eeprom[9]);
 
   while (1)
   {

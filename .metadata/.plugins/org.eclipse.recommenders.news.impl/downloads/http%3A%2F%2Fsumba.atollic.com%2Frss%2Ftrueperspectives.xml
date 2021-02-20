@@ -2184,7 +2184,7 @@ If you still can't download the software, please reach out to us on the <a href=
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107482.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187523.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
         
         <script id="PF257464_CP535563_9_3_0">
             var gsContent = $("#PF257464_CP535563_9_3_0").parent();
@@ -2232,7 +2232,7 @@ If you still can't download the software, please reach out to us on the <a href=
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107482.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="H5UAeCQMZgaAChm9gCv6+A==,OygSEF150J2gxBjvsefYXaPIeZE881NSZGkyXtB6nC1ogDHuMfvL4S9iuFtx8W7x9Hz90wP8+FTEkZ7kXMYaqVQXAkkaTP78k0ZkWVKJNa/g3b6hHOP1RWSq7R8yb4oGxCb4ZRq2d04fUqyQ8FTvge1MgeyXewNxPBjA6ts/MsN54+hLXx1MRzNzGWexFtAnFK/gv7cqd/4HFUw9QRDjJXK8pny2Gz/P8p7sr5J2MQkxh9LhaaHjnE/N3/lrsCqUn0kZMXWtyrC5wxLvABJqzoe2I/Arm3+2bwY2aHYt6Vg=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187523.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="me7XIAk5t+V8BJspgeK84A==,+8JM+QLOpFZ9vGHsHROocVuPPWqfPA/Erm8cNNT1wgGs3HIO/6utLYXCgz5Xt1yi0KVjq4wXsnYfEQKRHeLLE6GfEUzLvgmE0snXxjiXH3YcRweX1DaF8BQHHXmdpqHCxqpb7S6LbhFRNT6vgkNGPuLHiHRxiwlaX4fSmhsJ0fBQZ14FGCO/C5qYrQpLy44EQdrRxPIw2CZcVtQBDL9Qbq+ZGFK4ZQ7y2BCHKh5jyuZG8axezvMzbmBHufeU0B9Ty9b0E1BCPcMvW933EwXdB8rCOTqJXHEkEJWddqR+MME=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2642,7 +2642,7 @@ ST uses the personal data that you provide directly to it and through your activ
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107486.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187527.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
         
         <script id="PF257464_CP535564_9_3_0">
             var gsContent = $("#PF257464_CP535564_9_3_0").parent();
@@ -2690,7 +2690,7 @@ ST uses the personal data that you provide directly to it and through your activ
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613632107486.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="8AcXstZq7Md2bUgdiE9gFA==,qKi7Vt/W3c8gtqkWpWIQ5l+jCZtLjVt6DoKoKYIQp4VVoqFPE9moSYhw0r09RlmyhpcFAnc7nUfZFvO86KSUxwboiQuovIo6XY9Qubuv0OehQqmzo0HflLRHPprFDlEHQVGkmjG2Eht+y0pI2p983vf6Ph0O+P4RISgnPEEklbI3zZsh9pVDWFHCtD+8vQM1G+0o4a7Qj0MIpFPNT6+p9yTm1cD46y7wWX3fSqM2QahuXRoUC+Ev4ZmefXN5Lfw6F3LqDbdJh2oU/Vk4xBlJyw==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187527.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="WAomy6U4yKfWrsyjf+nSew==,peUJAxCYEjozexyzdjmMdRCQZ1YeCmH+kadVtCjgrFF8ZiIY3CE1K8y0odTMkQctTIm/jlWW1lrEMG+gAsozDhEGy6cMGqE4JTKX6OYI84LwVtTkFb8iMRmmpY2EnPIxJSx4AdbochUY3dx0BLdQQMuSw0MUGfmieB4jJOlXyQkE7EqoAbBEi962OnbENY/3iZxMkMesA3v1sbBx8gq1OtHmbmaFoAfvwb4PHfpb9L/1Ez7JGrzhTLWkXZl5PCn0QqbtcEoWbPB29WkYDRmYYg==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -3316,6 +3316,26 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
+        Feb 18, 2021
+    
+
+                                </div>
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html" title="STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers" class="st-card__image js-st-object-fit">
+                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/Camera_-module_bundle_STM32-boards_N4331S_big.jpg" alt="STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers" title="STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers"/>
+                                    </a>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html" class="st-card__copy js-st-dotdotdot ">
+                                        STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers
+                                    </a>
+                                </div>
+                            </div>
+                        
+							
+                            
+                                <div class="st-card st-card--widget st-card--category-dark-blue st-flex st-flex--sm-column" data-category="News">
+                                <div class="st-card__date">
+                                    
+    
         Feb 16, 2021
     
 
@@ -3346,24 +3366,6 @@ ST uses the personal data that you provide directly to it and through your activ
                                     </a>
                                     <a href="https://newsroom.st.com/media-center/press-item.html/n4318.html" class="st-card__copy js-st-dotdotdot ">
                                         STMicroelectronics Eases Design of USB Type-C™ Power Adapters with Highly Efficient Power Delivery and PPS Reference Design
-                                    </a>
-                                </div>
-                            </div>
-                        
-							
-                            
-                                <div class="st-card st-card--widget st-card--category-dark-blue st-flex st-flex--sm-column" data-category="News">
-                                <div class="st-card__date">
-                                    
-    
-        Feb 15, 2021
-    
-
-                                </div>
-                                <div>
-                                    
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2985.html" class="st-card__copy js-st-dotdotdot ">
-                                        STMicroelectronics Announces Status of Common Share Repurchase Program
                                     </a>
                                 </div>
                             </div>
@@ -21142,6 +21144,14 @@ I understand that I can withdraw my consent at any time through opt-out links em
                             </div>
                             <div class="js-st-footer__slider st-footer__slider" data-slick="{&quot;speed&quot;: 1500, &quot;autoplay&quot;: false}">
                                 <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/Camera_-module_bundle_STM32-boards_N4331S_big.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 18, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html"><p class="st-press-teaser-footer__content">STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
                                     <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/ST8500_ecosystem_N4315D_s.jpg"/></a>
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 16, 2021</p>
@@ -21202,14 +21212,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 1, 2021</p>
                                         <a href="https://blog.st.com/8h-triacs/"><p class="st-press-teaser-footer__content">8H Triacs or The Challenge of Designing Smaller, Hotter, and Safer</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2983.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Feb 1, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2983.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
                                     </div>
                                 </div>
                             
@@ -21830,7 +21832,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx.min.871a642e436ccc7d21d565ebda2bef51.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx.min.6ab57d08533bfe3309512ddfc79ec7b8.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/save-to-my-st.min.b6ddfa8ff926af975e801ec5634ca5be.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-site/components/cookiePanel.min.f76b032f4484bddaf45b59c0f0e234bf.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/info-modal.min.74c5d9b86825e90a58abd1a4ca66c5ce.js"></script>
