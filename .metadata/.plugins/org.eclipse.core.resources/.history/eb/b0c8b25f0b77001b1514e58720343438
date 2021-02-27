@@ -1,0 +1,26 @@
+/*
+ * VS1003.c
+ *
+ *  Created on: 2021. 2. 24.
+ *      Author: pc1
+ */
+void VS1003_Init(void){
+	GPIO_InitTypeDef GPIO_InitStruct;
+
+	/*GPIO clock enable*/
+	__HAL_RCC_GPIOA_CLK_ENABLE();
+	__HAL_RCC_GPIOB_CLK_ENABLE();
+	__HAL_RCC_GPIOC_CLK_ENABLE();
+
+	/*/CS */
+	GPIO_InitStruct.Pin = GPIO_PIN_9;
+	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+	HAL_GPIO_Init(GPIOb, &GPIO_InitStruct);
+
+	/*XDCS*/
+	GPIO_InitStruct.Pin = GPIO_PIN_4;
+
+}
+

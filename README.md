@@ -1002,21 +1002,21 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc){
 
   > PROM이란 Programmable Rom의 줄임말로 프로그래밍이 가능한 ROM을 의미한다.
 >
-  > 이 중 EEPROM은 Electrically Erased Programmable Rom의 줄임말로 전기적으로 DATA를 썼다 지웠다를 할 ㅜㅅ 있는 비휘발성 메모리이다.
+  > 이 중 EEPROM은 Electrically Erased Programmable Rom의 줄임말로 전기적으로 DATA를 썼다 지웠다를 할 수 있는 비휘발성 메모리이다.
 >
   > Write하는 속도가 매우 빠르고 손쉽게 다룰 수 있다는 점이 장점이다.
 
   ![image](https://user-images.githubusercontent.com/18729679/108322044-510c5680-7208-11eb-9f70-ed4a0d0f0c59.png)
-  
+
   ![image](https://user-images.githubusercontent.com/18729679/108322135-726d4280-7208-11eb-97b0-9152d3538b45.png)
+
   
-  
-  
+
   > 대부분의 슬레이브는 장치의 주소를 변경할 수 있는 방법을 제공한다.(해당 같은 슬레이브 장치를 여러 개 추가해야할 경우가 있기 때문)
   >
   > 1. 위의 EEPROM을 여러개 사용한다 가정하면, 10100000(0xA0)의 장치 주소를 가진다하면 A2 A1 A0는 0이란 장치 주소값을 갖는다.
   > 2. 따라서, 10100010을 만들고 싶다면, 점퍼선의 WP,A2,A1,A0 중 A0에 High신호를 주면 된다.
-  
+
   
 
 ```c
@@ -1087,3 +1087,40 @@ int main(void)
 > - CPOL = Low로 하고, CPHA = 2Edge로 한다면
 > - CS에 Low신호가 들어올 때 통신이 시작하고, 2번째 엣지일때 MISO, MOSI에 통신이 이루어지는 모습을 알 수 있다.
 
+- 음성 신호를 보내기 위해선 bit rate란 개념을 주의해야한다.
+
+  > bit rate보다 빠르게 음성 데이터를 전송하다 보면 codec이 내부 버퍼가 다 차거나 너무 빠르면 음악의 재생에 문제가 생긴다.
+  >
+  > 이런 현상을 방지하기 위해서 코덱이 데이터를 받을 준비가 되어있는지를 알려주는 ==DREQ==라는 핀이 있는데, 준비가 되면 High 아니면 Low로 나타내준다.
+
+![image](https://user-images.githubusercontent.com/18729679/108982786-8239ca80-76d1-11eb-8e4b-934a47305fb4.png)
+
+![image](https://user-images.githubusercontent.com/18729679/108985514-7c91b400-76d4-11eb-852f-f122b3efb69e.png)
+
+- SPI에는 여러가지 버전이 있다.
+
+  ![image](https://user-images.githubusercontent.com/18729679/108986167-2f621200-76d5-11eb-972a-0611ad2576ef.png)
+
+  > - Full - Duplex Master : 전이중 통신으로 Master일 때
+  > - Full - Duplex Slave : 전이중 통신으로 Slave일 때
+  > - Half- Duplex Master : 반이중 통신으로 Master일 때
+  > - Half Duplex Slave : 반이중 통신으로 Slave일 때
+  > - Receive Only Master/Slave : 마스터/슬레이브로만 받을 때
+  > - Transmit Only Master/Slave : 마스터/슬레이브로만 보낼 89때
+  >
+  > 그 밑의 Hardware Nss Signal의 경우 하드웨어적으로 CS를 제어하고 싶을때 설정하는 것
+  >
+  > 만약 Hardware Nss Input Signal로 작성했다면, spi송신, 수신함수를 실행시키면 자동으로 low, high가 된다.
+  >
+  > 
+  >
+  > 1. SPI를 Full Duplex Master로 놓고, 여기 실습에서는 CS핀을 임의로 제어하기 위해 PB9번을 Gpio output으로 설정한다.
+  > 2. 코덱의 모듈회로도의 통신제어도(초록부분)의 핀 3개를 할당하기 위해 PA4, 6을 Gpio output으로, PC7을 Gpio input으로 설정한다. (PC7은 DREQ에 해당하는 핀인데 코덱입장에서는 출력핀이고 MCU입장에서는 입력핀이다)
+  > 3. SPI Parameter Settings에서 Basic Parameters에 First Bit이 MSB First, LSB First가 있는데 상위비트를 먼저 보낼지, 하위비트를 먼저 보낼지 정하는 것이다.
+  > 4. Clock Parameters에는 Prescaler가 있는 이 중 8로 설정하면 Baudrate가 자동으로 계산된다. 이 계산 값은 APB2는 타이머를 제외하고 기본 84Mhz로 동작한다(내 nucleo보드는 64Mhz인 듯). 이때 보통 SPI는 이거의 절반의 클락 값인 42Mhz로 동작한다(내 보드는 32Mhz). 따라서 Prescaler를 2로 한다면,  최대 42/2인 21MBits/s가 된다(내 보드는 16이겠져?).
+  > 5. Clock Polarity와 Clock Phase는 각각 위에서 설명한 CPOL, CPHA이므로 High, 2Edge로 설정한다.
+  > 6. Advanced Parameters의 경우 CRC Calculation은 통신의 에러검출로 사용되는 것이며, NSS Signal Type,은 아까 말한 Hardware Nss Signal과 같다. 우리는 software적으로 CS핀을 하나 설정했으므로 software로 정의한다.
+
+  
+
+ 

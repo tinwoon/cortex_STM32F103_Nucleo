@@ -42,11 +42,11 @@
 
     
     
-<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.6b75252bced43028851ab39658e6e619.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.c10e795ba18a81427aad8ff618f854d6.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/granite/utils.min.ff9a9bab4c0b4a937644bef945322537.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.min.67087856594f309152bcc6962cb47972.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/foundation/jquery.min.d7c42e4a257b8b9fe38d1c53dd20d01a.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site/libs/dataTables.min.5a532668d3ea3d1252bb88da7171bbba.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/libs/dataTables.min.db48e62c2330ed94cad9f420205b15f1.js"></script>
 
 
 
@@ -147,7 +147,7 @@
             referrer = localStorage.getItem('st-referrer') || referrer;
             localStorage.removeItem('st-referrer');
         }
-        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.17.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:03:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
+        window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","pageShortName":"products:[...]:truestudio","pageName":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","destinationURL":"https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.html","isIframe":false,"contentIframe":false,"hierarchie1":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com_cx:en:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"","type":"","version":""},"attributes":{"version":"4.17.0","language":"en"},"components":{}},"product":[{"productInfo":{"tree":{"level1":"Development Tools","level2":"Software Development Tools","level3":"STM32 Software Development Tools","level4":"","level5":"STM32 IDEs","level6":"TrueSTUDIO"},"productName":"truestudio","productID":"TrueSTUDIO","prmisID":"PF257464","breadcrumb":"products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio"}}],"application":[{"applicationInfo":{"level0":"","level1":"","level2":"","level3":"","level4":""}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:01:prod:ams:publish:products:development-tools:software-development-tools:stm32-software-development-tools:stm32-ides:truestudio","language":"en"};
 		window.digitalData.page.pageInfo.referringURL = referrer;
 		window.digitalData.page.pageInfo.originalURL  = document.location.href;
 
@@ -177,7 +177,7 @@
 
     
     
-<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.d763ff1872a469e1f8d115eb7008b931.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.00ce256b76d3cfb01e27cef257363376.js"></script>
 
 
 
@@ -185,20 +185,20 @@
 
 
     
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx.min.5ffc875a64ec8a9854258948928c0341.css" type="text/css">
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/info-modal.min.6b9fe77f67b71b93895e6019115682ea.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx.min.23abc1181ec8114a24abba1a4be3556b.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/info-modal.min.441b452ecb59bd2632a52fbbe419432f.css" type="text/css">
 
 
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/modernizr.min.af71e73c084534b45bdd06224977b260.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/modernizr.min.a7e9283f7e63352491a42689da56197a.js"></script>
 
 
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/st-app-head.min.8690b7018aa35ffeb0c47c63b7e48b56.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/st-app-head.min.1bdd853cf29880ecf47993c40b765341.js"></script>
 
 
 
@@ -986,7 +986,7 @@
         <div class="row st-row">
             <div class="columns small-12">
                 <div class="st-quicklinks-widget js-quicklinks-widget">
-                    <span class="st-font-size--xs st-font--bold">Quick links</span>
+                    <span class="st-font-size--s st-text-color--grey">Quick links</span>
                     <div class="links"></div>
                 </div>
                 <div class="st-nav-search-bar render-in-level" data-level0 data-custom-search="true">
@@ -1013,10 +1013,10 @@
                     <button class="st-nav-search-bar-reset-button st-button st-button--outline render-in-level" data-level0 data-level1="true" data-level2="true" data-level3="true">Reset</button>
                     <div class="st-nav-search-bar-item full-width buttons show-for-small-only">
                         <button class="st-nav-search-bar-filters-button st-button st-button--outline st-button--clear">
-                            <svg class="st-button__icon st-button__icon--burger" viewBox="0 0 22 17">
-                                <use xlink:href="#icon-burger"></use>
+                            <svg class="st-button__icon st-button__icon--filter" viewBox="0 0 22 17">
+                                <use xlink:href="#icon-filter"></use>
                             </svg>
-                            Browse all
+                            Show filters
                         </button>
                     </div>
                     <div class="st-nav-search-bar-mobile hidden render-in-level-container">
@@ -1036,7 +1036,7 @@
                                     <div class="field">
                                         <div class="st-select js-nav-search-bar-select-file-type">
                                             <select name="select">
-                                                <option selected>All file types</option>
+                                                <option value="" selected>All file types</option>
                                                 <option value="pdf">PDF</option>
                                                 <option value="zip">ZIP</option>
                                             </select>
@@ -1048,7 +1048,7 @@
                                     <div class="field">
                                         <div class="st-select js-nav-search-bar-select-latest-update">
                                             <select name="select">
-                                                <option selected>All dates</option>
+                                                <option value="" selected>All dates</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1159,7 +1159,7 @@
         <div class="row st-row">
             <div class="columns small-12">
                 <div class="st-quicklinks-widget js-quicklinks-widget">
-                    <span class="st-font-size--xs st-font--bold">Quick links</span>
+                    <span class="st-font-size--s st-text-color--grey">Quick links</span>
                     <div class="links"></div>
                 </div>
                 <div class="st-nav-search-bar render-in-level" data-level0 data-custom-search="true">
@@ -1186,10 +1186,10 @@
                     <button class="st-nav-search-bar-reset-button st-button st-button--outline render-in-level" data-level0 data-level1="true" data-level2="true" data-level3="true">Reset</button>
                     <div class="st-nav-search-bar-item full-width buttons show-for-small-only">
                         <button class="st-nav-search-bar-filters-button st-button st-button--outline st-button--clear">
-                            <svg class="st-button__icon st-button__icon--burger" viewBox="0 0 22 17">
-                                <use xlink:href="#icon-burger"></use>
+                            <svg class="st-button__icon st-button__icon--filter" viewBox="0 0 22 17">
+                                <use xlink:href="#icon-filter"></use>
                             </svg>
-                            Browse all
+                            Show filters
                         </button>
                     </div>
                     <div class="st-nav-search-bar-mobile hidden render-in-level-container">
@@ -1209,7 +1209,7 @@
                                     <div class="field">
                                         <div class="st-select js-nav-search-bar-select-file-type">
                                             <select name="select">
-                                                <option selected>All file types</option>
+                                                <option value="" selected>All file types</option>
                                                 <option value="pdf">PDF</option>
                                                 <option value="zip">ZIP</option>
                                             </select>
@@ -1221,7 +1221,7 @@
                                     <div class="field">
                                         <div class="st-select js-nav-search-bar-select-latest-update">
                                             <select name="select">
-                                                <option selected>All dates</option>
+                                                <option value="" selected>All dates</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1360,13 +1360,13 @@
                         
                             
     
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/get-software.min.b0a7ae62690c6aeca8405c0835513918.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/get-software.min.64d30ba5433d47c8b5799d3c286c06c2.css" type="text/css">
 
 
 
                             
     
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/get-software.min.8e2a5f2dcea8600b5e9e527965b719d2.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/get-software.min.62980d76660e22e6d2ae6d7e9b2c8bd7.js"></script>
 
 
 
@@ -2184,7 +2184,7 @@ If you still can't download the software, please reach out to us on the <a href=
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187523.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1614190507597.product=TrueSTUDIO_Win.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Win">
         
         <script id="PF257464_CP535563_9_3_0">
             var gsContent = $("#PF257464_CP535563_9_3_0").parent();
@@ -2232,7 +2232,7 @@ If you still can't download the software, please reach out to us on the <a href=
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187523.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="me7XIAk5t+V8BJspgeK84A==,+8JM+QLOpFZ9vGHsHROocVuPPWqfPA/Erm8cNNT1wgGs3HIO/6utLYXCgz5Xt1yi0KVjq4wXsnYfEQKRHeLLE6GfEUzLvgmE0snXxjiXH3YcRweX1DaF8BQHHXmdpqHCxqpb7S6LbhFRNT6vgkNGPuLHiHRxiwlaX4fSmhsJ0fBQZ14FGCO/C5qYrQpLy44EQdrRxPIw2CZcVtQBDL9Qbq+ZGFK4ZQ7y2BCHKh5jyuZG8axezvMzbmBHufeU0B9Ty9b0E1BCPcMvW933EwXdB8rCOTqJXHEkEJWddqR+MME=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535563" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1614190507597.product=TrueSTUDIO_Win.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Win" data-registration="light registration" data-session="" data-download-path-encrypted="trPRqJiVrk/cj9MMqi9znQ==,GgI+3n33RiZTgtIVPdnNm4dpqVKANm/LqzPuqkTNt7D5XbxgZPd+f7OmOaWlfqGyyEPO5j9GMRuMSPKn/VyrbJGMF/zJNOe9d8H+zUZu4d/kcn/ajxhRl80kowzcD+jB7t1+iTJV/yfVTbTApSp1OZIOcuisYGvHgonCkH3uD/X/U6+mG/UCix9BMie8oyAm7gmgelNpDBwF6qx6hjR1a7FVdnIRXeIgl9jCs1AD4IG3C/q/Y9OQztaXL5X6GPQUKJhRRU/Hoe20qJa2dm5LLyJ+P/c7XbJRuxU/hEqnLZg=" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -2642,7 +2642,7 @@ ST uses the personal data that you provide directly to it and through your activ
 
     
 
-    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187527.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
+    <div class="gscontent js-get-software-restricted-check" data-reg-required-link-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1614190507601.product=TrueSTUDIO_Lin.version=9.3.0.html" data-product-item-name="TrueSTUDIO_Lin">
         
         <script id="PF257464_CP535564_9_3_0">
             var gsContent = $("#PF257464_CP535564_9_3_0").parent();
@@ -2690,7 +2690,7 @@ ST uses the personal data that you provide directly to it and through your activ
                 unique session ID of <=20 characters (ex. "1000" || "asdf" || "1000asdf")
                 (see: https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html)
         -->
-        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1613778187527.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="WAomy6U4yKfWrsyjf+nSew==,peUJAxCYEjozexyzdjmMdRCQZ1YeCmH+kadVtCjgrFF8ZiIY3CE1K8y0odTMkQctTIm/jlWW1lrEMG+gAsozDhEGy6cMGqE4JTKX6OYI84LwVtTkFb8iMRmmpY2EnPIxJSx4AdbochUY3dx0BLdQQMuSw0MUGfmieB4jJOlXyQkE7EqoAbBEi962OnbENY/3iZxMkMesA3v1sbBx8gq1OtHmbmaFoAfvwb4PHfpb9L/1Ez7JGrzhTLWkXZl5PCn0QqbtcEoWbPB29WkYDRmYYg==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
+        <a id="gatherEmail" data-id="CP535564" data-version="9.3.0" data-path="https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio" data-reg-path="https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/truestudio.license=1614190507601.product=TrueSTUDIO_Lin.version=9.3.0.html" data-ds-button="get-software" data-software-button-for-product="TrueSTUDIO_Lin" data-registration="light registration" data-session="" data-download-path-encrypted="y+ZImYBXEA1N97ed7sbmVA==,GX6/Dd4KmdlybWhOoFHOJnLK67rKZvnbL5viprMdSkooieLi3l98UlQa64w/rmb4h2+4i7F3Uog4EySqxPlKJ3MSwgNldND1oURqcBu5R1VaHktw4hFkDVOzImtjvs3F1q8jYZNXYBP/WYUIwEVnEw+XP9biCNuP2bvIp+GhctEr/L8pUihJbHmlLF/5k+Vemmy3lLFGlmapxEer5vmRz0gk3NrzRzyO0r4UGpQvh3UghzrTv2UH/jQhXWNN3FdguwNhC3ovWl3QuHyesjvfhQ==" class="license-accept btn-productspecification table-button-blue st-magento js-get-software-restricted-check">
             
     
 
@@ -3316,16 +3316,16 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Feb 18, 2021
+        Feb 24, 2021
     
 
                                 </div>
                                 <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html" title="STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers" class="st-card__image js-st-object-fit">
-                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/Camera_-module_bundle_STM32-boards_N4331S_big.jpg" alt="STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers" title="STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers"/>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4317.html" title="Precision, High-Voltage Bi-directional Current-Sense Amplifiers from STMicroelectronics Boost Robustness and Power Efficiency" class="st-card__image js-st-object-fit">
+                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/TSC20_current_sense_amplifiers_N4317D_s.jpg" alt="Precision, High-Voltage Bi-directional Current-Sense Amplifiers from STMicroelectronics Boost Robustness and Power Efficiency" title="Precision, High-Voltage Bi-directional Current-Sense Amplifiers from STMicroelectronics Boost Robustness and Power Efficiency"/>
                                     </a>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html" class="st-card__copy js-st-dotdotdot ">
-                                        STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4317.html" class="st-card__copy js-st-dotdotdot ">
+                                        Precision, High-Voltage Bi-directional Current-Sense Amplifiers from STMicroelectronics Boost Robustness and Power Efficiency
                                     </a>
                                 </div>
                             </div>
@@ -3336,16 +3336,16 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Feb 16, 2021
+        Feb 23, 2021
     
 
                                 </div>
                                 <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html" title="STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem" class="st-card__image js-st-object-fit">
-                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/ST8500_ecosystem_N4315D_s.jpg" alt="STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem" title="STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem"/>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4335.html" title="STMicroelectronics Boosts Security Along with AI and IoT Application Development with STM32MP1 Ecosystem Extensions" class="st-card__image js-st-object-fit">
+                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/STM32MP1_ecosystem_N4335S_s.jpg" alt="STMicroelectronics Boosts Security Along with AI and IoT Application Development with STM32MP1 Ecosystem Extensions" title="STMicroelectronics Boosts Security Along with AI and IoT Application Development with STM32MP1 Ecosystem Extensions"/>
                                     </a>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html" class="st-card__copy js-st-dotdotdot ">
-                                        STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4335.html" class="st-card__copy js-st-dotdotdot ">
+                                        STMicroelectronics Boosts Security Along with AI and IoT Application Development with STM32MP1 Ecosystem Extensions
                                     </a>
                                 </div>
                             </div>
@@ -3356,16 +3356,14 @@ ST uses the personal data that you provide directly to it and through your activ
                                 <div class="st-card__date">
                                     
     
-        Feb 15, 2021
+        Feb 23, 2021
     
 
                                 </div>
                                 <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4318.html" title="STMicroelectronics Eases Design of USB Type-C™ Power Adapters with Highly Efficient Power Delivery and PPS Reference Design" class="st-card__image js-st-object-fit">
-                                        <img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/USB_PD_design_N4318I_s.jpg" alt="STMicroelectronics Eases Design of USB Type-C™ Power Adapters with Highly Efficient Power Delivery and PPS Reference Design" title="STMicroelectronics Eases Design of USB Type-C™ Power Adapters with Highly Efficient Power Delivery and PPS Reference Design"/>
-                                    </a>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4318.html" class="st-card__copy js-st-dotdotdot ">
-                                        STMicroelectronics Eases Design of USB Type-C™ Power Adapters with Highly Efficient Power Delivery and PPS Reference Design
+                                    
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/t4334.html" class="st-card__copy js-st-dotdotdot ">
+                                        STMicroelectronics to Exhibit Industry-Leading Solutions for Smart Mobility, Power &amp; Energy Management, and IoT &amp; 5G at MWC Shanghai 2021
                                     </a>
                                 </div>
                             </div>
@@ -12382,7 +12380,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/analytics/rpn-level.min.5f21788e3b465bf2a22c6dd26ceda751.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/analytics/rpn-level.min.8219790f9045319818c5421f25458ade.js"></script>
 
 
 
@@ -21144,34 +21142,58 @@ I understand that I can withdraw my consent at any time through opt-out links em
                             </div>
                             <div class="js-st-footer__slider st-footer__slider" data-slick="{&quot;speed&quot;: 1500, &quot;autoplay&quot;: false}">
                                 <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4317.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/TSC20_current_sense_amplifiers_N4317D_s.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 24, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4317.html"><p class="st-press-teaser-footer__content">Precision, High-Voltage Bi-directional Current-Sense Amplifiers from STMicroelectronics Boost Robustness and Power Efficiency</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4335.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/STM32MP1_ecosystem_N4335S_s.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 23, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4335.html"><p class="st-press-teaser-footer__content">STMicroelectronics Boosts Security Along with AI and IoT Application Development with STM32MP1 Ecosystem Extensions</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/t4334.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 23, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/t4334.html"><p class="st-press-teaser-footer__content">STMicroelectronics to Exhibit Industry-Leading Solutions for Smart Mobility, Power &amp; Energy Management, and IoT &amp; 5G at MWC Shanghai 2021</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://blog.st.com/mwc-shanghai-2021/" class="st-footer__slider-img"><img class="lazyload" data-src="https://blog.st.com/wp-content/uploads/ST15523_GettyImages-943691498-lprbanner-560x240.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 22, 2021</p>
+                                        <a href="https://blog.st.com/mwc-shanghai-2021/"><p class="st-press-teaser-footer__content">MWC Shanghai 2021: 3 Firsts Around AR, Contactless Transactions, and Bluetooth</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/p4330.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/STPay_Mobile_P4330S_s.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 22, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/p4330.html"><p class="st-press-teaser-footer__content">STMicroelectronics Reveals STPay-Mobile Platform, Driving Flexible and Scalable Virtual Ticketing and Payments</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
+                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2986.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
+                                    <div class="st-footer__slider-content">
+                                        <p class="st-press-teaser-footer__headline">Feb 22, 2021</p>
+                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2986.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
+                                    </div>
+                                </div>
+                            
+                                <div>
                                     <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/Camera_-module_bundle_STM32-boards_N4331S_big.jpg"/></a>
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 18, 2021</p>
                                         <a href="https://newsroom.st.com/media-center/press-item.html/n4331.html"><p class="st-press-teaser-footer__content">STMicroelectronics Powers Affordable Edge AI Development with Computer-Vision Launchpad for STM32 Microcontrollers</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/ST8500_ecosystem_N4315D_s.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Feb 16, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4315.html"><p class="st-press-teaser-footer__content">STMicroelectronics Drives G3-PLC Hybrid Connectivity into Smart Devices with ST8500 Development Ecosystem</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4318.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/USB_PD_design_N4318I_s.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Feb 15, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4318.html"><p class="st-press-teaser-footer__content">STMicroelectronics Eases Design of USB Type-C™ Power Adapters with Highly Efficient Power Delivery and PPS Reference Design</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2985.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Feb 15, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2985.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
                                     </div>
                                 </div>
                             
@@ -21188,22 +21210,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Feb 10, 2021</p>
                                         <a href="https://blog.st.com/storyboard/"><p class="st-press-teaser-footer__content">Crank Storyboard: Navigate the Road Between Microcontrollers and Microprocessors</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/n4333.html" class="st-footer__slider-img"><img class="lazyload" data-src="https://newsroom.st.com/wp-content/uploads/2021/02/Energy-meter_eval_board_N4333I_s.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Feb 10, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/n4333.html"><p class="st-press-teaser-footer__content">Complete Energy-Meter Evaluation Board from STMicroelectronics Combines Low-Cost Sensors and Robust Galvanic Isolation</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://newsroom.st.com/media-center/press-item.html/c2984.html" class="st-footer__slider-img"><img class="lazyload" data-src="/etc/clientlibs/st-site-cx/media/app/images/home/placeholder_PR.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Feb 8, 2021</p>
-                                        <a href="https://newsroom.st.com/media-center/press-item.html/c2984.html"><p class="st-press-teaser-footer__content">STMicroelectronics Announces Status of Common Share Repurchase Program</p></a>
                                     </div>
                                 </div>
                             
@@ -21260,14 +21266,6 @@ I understand that I can withdraw my consent at any time through opt-out links em
                                     <div class="st-footer__slider-content">
                                         <p class="st-press-teaser-footer__headline">Jan 11, 2021</p>
                                         <a href="https://blog.st.com/stm32wl5x/"><p class="st-press-teaser-footer__content">STM32WL5x, The 1st Wireless MCU with Embedded Multi-Modulation LoRa Radio, Now With Dual Core</p></a>
-                                    </div>
-                                </div>
-                            
-                                <div>
-                                    <a href="https://blog.st.com/stm32wb55mmg/" class="st-footer__slider-img"><img class="lazyload" data-src="https://blog.st.com/wp-content/uploads/ST19715_PR_STM32WB5MMG_1220banner-560x240.jpg"/></a>
-                                    <div class="st-footer__slider-content">
-                                        <p class="st-press-teaser-footer__headline">Jan 5, 2021</p>
-                                        <a href="https://blog.st.com/stm32wb55mmg/"><p class="st-press-teaser-footer__content">STM32WB55MMG: 1st STM32 Module for the 1st Wireless MCU</p></a>
                                     </div>
                                 </div>
                             </div>
@@ -21610,7 +21608,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 
 	
     
-<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.02670763130aadb337951d48ceaf42b8.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.1099152f7b826740ed19ab3018a87792.css" type="text/css">
 
 
 
@@ -21803,7 +21801,7 @@ I understand that I can withdraw my consent at any time through opt-out links em
 	</div>
 	
     
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.a40c5bc9967157686ed0cc0726443397.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/did-you-know-modal.min.9319f186d63365e46896f34cd7d2dd00.js"></script>
 
 
 
@@ -21832,17 +21830,17 @@ I understand that I can withdraw my consent at any time through opt-out links em
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx.min.6ab57d08533bfe3309512ddfc79ec7b8.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/save-to-my-st.min.b6ddfa8ff926af975e801ec5634ca5be.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookiePanel.min.f76b032f4484bddaf45b59c0f0e234bf.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/info-modal.min.74c5d9b86825e90a58abd1a4ca66c5ce.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx.min.931a52cea0db790a9b81db3619cef1dd.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/save-to-my-st.min.ff70d7ae5ea9d4756bb8f5dfb8726ca2.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookiePanel.min.bfd3823d2311ca703c45a55c7e8d24c3.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site-cx/components/info-modal.min.4e91c94000260a2938c6f9ba9138d68c.js"></script>
 
 
 
 
     
     
-<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookie-functions.min.c49fbf046e7301df16805ea8ca5f16b9.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookie-functions.min.2a4f005913054ff445007a4eb6d3ed7b.js"></script>
 
 
 
